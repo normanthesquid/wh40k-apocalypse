@@ -90,6 +90,8 @@
     <categoryEntry id="8ce6-ca21-09cd-0717" name="Dethrolla Battle Fortress" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="e28d-eb85-1284-8f77" name="Nob" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="a915-812d-32d4-da1f" name="Makari" hidden="false"/>
+    <categoryEntry id="7ed6-1e96-746b-8576" name="Beast Snagga Boyz" publicationId="3434-17b5-4a22-f338" hidden="false"/>
+    <categoryEntry id="16c8-a16d-a1de-c9f1" name="Beast Snagga" publicationId="3434-17b5-4a22-f338" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="7d3b-fb30-dffb-626d" name="Makari" hidden="false" collective="false" import="true" type="upgrade">
@@ -600,6 +602,11 @@
     <entryLink id="d1a9-e261-d410-cc07" name="Looted Warhound" hidden="false" collective="false" import="true" targetId="be84-de3f-f233-483f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b00a-23ab-7b05-640e" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b12a-94ae-5987-7ad6" name="Beast Snagga Boyz" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" targetId="0190-b282-7b50-f734" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dd2d-8f42-6575-91eb" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -9721,6 +9728,129 @@
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="60.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="0190-b282-7b50-f734" name="Beast Snagga Boyz" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="999c-2f0e-6afd-09f0" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="2212-c46b-99ac-4889" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="4352-ca1b-6f24-40af" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="f4de-9874-9a41-0f9a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="b79e-9413-1d1d-d351" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="baa9-b9fe-51a7-cc92" name="Beast Snagga Boyz" hidden="false" targetId="7ed6-1e96-746b-8576" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e2e9-73dc-8944-1e2f" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f6f-376b-e09f-f2cb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b904-eeb7-cc09-0be6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f4-b2bb-7739-e69f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9f6f-376b-e09f-f2cb" name="Beast Snagga Boyz (10 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5563-29b0-60c8-777a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7df2-761d-465c-f0b8" name="Beast Snagga Boyz (10 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1fee-07d7-b68b-8d5a" name="Beast Snagga Boyz (20 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c169-5841-99c3-dceb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9d6e-0b16-d6e8-4cab" name="Beast Snagga Boyz (20 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fb02-f1d9-a295-9723" name="Special Weapon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="07eb-b5a9-6cbb-e6dc" value="1.0">
+              <conditions>
+                <condition field="selections" scope="0190-b282-7b50-f734" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fee-07d7-b68b-8d5a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07eb-b5a9-6cbb-e6dc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d6ac-1954-a4ac-4d7a" name="Thump Gun" hidden="false" collective="false" import="true" targetId="68d1-4b6d-21ec-19be" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4507-7a26-9b3f-b9cb" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b915-711b-1b41-41cd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="0445-9f61-86b4-c04c" name="Beast Snagga" hidden="false" collective="false" import="true" targetId="48c4-f8fe-c327-ce6d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a3-b2ac-d6d5-63c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8548-9087-ef2d-2594" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8e7f-2a0c-fb5a-97d9" name="Sluggas and Choppas" hidden="false" collective="false" import="true" targetId="9991-1414-1a30-1e41" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b5-fcbf-4a1f-0fd6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1441-988d-b6e2-5bb4" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="68d1-4b6d-21ec-19be" name="Thump Gun" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fac7-e856-cecf-a208" name="Thump Gun" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48c4-f8fe-c327-ce6d" name="Beast Snagga" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8654-3af8-a554-0039" name="Beast Snagga" hidden="false">
+          <description>Add 1 to hit rolls for attacks made by this unit that target HEAVY units.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
