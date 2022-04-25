@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e528-2359-5486-47f4" name="Orks" revision="10" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Dr. Toboggan" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e528-2359-5486-47f4" name="Orks" revision="11" battleScribeVersion="2.03" authorName="Fundamalleus" authorContact="" authorUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0a10-9bdd-9094-8fd9" name="Zhadsnark Da Ripper" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="a7b6-c22d-eef2-aa0c" name="Weirdboy" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -595,6 +595,11 @@
     <entryLink id="a4ad-a971-c801-3c54" name="Mekboy Workshop" hidden="false" collective="false" import="true" targetId="39c7-dbab-c476-e28d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="843f-e9ca-046c-6e37" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1a9-e261-d410-cc07" name="Looted Warhound" hidden="false" collective="false" import="true" targetId="be84-de3f-f233-483f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b00a-23ab-7b05-640e" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -9566,6 +9571,155 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be84-de3f-f233-483f" name="Looted Warhound" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c44a-ef49-f2e7-36b6" name="Looted Warhound" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">24&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">12</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6540-ce81-a31c-9a88" name="Repair Krew" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Action phase, this unit can attempt to repair itself. If it does, roll one D6; on a 3+, remove one damage marker from this unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d1d6-13da-791a-6834" name="Last Laff" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit is destroyed, if it explodes, place three blast markers next to every unit (excluding SUPER-HEAVY units) that is within 12&quot; of this unit, instead of one within 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d901-485d-fcea-0c03" name="Big Kustom Force Field" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Roll D12s while making saving throws for all &lt;CLAN&gt; units whilst they are wholly within 9&quot; of any friendly &lt;CLAN&gt; units with a Big Kustom Force Field, irrespective of the size of the blast markers next to it</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="74fb-c553-d5d1-d89b" name="Destroyed" hidden="false" targetId="abd1-8c2e-fb0f-e980" type="rule"/>
+        <infoLink id="6b05-c1a2-9f77-62b3" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
+        <infoLink id="2c74-89fa-d2e8-5fcf" name="Effigy" hidden="false" targetId="5aab-1ee5-6f53-88ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ac4-2bae-38c2-a650" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="3549-ffdf-8709-154e" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+        <categoryLink id="a464-da10-a739-ace8" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="be6c-6065-2a0f-3f91" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="5268-7c7d-fff9-9bbb" name="Stompa" hidden="false" targetId="5113-f00e-d94a-04f7" primary="false"/>
+        <categoryLink id="75ef-9308-0159-e507" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e22a-446d-6af8-1443" name="Primary Weapon Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6683-d7d9-423e-6f42" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271b-73bb-a7db-4f2e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6be8-6856-6238-fc89" name="Twin Deff Kannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0137-3839-c84e-2130" name="Twin Deff Kannon" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="f240-b26c-c339-a418" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5527-4ab7-ccbd-4e0b" name="Mega-Trippel-Skorcha-Supreeem" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9f72-7b3e-5652-0284" name="Mega-Trippel-Skorcha-Supreeem" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">6</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="50e9-8824-5c98-261e" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e4e5-73a7-7222-ad91" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd3c-3a98-c2e4-85ef">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8d-e84e-7117-7b6f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4918-8500-bf0c-d504" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dd3c-3a98-c2e4-85ef" name="Skull Skwishas" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cb5c-9251-4b74-da4f" name="Skull Skwishas" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e57-5746-d86f-105a" name="Skull Skwishas with Kan Oppna" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="813f-02ec-8b25-7f30" name="Skull Skwishas with Kan Oppna" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="6710-7011-74ec-0e30" name="Kan Oppna" hidden="false">
+                  <description>If this unit has a Kan Oppna, then</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="609c-8f7c-54d6-fa52" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="58ab-0548-571d-2320" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="60.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
