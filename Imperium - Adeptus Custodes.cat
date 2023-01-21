@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="5" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -91,7 +91,7 @@
         <entryLink id="752c-c75d-2c56-dd3b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3658-f1ed-90dd-68b4" name="Shield Captain" hidden="false" collective="false" import="true" type="unit">
@@ -161,7 +161,7 @@
         <entryLink id="d1e7-89f4-0afe-09c3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="142f-6af3-6633-5284" name="Shield Captain on Dawneagle Jetbike" hidden="false" collective="false" import="true" type="unit">
@@ -208,7 +208,7 @@
         <entryLink id="2334-86e5-2b11-edf4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d20-9ff9-5cb6-b9b9" name="Custodian Guard" hidden="false" collective="false" import="true" type="unit">
@@ -287,7 +287,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -312,13 +312,13 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a651-61f2-edf3-49e1" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -337,13 +337,13 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -426,7 +426,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4e0b-ce63-1793-d019" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -462,7 +462,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -547,7 +547,7 @@
         <entryLink id="f452-0f39-e60d-79d9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46d7-5983-563e-70b2" name="Allarus Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -606,33 +606,15 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="5431-a9ec-8a6f-f080">
+        <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-6514-54e5-20e4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1a-76c0-e6d5-2dac" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5431-a9ec-8a6f-f080" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6069-f1d5-c2e7-f967" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="2702-de4d-9651-ad53" name="Allarus Custodians (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6069-f1d5-c2e7-f967" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ba75-6390-6753-1dd6" name="Allarus Custodians (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="ba75-6390-6753-1dd6" name="Allarus Custodians (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
@@ -645,25 +627,25 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0bd7-71fe-c1bb-d141" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9a58-e7b5-3a9e-2ec2" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="828d-5f60-58a6-892d" name="Allarus Custodians (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="ff60-dde7-56d7-2fba" name="Allarus Custodians (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="41.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -692,7 +674,7 @@
         <categoryLink id="c9ea-552b-bfe6-f9a2" name="Vertus Praetors" hidden="false" targetId="3811-d9a2-9b79-15b7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f957-284e-1541-3cac" name="3 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e0-b86e-d907-3395">
+        <selectionEntryGroup id="f957-284e-1541-3cac" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e0-b86e-d907-3395">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df1-5126-c4dd-d4ab" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b515-7dce-cfd7-996a" type="max"/>
@@ -716,7 +698,7 @@
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ca7-a7b7-fc24-5cad" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ca7-a7b7-fc24-5cad" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="272d-eba1-8432-8bcd" name="Vertus Praetors (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
@@ -731,25 +713,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3a21-12b2-895e-cd1a" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c005-8b3e-c576-596c" name="Vertus Praetors (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -850,7 +814,7 @@
         <entryLink id="3ad6-2f19-db85-9918" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbef-f61e-e25d-ba11" name="Venerable Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -931,7 +895,7 @@
         <entryLink id="285c-0ea0-7eed-b459" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca40-6db4-4692-fa6a" name="Contemptor-Achillus Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1022,118 +986,6 @@
         <entryLink id="1de3-702c-7709-b559" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0713-7795-ca47-424e" name="Contemptor-Exemplar Dreadnought" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="c843-3ed2-3727-4780" name="Contemptor-Exemplar Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="bb92-8609-f941-dd5a" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="da16-b0cb-e271-20d8" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="9432-4c0c-3ac3-2866" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="6a14-bd91-c4d0-48a2" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
-        <categoryLink id="7343-2627-9bb4-a101" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="4cad-1cc7-10ff-5011" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="c868-e7e8-6996-e8e9" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
-        <categoryLink id="4a87-d0a8-6e79-e396" name="Contemptor-Exemplar Dreadnought" hidden="false" targetId="d767-ff3b-465f-301e" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="dc80-66d8-77eb-f7e0" name="Main Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="20e1-2d09-b5f0-ddc5">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9131-8371-2d4e-9b59" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e79a-7cd0-05aa-b24d" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="20e1-2d09-b5f0-ddc5" name="Dreadnought Combat Weapon" hidden="false" collective="false" import="true" targetId="266f-d751-a54f-6676" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e912-966b-fee0-acbe" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="c5c1-a53d-66a6-08ff" name="Twin Las-pulser" hidden="false" collective="false" import="true" targetId="47e2-9600-ab0a-073c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52d-2c45-c02c-5acb" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="09fe-eaec-0135-6025" name="Wrist Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0324-2e3f-119b-9046">
-          <modifiers>
-            <modifier type="increment" field="5e1c-1f42-3332-2aaf" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="0713-7795-ca47-424e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="266f-d751-a54f-6676" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="0116-1834-1b83-1c96" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="0713-7795-ca47-424e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="266f-d751-a54f-6676" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e1c-1f42-3332-2aaf" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0116-1834-1b83-1c96" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="468b-fced-b1e0-33d8" name="Plasma Ejector" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e9b-3ae1-7795-5686" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="0333-0884-d8f1-7cca" name="Plasma Ejector" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="7388-9fdb-0628-8847" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="0324-2e3f-119b-9046" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" targetId="2468-6d4c-c9ed-489e" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="820a-4417-95b0-11cd" value="0.0"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e04-da86-eab9-a654" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="820a-4417-95b0-11cd" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="3354-4071-c124-40d7" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="172c-1d21-1919-a6a0" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="a227-3dad-1cfe-d9f3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
@@ -1219,7 +1071,7 @@
         <entryLink id="a684-6362-2b1e-d57b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0fc-23b7-4e9e-d89a" name="Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1379,7 +1231,7 @@
         <entryLink id="ba4f-0a8c-7c1a-5369" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bad-db16-e577-f7e5" name="Contemptor-Galatus Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -1509,7 +1361,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="59a1-1510-48dc-ef2e" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1527,7 +1379,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1648,7 +1500,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bb99-5939-c155-19d9" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1666,7 +1518,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1684,22 +1536,19 @@
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2945-eac2-16a7-56d7" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a3-0d76-2be3-f267" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2945-eac2-16a7-56d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a3-0d76-2be3-f267" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3bc6-3ecd-6822-00af" name="Adrasite Spear" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddf7-e092-70cd-53dc" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="8d75-991b-322a-4889" name="Adrasite Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1709,17 +1558,14 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="00cd-9333-b6ee-ef3f" name="Pyrithite Spear" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c0-0000-63ae-d59e" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="c364-548a-9e3b-b794" name="Pyrithite Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1770,7 +1616,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af01-3220-6c98-1188" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1788,7 +1634,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1940,7 +1786,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f798-41f1-015b-7f07" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2025,17 +1871,17 @@
         <entryLink id="372b-8fb5-f673-4182" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e18-468c-7f79-f3d5" name="Sagittarum Custodians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="4f8a-e8fc-bb4a-a762" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="340c-da61-aee8-7360" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="94e5-d414-e524-271a" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="6342-f33c-4906-3381" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="21d8-2a36-c8a1-cf0b" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="fe14-5d9a-61f7-a4db" name="Sagittarum Custodians" hidden="false" targetId="0642-34c8-35d0-ea34" primary="false"/>
+        <categoryLink id="2514-7154-c6a7-c330" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="19a6-cb5a-9541-59a4" name="Adrastus Bolt Calivers" hidden="false" collective="false" import="true" type="upgrade">
@@ -2049,7 +1895,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Smaill Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -2070,8 +1916,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -2097,13 +1943,13 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9901-aae7-431b-86d9" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2115,13 +1961,13 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2200,7 +2046,7 @@
         <entryLink id="984a-b338-d19c-407a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08ad-775b-1fd7-f631" name="Orion Assault Dropship" hidden="false" collective="false" import="true" type="unit">
@@ -2296,7 +2142,7 @@
         <entryLink id="7cf2-b39d-e4ca-6cb5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c67-2dfb-3b57-68f8" name="Blade Champion" hidden="false" collective="false" import="true" type="unit">
