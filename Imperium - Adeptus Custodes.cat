@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="7" battleScribeVersion="2.03" authorName="JHales" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -351,125 +351,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b0f1-7e2e-35bc-1dd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="01b7-c008-dbd2-3aab" name="Custodian Wardens" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="784b-3d8a-9901-320e" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5f7a-ae7d-2544-2c71" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="4878-d377-919c-a75f" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="b964-46c5-0a1c-cc55" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
-        <categoryLink id="b037-ca25-2815-3b86" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="193b-4c09-dae5-be92" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="410e-855a-8a76-238f" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8949-33e7-4eb9-b25a" name="Warden Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f7-e7b5-02ca-a4b4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b4-e9d0-9296-1347" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6fc8-aa6e-c155-02d5" name="Warden Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="2084-b115-02d3-6f8c" name="Warden Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="1177-ebd2-3f80-1ce6" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="745e-42c5-f8de-e11c" name="3 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d04c-b1df-aaea-ead2">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de87-6e9c-4976-da9b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="915b-c28d-52c0-8e81" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d04c-b1df-aaea-ead2" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4a46-7a7c-6910-346e" name="Custodian Wardens (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4e0b-ce63-1793-d019" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4707-7526-ca7e-3758" name="Custodian Wardens (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ea8e-f73d-37ea-12a7" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="89af-8892-5443-e57d" name="Custodian Wardens (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2264-9a2b-3505-2c81" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2178,6 +2059,346 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="deda-d909-3586-fa12" name="Custodian Wardens" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6833-9c32-2387-56b5" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb9d-2421-d2d0-9ff9" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="55d8-df05-ee15-7f21" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="b103-bd93-eae9-3a78" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="c432-1d7f-eeb8-23ae" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="be8d-36f9-4cb2-5f44" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="48af-5049-043b-3bff" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c17a-fe92-2f36-f1ea" name="Warden Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e19e-0042-b95e-ada9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c62-148a-b0c7-b16b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="31ac-afd9-2318-dea0" name="Warden Weapons (Ranged)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c68c-a7fe-9e3d-9d1b" name="Warden Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a361-4792-d54c-23b3" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="22d2-879b-96c3-1df0" name="3 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81d-1cac-9ef2-685e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3e-39ee-03d4-a390" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fb3a-5505-160e-1369" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e79b-41ab-e861-2ed7" name="Custodian Wardens (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="af6b-dfcb-fae7-5a22" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a6c0-8a82-3d39-15a1" name="Custodian Wardens (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5170-f693-215b-ea23" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="eb3d-3b5e-6c26-2605" name="Custodian Wardens (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f8b7-1ed4-de55-0ffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5b3-330d-7e6c-3165" name="Prosecutors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="e686-7766-08df-6d7c" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39ff-7680-6bf1-6e64" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="9e3e-e184-e07d-2f79" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="f749-e8b0-ab0e-b066" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1287-3dda-3eb5-02c4" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="37e3-862e-cf95-9206" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
+        <categoryLink id="4b02-76ef-2464-5b9d" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6950-cd24-ae0a-a5b7" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a6-bcba-afc0-aeb2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9741-7b6a-4d77-6945" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c02d-36f7-bb1f-1b50" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ebbe-e45e-eed7-b824" name="Prosecutors (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4fbb-b9be-0fb4-e223" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9430-ef54-a0cb-c6f8" name="Prosecutors (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2c63-d942-770c-51d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="37dc-df9a-9b83-761a" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07d7-dea5-c6e9-c429" name="Vigilators" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9bd1-33ec-c4f9-eb56" name="Executioner Greatblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0009-e129-0cc4-92fb" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="09d7-9021-bedb-e0ab" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="52ed-8a7b-230f-0308" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="7193-1287-d11e-c65f" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="cbe2-8316-2b90-7ef3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="3cc1-162d-8c8a-54d6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="1fbd-f52b-b09c-abbc" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1823-6170-b0e6-cb01" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ae-462d-a0b4-104a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d3-cb96-28ae-1766" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="da64-31e1-fd9c-964c" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4b80-b379-0254-d2d5" name="Vigilators (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba63-d9ca-26a7-d305" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="983e-3b2a-7f24-df1b" name="Vigilators (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="02c1-3349-af09-e7ba" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fffc-1064-3a14-3edd" name="Witchseekers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7bcd-729e-e82c-ec92" name="Witchseeker Flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="076a-1579-116c-1cc9" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+        <infoLink id="7cf2-a9ef-603b-a53d" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b5af-7c9e-6161-85c4" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="1751-607e-674b-efe9" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="4e3b-7c88-a046-dc28" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1ed1-5d4c-a167-c6cf" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4021-fd22-d210-41bd" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
+        <categoryLink id="9651-21db-9a32-8289" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7341-5ebd-a7c3-058c" name="5 - 10 models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5728-d420-dd3f-aad0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e2-c98a-f381-ca8a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7a4e-4887-1c57-fc1a" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="792a-6439-38f6-a789" name="Vigilators (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7aee-d8ed-42ad-637d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2486-5e99-dbdf-30f4" name="Witchseekers (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e504-4453-fa93-59db" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="00bb-3bda-6bc2-144e" name="The Emperor&apos;s Chosen" hidden="false">
@@ -2501,6 +2722,12 @@
     <profile id="9309-9d65-304e-5c9c" name="Consummate Swordsman" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made with melee weapons by enemy units that target this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9009-87c1-91e5-b7b3" name="Daughters of the Abyss" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack made by a model in this unit targets an enemy PSYKER or DAEMON unit within 6&quot; of it, add 1 to that attack’s wound roll.
+This unit cannot be targeted or affected by psychic powers.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
