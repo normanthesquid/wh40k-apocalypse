@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b198-8f45-9a57-5e32" name="Chaos - Chaos Knights" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b198-8f45-9a57-5e32" name="Chaos - Chaos Knights" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="21a9-75bf-0619-e801" name="Faction: Chaos Knights" hidden="false"/>
     <categoryEntry id="b868-0761-072e-7456" name="Faction: &lt;Questor Traitoris&gt;" hidden="false"/>
@@ -70,14 +70,14 @@
         <entryLink id="e37b-3c0f-c0f6-efc8" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f4e-37b5-85c2-e590" name="Knight Abominant" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3f4e-37b5-85c2-e590" name="Knight Desecrator" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1215-d021-6b09-38f7" name="Knight Abominant" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="1215-d021-6b09-38f7" name="Knight Desecrator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -86,51 +86,12 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="db56-e3fc-bda8-a986" name="Coruscating Hate" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+        <profile id="db56-e3fc-bda8-a986" name="Taskmaster" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d7f2-fa87-bb6c-0981" name="Volkite Combustor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a43a-b6be-b66e-560b" name="Balemace" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-        <profile id="f93f-0607-c7b9-7416" name="Electroscourge" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly &lt;QUESTOR TRAITORIS&gt; WAR DOG units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="d8e3-d1d9-bba7-ca2f" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
-        <infoLink id="f8a7-ac5d-befe-f37e" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="5c5e-22fa-383d-d677" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="76d5-cfb9-975b-d986" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -142,21 +103,65 @@
         <categoryLink id="b8fc-349d-a9d6-7c80" name="Abhorrent Class" hidden="false" targetId="9fc4-1a3a-b3ff-38e9" primary="false"/>
         <categoryLink id="4fc9-9aed-8613-7194" name="Knight Desecrator" hidden="false" targetId="eb48-08e4-3e1c-1f97" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="475e-372d-355d-cc05" name="Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021c-8a8d-da26-6c54" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e4-3d0e-0b5c-392c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="df06-78e5-4452-b0ba" name="Laser Destructor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="16d0-5b01-fd45-21b5" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="543b-5f6c-b41c-0884" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bf2e-72cd-6f85-1f3d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e772-52ac-bd99-f0ca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53c-d812-a7d5-992f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b8dc-b8f5-9cf9-3320" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" targetId="96e0-f293-162c-33e1" type="selectionEntry"/>
+            <entryLink id="bf2e-72cd-6f85-1f3d" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="3172-e033-60cf-b815" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
+        <entryLink id="b169-c31a-109b-e128" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="1896-0c3b-29df-97e4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229b-a9db-98c8-5b10" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d580-a102-eb3f-5edf" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="a5e9-d93c-e75d-372f" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
         <entryLink id="84e0-eadd-c782-9f05" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
         <entryLink id="c694-631f-8a87-f0aa" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e1d-8763-c0fd-30ed" name="Chaos Acastus Knight Asterius" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0e1d-8763-c0fd-30ed" name="Renegade Knight Asterius" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b9c5-fa85-da0c-fe8e" name="Chaos Acastus Knight Asterius" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="b9c5-fa85-da0c-fe8e" name="Renegade Knight Asterius" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
@@ -264,7 +269,7 @@
         <entryLink id="e199-b530-1aa5-0103" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="39.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2c3-b442-d173-25ad" name="War Dog Moirax Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -283,7 +288,7 @@
           <profiles>
             <profile id="38a4-35f7-0ed4-cd8b" name="War Dog Moirax" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
                 <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -477,89 +482,6 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2eb8-42ef-c44e-d71e" name="Knight Desecrator" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="4e9f-3b6d-2b03-aafa" name="Knight Desecrator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2f67-9a09-419d-c693" name="Taskmaster" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly &lt;QUESTOR TRAITORIS&gt; WAR DOG units whilst they are within 6&quot; of this unit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="96a0-97f8-3fc6-c843" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
-        <categoryLink id="d4a4-9458-06c4-64aa" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="f039-0a1d-8177-066b" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
-        <categoryLink id="4f62-c490-a9f8-5d06" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
-        <categoryLink id="91d1-06a9-79c6-a5dd" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="6114-2d51-37dd-7f11" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="0714-7aae-b4f3-0ccc" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="f172-2932-d7e8-0f02" name="Abhorrent Class" hidden="false" targetId="9fc4-1a3a-b3ff-38e9" primary="false"/>
-        <categoryLink id="b7a2-ca56-4d85-75f3" name="Knight Desecrator" hidden="false" targetId="eb48-08e4-3e1c-1f97" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="56ce-ef0a-8cf1-df42" name="Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9a0-7979-a055-d1ee" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27b2-0849-14f3-4602" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3ffd-265e-1a2f-12b2" name="Laser Destructor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="d0bb-3e67-893a-e415" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5c8a-624e-5257-cdcf" name="Melee Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5de-5bbf-8688-fb85" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2c-feeb-ef95-3f86" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="9a88-9b4b-52e8-c555" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" targetId="96e0-f293-162c-33e1" type="selectionEntry"/>
-            <entryLink id="0bba-9a71-27b9-3de2" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="3172-e033-60cf-b815" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="c855-ca1e-ad41-cf69" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="1896-0c3b-29df-97e4" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c66-9049-03a1-9851" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f042-ec9e-b0d6-eca6" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="d6a7-f698-f440-b578" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
-        <entryLink id="ce9c-b0c9-7d4d-aa96" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
-        <entryLink id="cf1f-fcbe-af2c-fe39" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="ebb0-3b9f-9896-0c08" name="War Dog Squadron" hidden="false" collective="false" import="true" targetId="8887-d3ef-4835-7bb5" type="selectionEntry"/>
@@ -572,9 +494,6 @@
     <entryLink id="6780-b659-4c54-878e" name="Renegade Knight Atropos" hidden="false" collective="false" import="true" targetId="f2ac-4842-f2ba-f25e" type="selectionEntry"/>
     <entryLink id="569c-684c-4721-57cd" name="Renegade Knight Porphyrion" hidden="false" collective="false" import="true" targetId="80b2-f53e-adf8-682c" type="selectionEntry"/>
     <entryLink id="172e-3293-5378-2a80" name="Renegade Knight Styrix" hidden="false" collective="false" import="true" targetId="7fe3-1bdc-a4d7-d217" type="selectionEntry"/>
-    <entryLink id="0b45-1ea0-be59-6b99" name="War Dog Brigand Squadron" hidden="false" collective="false" import="true" targetId="6214-2841-fe89-3c71" type="selectionEntry"/>
-    <entryLink id="948a-5200-fa17-6b26" name="War Dog Huntsman Squadron" hidden="false" collective="false" import="true" targetId="0db9-3bc0-64cf-61a0" type="selectionEntry"/>
-    <entryLink id="4cc6-b5bb-a1eb-2d95" name="War Dog Karnivore Squadron" hidden="false" collective="false" import="true" targetId="e3a9-0975-9670-8bf6" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="228d-e058-5c88-cba8" name="Fallen Courts" hidden="false">
@@ -608,11 +527,11 @@
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="395b-0487-1ba7-906c" name="War Dog Executioner" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="395b-0487-1ba7-906c" name="War Dog" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3618-540a-06ff-be08" name="War Dog Executioner" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="3618-540a-06ff-be08" name="War Dog" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -630,44 +549,101 @@
         <categoryLink id="9475-ceda-d2c9-5df3" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="94a0-f15f-1139-9999" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="58d8-8c08-29ed-4609" name="War Dog Autocannon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e0b-2428-53f6-004e" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5331-aa70-a4ec-c88d" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="ea1c-d9d5-702a-632c" name="War Dog Autocannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d7f0-b3e0-a7f1-b555" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6703-c442-0a84-31cc">
+        <selectionEntryGroup id="2997-2e21-47e2-665d" name="Arm Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="29ea-37a4-2985-0398">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db0-5484-bdd3-35ee" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d707-0dc5-4140-d519" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="29ea-37a4-2985-0398" name="Two Wardog Autocannons" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="b127-22c3-c78c-d612" name="War Dog Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5db-3b10-7469-304e" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9952-af3c-1bf6-4012" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4259-bcf9-6ab8-7edf" name="War Dog Autocannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">60&quot;</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a0d8-a799-f9ef-4f86" name="Thermal Spear and Reaper Chain-cleaver" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="141a-1221-18b4-e867" name="Thermal Spear" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed54-709b-a2c8-6762" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e26-c630-998e-ae41" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1ec4-f1f4-0991-a94e" name="Thermal Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cec7-1c0f-fbfc-e9b2" name="Reaper Chain-cleaver" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e4f-872b-d39a-e677" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e3a-6095-c368-bbce" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="28d6-694c-5a52-0cdc" name="Reaper Chain-cleaver" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d7f0-b3e0-a7f1-b555" name="Carapace Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce0a-6fc7-65f2-187c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f0-f287-bf86-2c64" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3507-4fbc-d6ef-a897" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="9bd8-fa3e-cc62-3e02" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="471c-db5f-0652-e641" name="Meltagun" hidden="false" targetId="f167-5ca5-16c9-7f21" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="6703-c442-0a84-31cc" name="Diabolus Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="d566-f503-3afe-9b8b" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="ce0a-6fc7-65f2-187c" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="1896-0c3b-29df-97e4" type="selectionEntry"/>
+            <entryLink id="f1e3-5d63-24ec-3eaf" name="Meltagun" hidden="false" collective="false" import="true" targetId="aa7e-cb86-0ed9-1244" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -681,14 +657,14 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f63-edf1-0c98-c9c4" name="Knight Tyrant" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7f28-4ae9-0be9-7d4c" name="Knight Tyrant" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -802,7 +778,7 @@
         <entryLink id="db99-283d-7733-c9fd" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b733-e10f-2997-264e" name="Knight Despoiler" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -821,7 +797,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -1029,7 +1005,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8887-d3ef-4835-7bb5" name="War Dog Executioner Squadron" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8887-d3ef-4835-7bb5" name="War Dog Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ae7d-e9fe-9317-3d84" name="Vehicle Squadron" hidden="false" targetId="4511-ac8f-1b8c-b430" type="profile"/>
       </infoLinks>
@@ -1037,7 +1013,7 @@
         <categoryLink id="901a-e631-820c-666f" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="5ce5-6095-e977-0ef4" name="War Dog Executioner" hidden="false" collective="false" import="true" targetId="395b-0487-1ba7-906c" type="selectionEntry">
+        <entryLink id="5ce5-6095-e977-0ef4" name="War Dog" hidden="false" collective="false" import="true" targetId="395b-0487-1ba7-906c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="141e-ec39-5969-fa20" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2a-e714-73be-67e8" type="max"/>
@@ -1323,13 +1299,13 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80b2-f53e-adf8-682c" name="Chaos Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="80b2-f53e-adf8-682c" name="Renegade Knight Porphyrion" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3281-0333-5436-4860" name="Renegade Knight Porphyrion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
@@ -1398,7 +1374,7 @@
         <entryLink id="9d13-a530-a648-31fc" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7fe3-1bdc-a4d7-d217" name="Renegade Knight Styrix" hidden="false" collective="false" import="true" type="unit">
@@ -1550,309 +1526,6 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed3a-bca3-09a7-3eff" name="War Dog Karnivore" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="5518-0555-e061-5688" name="War Dog Karnivore" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="32c4-38c1-b4d9-2acd" name="Slaughterclaw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-        <profile id="9c2a-e4bb-49e9-88bf" name="Daemonbreath Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-        <profile id="ed42-0b8b-6b6c-9612" name="Reaper Chaintalon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="97d2-22df-886e-af0b" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="1cfe-c35e-3405-1184" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
-        <categoryLink id="3c3e-dc67-ee33-5790" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
-        <categoryLink id="dec6-9037-302a-7681" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="de2f-088d-2be2-1280" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="701a-f62a-e722-7870" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a129-1125-9998-d657" name="Carapace Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e4-522a-ffa2-b780" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c601-c91a-30d1-eb19" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="23c6-e99c-c169-a8a8" name="Havoc Multi-Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="cdfd-ed76-d371-1a95" name="Havoc Multi-Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry id="aad2-1018-b29f-a438" name="Diabolus Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="3b8c-4d38-deec-51e4" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2cba-05dc-b372-b9fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="2463-5ad3-291a-64a2" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
-        <entryLink id="53e1-7556-c255-9278" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d7b7-762c-8323-7b83" name="War Dog Huntsman" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="e424-3cbe-c617-a58b" name="War Dog Executioner" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6d7a-16a1-acf6-fb1d" name="Daemonbreath Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-        <profile id="85ca-5d15-42d0-708a" name="Reaper Chaintalon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="ec7d-d882-7e71-6f9b" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="66bb-af8b-c5cf-353d" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
-        <categoryLink id="2bc3-80f8-1248-0d74" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
-        <categoryLink id="acb2-ba15-223e-050a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="6dd0-52c5-6e31-cedb" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="1ae8-a72e-a432-5ecb" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c009-42c6-9a15-5792" name="Carapace Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076d-8fcb-a5e0-355c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a6b-bca2-3604-9cb4" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="511b-ca58-a66b-8278" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="e101-f314-f79e-4350" name="Meltagun" hidden="false" targetId="f167-5ca5-16c9-7f21" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="5a8e-94cc-f8a6-4342" name="Diabolus Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="e92d-f062-d94e-aa83" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="c173-2d88-cf16-ce17" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="558e-7f36-2a2d-dc3b" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
-        <entryLink id="c6dd-8a75-8aaf-f57c" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a0de-5c4a-ceb0-d046" name="War Dog Brigand" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="2072-a109-798d-7c44" name="War Dog Brigand" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="aef9-7d24-02f9-78d1" name="Avenger Chaincannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-        <profile id="4ae8-198e-a584-134a" name="Daemonbreath Spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">30&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="c520-5efa-bc0c-c057" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="ec20-18ab-9971-9538" name="Faction: Chaos Knights" hidden="false" targetId="21a9-75bf-0619-e801" primary="false"/>
-        <categoryLink id="f0ea-79e2-3528-a3b0" name="Faction: &lt;Questor Traitoris&gt;" hidden="false" targetId="b868-0761-072e-7456" primary="false"/>
-        <categoryLink id="92ff-6be1-d386-227c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="235a-a0db-3616-bdf6" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="4aa9-e9d5-599f-936a" name="War Dog" hidden="false" targetId="0fc9-abe9-7537-40fb" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d1a9-4289-6ab6-2e57" name="Carapace Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13db-293f-a0d2-aee8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a88f-5920-b9ca-edbf" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="955d-bec0-1db5-af8d" name="Havoc Multi-Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="b355-57b6-6c83-94b9" name="Havoc Multi-Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Barrage</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry id="05e4-aa7d-a501-830f" name="Diabolus Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="8c0c-22a1-e68f-8324" name="Diabolus Heavy Stubber" hidden="false" targetId="6a60-dfe7-0de3-7a32" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="89f0-11c5-5674-f54f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="a6a6-878d-24b5-348f" name="Character (Fallen Courts)" hidden="false" collective="false" import="true" targetId="c8da-2e77-79c0-db28" type="selectionEntry"/>
-        <entryLink id="407b-fc07-660f-2572" name="Warmaster" hidden="false" collective="false" import="true" targetId="f4a6-edd0-3a0d-fcca" type="selectionEntry"/>
-        <entryLink id="8ce4-b96f-3634-4d5f" name="Armoured Feet" hidden="false" collective="false" import="true" targetId="c5c6-1c25-2e1e-c2d2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0191-8de7-ba1b-38c8" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6214-2841-fe89-3c71" name="War Dog Brigand Squadron" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="b362-8620-029c-ab3b" name="Vehicle Squadron" hidden="false" targetId="4511-ac8f-1b8c-b430" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="e84e-e450-80a0-8c06" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="fc95-f687-b1a0-a211" name="War Dog Brigand" hidden="false" collective="false" import="true" targetId="a0de-5c4a-ceb0-d046" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d1b-2162-e011-e0b7" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f87-cbc5-8a0f-42b0" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0db9-3bc0-64cf-61a0" name="War Dog Huntsman Squadron" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="2a2f-67e7-5b20-c258" name="Vehicle Squadron" hidden="false" targetId="4511-ac8f-1b8c-b430" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="029b-0fb9-9359-ab42" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="ad87-8da1-e32a-1957" name="War Dog Huntsman" hidden="false" collective="false" import="true" targetId="d7b7-762c-8323-7b83" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7cc-9ef4-6b4e-c96a" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa7-390d-d8b7-2967" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e3a9-0975-9670-8bf6" name="War Dog Karnivore Squadron" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="794f-8188-1174-eaaa" name="Vehicle Squadron" hidden="false" targetId="4511-ac8f-1b8c-b430" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="a11c-0f02-b081-7432" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="cbfd-19f4-d375-be87" name="War Dog Karnivore" hidden="false" collective="false" import="true" targetId="ed3a-bca3-09a7-3eff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2290-78d0-ba81-b5cd" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0c-a3fa-ab9b-d921" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="7605-79c5-c44b-fe95" name="Unstable Reactor" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1868,16 +1541,6 @@
     <profile id="4511-ac8f-1b8c-b430" name="Vehicle Squadron" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f"> Each Lord of War slot in a Detachment allows you to take up to three of this unit in your army, instead of one. Each unit taken for a single Lord of War slot must be placed at the same time and within 6&quot; of each other unit taken for the same slot the first time they are set up.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6a60-dfe7-0de3-7a32" name="Diabolus Heavy Stubber" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-      <characteristics>
-        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="faa2-6155-22f4-8288" name="Warhammer 40,000: Fundapocalypse" revision="14" battleScribeVersion="2.03" authorName="JLH" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Update of 40k Apocalypse to 9e</readme>
+<gameSystem id="faa2-6155-22f4-8288" name="Warhammer 40,000: Fundapocalypse" revision="13" battleScribeVersion="2.03" authorName="JHales" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme></readme>
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -80,7 +80,6 @@
     <categoryEntry id="351c-b6fa-4d4f-70f3" name="Cavalry" hidden="false"/>
     <categoryEntry id="5f52-c8e5-1f2f-5161" name="Dreadnought" hidden="false"/>
     <categoryEntry id="cdf9-175a-b31b-44a1" name="Jump Pack" hidden="false"/>
-    <categoryEntry id="9376-59f2-9b7f-cce3" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false"/>
     <categoryEntry id="dd2e-b7ed-76c8-a4d9" name="Commander" hidden="false">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2ad4-f227-4b05-c4a9" type="max"/>
@@ -96,6 +95,7 @@
     <categoryEntry id="c2cd-6e10-a4dd-093c" name="Artillery" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="dfc6-5d64-127f-97a1" name="Daemon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="b1fd-719c-4789-4656" name="List Configuration" hidden="false"/>
+    <categoryEntry id="4800-f05b-dd27-63cd" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ba0-7df9-3f27-d4b1" name="Ad Hoc Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -341,7 +341,6 @@
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -353,17 +352,16 @@
           <categoryLinks>
             <categoryLink id="f4dc-ed11-f1cf-9bdc" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
             <categoryLink id="59b0-e22a-9c23-8de6" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
-            <categoryLink id="33a0-2f1c-adc7-6918" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="false"/>
+            <categoryLink id="4904-0eb1-17da-1d9c" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
         <categoryLink id="f9b0-05b8-815e-cef3" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
         <categoryLink id="4ae5-b109-7a4d-d361" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
-        <categoryLink id="a7fc-2b4a-76a6-65a1" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="false">
+        <categoryLink id="05b7-791e-6411-3a21" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="909f-682b-af88-57d3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-3004-81d1-52bf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb13-eb8c-e4b5-edb9" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -511,7 +509,6 @@
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>

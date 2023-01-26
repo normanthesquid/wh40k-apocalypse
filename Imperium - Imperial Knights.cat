@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Dr. Toboggan" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b206-28b6-fad6-ed60" name="Imperium - Imperial Knights" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Dr. Toboggan" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -155,7 +155,7 @@
           <profiles>
             <profile id="77a6-c09c-690a-9e79" name="Armiger Moirax" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
                 <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                 <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -360,7 +360,7 @@
         <categoryLink id="e482-edc5-8c2a-e343" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0564-6e58-4130-c94c" name="Armiger Helverin Squadron" hidden="false" collective="false" import="true" targetId="1c96-db8e-6a60-496f" type="selectionEntry">
+    <entryLink id="0564-6e58-4130-c94c" name="Armiger Helverins" hidden="false" collective="false" import="true" targetId="1c96-db8e-6a60-496f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="95bb-3cd5-87aa-885d" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
@@ -413,6 +413,11 @@
     <entryLink id="64cc-4721-83eb-3883" name="Knight Warden" hidden="false" collective="false" import="true" targetId="d786-c09e-94cd-5792" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6862-6514-7da6-c622" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4c22-3d99-9e01-979b" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="10d5-af4f-5752-5e84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8654-d32c-a781-0980" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5535-77ca-e8b7-b59c" name="Questoris Knight Magaera" hidden="false" collective="false" import="true" targetId="9be7-a230-cf59-f63c" type="selectionEntry">
@@ -965,11 +970,11 @@
       <profiles>
         <profile id="8377-d543-6acf-2ef9" name="Cerastus Knight-Acheron" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -1011,15 +1016,104 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="10d5-af4f-5752-5e84" name="Acastus Knight Porphyrion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f7e9-2fe3-82ef-13e7" name="Acastus Knight Porphyrion" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f81-a94a-3728-a6e0" name="Unstable Reactor" hidden="false" targetId="f4f7-5504-2e70-f962" type="profile"/>
+        <infoLink id="1999-a619-bca3-d92b" name="Destroyed" hidden="false" targetId="abd1-8c2e-fb0f-e980" type="rule"/>
+        <infoLink id="2c0c-28c1-6d01-5ad3" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d2eb-5dcc-4418-ba9f" name="Faction: &lt;Household&gt;" hidden="false" targetId="296b-2a4e-2b42-19b3" primary="false"/>
+        <categoryLink id="8c37-5cd8-5dbc-db8f" name="Faction: &lt;Questor Allegiance&gt;" hidden="false" targetId="d37d-c3f9-f400-4093" primary="false"/>
+        <categoryLink id="8859-bd07-e904-1d2d" name="Faction: Imperial Knights" hidden="false" targetId="a6fe-fc09-5627-ff05" primary="false"/>
+        <categoryLink id="f5f9-5d94-36bd-7209" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="9eb1-5546-1d24-5247" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+        <categoryLink id="f708-9ac4-91d5-c98f" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="65ec-e5ea-f52c-a680" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="789d-da43-f4ef-67f2" name="Acastus Class" hidden="false" targetId="d392-2c8d-50f6-5541" primary="false"/>
+        <categoryLink id="f245-ee76-8f30-4749" name="Acastus Knight Porphyrion" hidden="false" targetId="5773-7336-2336-357e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a48f-ad1a-3c67-a6ca" name="Carapace Weapon Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="6350-3159-c181-5b82">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5992-601d-a07f-528c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8f-75ac-6c8f-9ec3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6350-3159-c181-5b82" name="Ironstorm Missile Pod" hidden="false" collective="false" import="true" targetId="67af-dc5e-7052-e3d4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b475-5323-be82-c5ab" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="969b-c602-c508-57d9" name="Helios Defense Missiles" hidden="false" collective="false" import="true" targetId="f424-855a-1112-4a7c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6499-b22a-5b63-4bd0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c6c-4492-3516-e535" name="Shoulder Weapon Mounts" hidden="false" collective="false" import="true" defaultSelectionEntryId="205a-c6a9-3c69-7382">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765a-b5e8-8dbc-4e27" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065f-0775-f244-5cb2" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="205a-c6a9-3c69-7382" name="Autocannon" hidden="false" collective="false" import="true" targetId="486d-f2bf-2cb4-83ac" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a278-2893-3183-8abc" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7403-e20e-6233-7c8a" name="Lascannon" hidden="false" collective="false" import="true" targetId="3c44-bcf3-65e4-e263" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5402-c489-2fbd-9023" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b34c-7063-b8a5-1bc0" name="Titanic Feet" hidden="false" collective="false" import="true" targetId="2a47-7dba-222a-c79c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="360c-4711-c413-9318" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be44-696f-28eb-4c98" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1a11-0051-7824-ae8f" name="Twin Magna Lascannon" hidden="false" collective="false" import="true" targetId="bd7a-a426-8c83-32c7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f3a-5864-1898-8d29" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5434-034c-ea98-c008" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f246-0d05-f183-c90d" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
+        <entryLink id="0529-fcdc-6c63-b525" name="Character (Knight Lances)" hidden="false" collective="false" import="true" targetId="29e3-7f16-82ce-44d8" type="selectionEntry"/>
+        <entryLink id="0287-a128-8b7d-5c3e" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="0e0c-2933-55b2-05a0" name="Cerastus Knight-Castigator" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b430-6d5f-e061-6481" name="Cerastus Knight-Castigator" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -1065,11 +1159,11 @@
       <profiles>
         <profile id="0f90-4091-4199-d9e8" name="Cerastus Knight-Lancer" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -1114,7 +1208,7 @@
       <profiles>
         <profile id="b5d9-a6da-251f-16da" name="Questoris Knight Styrix" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
@@ -1136,7 +1230,7 @@
         <categoryLink id="d13f-a61a-4448-d6de" name="Faction: Imperial Knights" hidden="false" targetId="a6fe-fc09-5627-ff05" primary="false"/>
         <categoryLink id="40d1-5749-0e9e-b85c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="8da2-9db9-9ecc-87f8" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="b57a-6143-0991-b8cc" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="b57a-6143-0991-b8cc" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="a409-d474-1023-4bfa" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="2deb-9398-937a-080c" name="Questoris Class" hidden="false" targetId="b912-efd9-2d5c-5fd5" primary="false"/>
         <categoryLink id="10cc-d6ea-cf36-ff52" name="Questoris Knight Styrix" hidden="false" targetId="4420-d97a-dae3-e016" primary="false"/>
@@ -1202,7 +1296,7 @@
       <profiles>
         <profile id="52a6-f0e0-15f0-efbb" name="Questoris Knight Magaera" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -1224,7 +1318,7 @@
         <categoryLink id="7955-e1d5-0f84-97be" name="Faction: Imperial Knights" hidden="false" targetId="a6fe-fc09-5627-ff05" primary="false"/>
         <categoryLink id="0a52-0ce4-f1a1-348a" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="c691-bad7-1495-1734" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="794f-1ba3-2b4d-ecc2" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="794f-1ba3-2b4d-ecc2" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="3a1e-73c0-d773-233c" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="fad0-6154-e21e-785f" name="Questoris Class" hidden="false" targetId="b912-efd9-2d5c-5fd5" primary="false"/>
         <categoryLink id="6bec-8ff8-cca5-015f" name="Questoris Knight Magaera" hidden="false" targetId="3f15-e1d7-b560-5499" primary="false"/>
@@ -1287,11 +1381,11 @@
       <profiles>
         <profile id="f570-f76f-ffcd-471d" name="Cerastus Knight-Atropos" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -1735,7 +1829,7 @@
       <profiles>
         <profile id="f2d8-990a-0d89-0c23" name="Armiver Warglaive" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -1757,7 +1851,6 @@
         <categoryLink id="7f88-0334-d5d0-6e2e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="0b08-3200-9211-a99b" name="Armiger Class" hidden="false" targetId="7737-7900-4bb9-41ff" primary="false"/>
         <categoryLink id="83a7-90b4-4430-7220" name="Armiger Warglaive" hidden="false" targetId="e9c0-d017-dc80-66b1" primary="false"/>
-        <categoryLink id="177a-624d-36ad-1a95" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9633-5d0f-7b20-e266" name="Carapace Weapon Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="f1a6-eae4-fe7f-5d60">
@@ -1802,14 +1895,14 @@
         <entryLink id="e944-f58d-049a-9917" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="435e-6bcf-c626-b454" name="Knight Valiant" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="34ee-11fd-fa97-2f0c" name="Knight Valiant" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -1831,7 +1924,7 @@
         <categoryLink id="04b3-ea91-b537-7e89" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="ac90-b576-27f1-a3ec" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="156f-a536-ba9e-cf7a" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="a731-6e4e-d1e4-2a44" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="a731-6e4e-d1e4-2a44" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="dcc8-551f-15a4-14cf" name="Dominus Class" hidden="false" targetId="a134-be67-61d4-2f70" primary="false"/>
         <categoryLink id="430b-e1f3-2f2d-5283" name="Knight Valiant" hidden="false" targetId="1f64-cca8-08f0-342f" primary="false"/>
       </categoryLinks>
@@ -1891,7 +1984,7 @@
       <profiles>
         <profile id="a896-b932-e62f-d433" name="Knight Warden" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -1913,7 +2006,7 @@
         <categoryLink id="5401-8b97-4afa-8303" name="Questoris Class" hidden="false" targetId="b912-efd9-2d5c-5fd5" primary="false"/>
         <categoryLink id="7610-9196-327b-6f0a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="0606-f5ec-acc2-5b7f" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="5528-e631-0470-be9f" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="5528-e631-0470-be9f" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="1c08-dcd0-4560-5da3" name="Knight Warden" hidden="false" targetId="4721-bc5d-fbc1-fadb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2004,7 +2097,7 @@
       <profiles>
         <profile id="1138-ee6d-8ab7-8771" name="Knight Paladin" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2026,7 +2119,7 @@
         <categoryLink id="971e-ea7f-67d2-da14" name="Questoris Class" hidden="false" targetId="b912-efd9-2d5c-5fd5" primary="false"/>
         <categoryLink id="f4f3-e005-770d-8fc7" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="99c9-f9c8-f8bd-3336" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="6484-fab7-d226-a9df" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="6484-fab7-d226-a9df" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="37c4-9722-343a-ac5e" name="Knight Paladin" hidden="false" targetId="8b5e-99bb-7d1d-611d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2117,7 +2210,7 @@
       <profiles>
         <profile id="ff3f-55cf-4871-dd57" name="Knight Castellan" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2192,14 +2285,14 @@
         <entryLink id="5a04-8073-5249-e1d6" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="31.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9031-bcde-12c6-a3e0" name="Knight Gallant" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="af78-623d-e8da-f4c4" name="Knight Gallant" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2300,7 +2393,7 @@
       <profiles>
         <profile id="2e36-ab57-9ae6-fc0e" name="Knight Errant" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2413,7 +2506,7 @@
       <profiles>
         <profile id="8dc8-47e3-dcbe-b56d" name="Knight Preceptor" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2440,7 +2533,7 @@
         <categoryLink id="4c27-8a93-d883-3de1" name="Questoris Class" hidden="false" targetId="b912-efd9-2d5c-5fd5" primary="false"/>
         <categoryLink id="aa36-d231-3df9-080f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="a58e-0a3e-adb3-c924" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="8c59-62f3-9a1c-b152" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
+        <categoryLink id="8c59-62f3-9a1c-b152" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="95f4-fdec-0ca2-e76a" name="Knight Preceptor" hidden="false" targetId="994d-a564-8f2a-0953" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2539,7 +2632,7 @@
       <profiles>
         <profile id="daa1-8e66-be46-b5b1" name="Canis Rex" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2594,14 +2687,14 @@
         <entryLink id="f67e-17de-6cd7-fd91" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66f8-0fed-77e2-896e" name="Knight Crusader" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e56d-db94-d6a1-b92c" name="Knight Crusader" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -2720,7 +2813,7 @@
       <profiles>
         <profile id="4217-f5fb-5960-994b" name="Armiger Helverin" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -2742,7 +2835,6 @@
         <categoryLink id="754d-be39-0bce-cf29" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="54ee-36d5-bd9e-c3e7" name="Armiger Class" hidden="false" targetId="7737-7900-4bb9-41ff" primary="false"/>
         <categoryLink id="af63-0eba-f6f3-6d6a" name="Armiger Helverin" hidden="false" targetId="092d-2873-7e9b-e776" primary="false"/>
-        <categoryLink id="73fb-5522-4682-dde8" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6951-c149-7d40-f11e" name="Carapace Weapon Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="04f9-d10e-76cd-7f83">
@@ -2781,7 +2873,7 @@
         <entryLink id="8c68-fa6b-e446-178e" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5853-cb10-ede1-3e7d" name="Sacristan Forgeshrine" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2976,95 +3068,6 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="97c7-2a02-e0fd-31f5" name="Acastus Knight Porphyrion" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="12de-420a-3b3b-b105" name="Acastus Knight Porphyrion" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="8202-9c8d-4399-9fd1" name="Unstable Reactor" hidden="false" targetId="f4f7-5504-2e70-f962" type="profile"/>
-        <infoLink id="6165-93a9-b193-0997" name="Destroyed" hidden="false" targetId="abd1-8c2e-fb0f-e980" type="rule"/>
-        <infoLink id="b71b-3a54-e108-c363" name="Engines of War" hidden="false" targetId="976e-f8cb-6d17-de4e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="1f45-75f3-07ed-6460" name="Faction: &lt;Household&gt;" hidden="false" targetId="296b-2a4e-2b42-19b3" primary="false"/>
-        <categoryLink id="24d8-50f1-6713-2383" name="Faction: &lt;Questor Allegiance&gt;" hidden="false" targetId="d37d-c3f9-f400-4093" primary="false"/>
-        <categoryLink id="6350-5ca4-f6f4-f97c" name="Faction: Imperial Knights" hidden="false" targetId="a6fe-fc09-5627-ff05" primary="false"/>
-        <categoryLink id="d497-73f2-dd9c-2ed2" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="7c4a-6b7f-bb93-cad9" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
-        <categoryLink id="6f69-77d6-6efb-02fd" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-        <categoryLink id="72b2-52ba-9ca8-1153" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="13d5-7657-223c-9f31" name="Acastus Class" hidden="false" targetId="d392-2c8d-50f6-5541" primary="false"/>
-        <categoryLink id="0f33-6bd2-81b5-fb7b" name="Acastus Knight Porphyrion" hidden="false" targetId="5773-7336-2336-357e" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ee9f-fb47-893f-8e46" name="Carapace Weapon Mount" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c0-9931-9113-b2c7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191d-518f-f7d7-4799" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3289-8763-5376-b236" name="Ironstorm Missile Pod" hidden="false" collective="false" import="true" targetId="67af-dc5e-7052-e3d4" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3909-882f-9452-bfa4" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b744-52bf-09c8-179f" name="Helios Defense Missiles" hidden="false" collective="false" import="true" targetId="f424-855a-1112-4a7c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3edf-2f41-751c-e3c9" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5496-40bc-b9a9-bf38" name="Shoulder Weapon Mounts" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="691b-fd5d-0a5d-06e5" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a78-306b-f418-a70e" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6404-85f1-45c1-968d" name="Autocannon" hidden="false" collective="false" import="true" targetId="486d-f2bf-2cb4-83ac" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67f2-a1b9-8119-4e75" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="f6ca-e94e-4dd9-cb1f" name="Lascannon" hidden="false" collective="false" import="true" targetId="3c44-bcf3-65e4-e263" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f385-b776-ea56-83ae" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3018-ef94-0db6-6702" name="Titanic Feet" hidden="false" collective="false" import="true" targetId="2a47-7dba-222a-c79c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d323-6451-560d-584e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d7e-4fbb-9ca8-03bd" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0a8a-073b-42d2-c318" name="Twin Magna Lascannon" hidden="false" collective="false" import="true" targetId="bd7a-a426-8c83-32c7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea3b-fc5a-4d59-ddc0" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc57-17dc-7bf2-cc5e" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="bb52-2fee-2e97-8a05" name="Commander" hidden="false" collective="false" import="true" targetId="8b69-e9c3-4cfe-7fa3" type="selectionEntry"/>
-        <entryLink id="673e-281e-0d80-0020" name="Character (Knight Lances)" hidden="false" collective="false" import="true" targetId="29e3-7f16-82ce-44d8" type="selectionEntry"/>
-        <entryLink id="3ff5-9ac7-eb93-82ed" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
