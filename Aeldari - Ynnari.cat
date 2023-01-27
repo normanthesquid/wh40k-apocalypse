@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8417-7887-00f4-19f1" name="Aeldari - Ynnari" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8417-7887-00f4-19f1" name="Aeldari - Ynnari" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b8eb-af0c-4700-6863" name="Faction: Ynnari" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="1e85-4238-c259-0ea8" name="Yvraine" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -25,12 +25,12 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="c29c-8e9d-6c56-2ccf" name="Herald of Ynnead" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a blast marker is placed next to another AELDARI LIGHT unit whilst it is within 7&quot; of this unit, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a blast marker is placed next to another AELDARI LIGHT unit whilst it is within 6&quot; of this unit, roll a D6; on a 4+, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -87,12 +87,17 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="04f3-758e-8a9a-603f" name="Warden of Ynnead" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="04f3-758e-8a9a-603f" name="Champion of Ynnead" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can select one friendly YVRAINE unit that has at least one blast marker next to it and is within 7&quot; of this unit. Remove any number of blast markers from that YVRAINE unit and place them next to this unit.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a blast marker is placed next to another AELDARI LIGHT unit whilst it is within 6&quot; of this unit, roll a D6; on a 4+, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="155a-a4b4-277a-83b7" name="Way of the Blade" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly YNNARI LIGHT unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -132,7 +137,7 @@
         <entryLink id="a57d-ed70-cab2-eebb" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa64-5ec0-197e-c36e" name="The Yncarne" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -142,7 +147,7 @@
       <profiles>
         <profile id="1939-5f30-45ce-e473" name="The Yncarne" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -151,20 +156,24 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5621-3d05-5190-f0af" name="Avatar of Ynnead" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="5621-3d05-5190-f0af" name="Swirling Energies" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a blast marker is placed next to another AELDARI LIGHT unit whilst it is within 7&quot; of this unit, you can remove one blast marker from this unit. Small blast markers must be removed before large blast markers.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit is selected to shoot, its swirling soul energy can target, and resolve attacks against, every eligible enemy unit. Each time this model fires Overwatch, it only resolves attacks with this weapon against the charging unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="374f-3b26-5bb2-5e42" name="Ynnead Stirs" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="374f-3b26-5bb2-5e42" name="Ynnead Awakened" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Morale tests taken for friendly YNNARI units are automatically passed whilst they are within 12&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d0ec-8531-9d05-9f54" name="Deathly Form" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Always use a D12 when making saving throws for this unit, irrespective of the blast marker size.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="933e-08fc-347c-b3b2" name="Deep Strike" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
-        <infoLink id="f77c-310e-ef48-516c" name="Ignore Damage (6+)" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="307d-1c09-45e1-4734" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
@@ -179,13 +188,37 @@
         <categoryLink id="9bf4-7de5-055d-5390" name="The Yncarne" hidden="false" targetId="78fe-128c-abc7-e310" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b9b2-1274-6544-b8a8" name="Vilith-zhar, the Sword of Souls" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b9b2-1274-6544-b8a8" name="Swirling Soul Energy" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c921-58e9-601f-93c1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e79-ec39-eace-51e0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f152-5bc2-c567-8e06" name="Vilith-zhar, the Sword of Souls" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="f152-5bc2-c567-8e06" name="Swirling Soul Energy" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">6&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b075-031f-ca36-20fe" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fa9-9294-fcd6-77d3" name="Vilith-zhar, the Sword of Souls" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b6-c64a-c091-28ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c7a-4f08-94f2-0052" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f6bc-aec3-3335-28d1" name="Vilith-zhar, the Sword of Souls" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -205,7 +238,7 @@
         <entryLink id="9f2d-7578-6a35-564f" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

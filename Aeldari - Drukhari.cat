@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="12" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="14" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3cef-65f6-1938-6b57" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="052f-2cba-abf7-da92" name="Faction: &lt;KABAL&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -150,7 +150,7 @@
           <profiles>
             <profile id="f5d9-050a-49eb-a42d" name="Overlord" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly &lt;Kabal&gt; units whilst they are within 6&quot; of this unit.</characteristic>
+                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly &lt;KABAL&gt; or INCUBI units whilst they are within 6&quot; of this unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -176,7 +176,7 @@
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
@@ -223,7 +223,7 @@
           <profiles>
             <profile id="93b5-abca-1e5d-8b1f" name="Master of Blades" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to hit rolls for attacks made with melee weapons by friendly Incubi units
+                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to wound rolls for attacks made with melee weapons by friendly INCUBI units
 whilst they are within 6&quot; of this unit.</characteristic>
               </characteristics>
             </profile>
@@ -237,7 +237,7 @@ whilst they are within 6&quot; of this unit.</characteristic>
         <entryLink id="3986-18f8-d529-7666" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a2e-4184-b8f7-697e" name="Lelith Hesperax" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -256,6 +256,21 @@ whilst they are within 6&quot; of this unit.</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
+        <profile id="df71-e79a-8a8d-0bc5" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly CULT OF STRIFE units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aacb-e564-69f9-8e80" name="At Last, a Challenge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="46be-1457-9347-2c3e" name="Quicksilver Dodge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made against this model, subtract 1 from that attack’s hit roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="825f-ebdf-1a4f-d1f7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
@@ -269,13 +284,13 @@ whilst they are within 6&quot; of this unit.</characteristic>
         <categoryLink id="ba62-a1f0-180a-fb67" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3350-4f57-5dba-f036" name="Penetrating Blades" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3350-4f57-5dba-f036" name="Lelith’s Blades" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f2-6bb1-5aa7-9491" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907f-cb47-9d9d-b286" type="max"/>
           </constraints>
           <profiles>
-            <profile id="39fe-7149-178c-fc36" name="Penetrating Blades" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="39fe-7149-178c-fc36" name="Lelith’s Blades" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -283,40 +298,6 @@ whilst they are within 6&quot; of this unit.</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3997-c1d4-8bea-5c81" name="A League Apart" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e5-d226-04a0-8526" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c0-54a5-133e-c96f" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="7c35-b3c1-17c9-3c5c" name="A League Apart" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls and wound rolls for attacks made with melee weapons by
-this unit that target Character units.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3822-ed99-82ea-5ef6" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bc-70ff-c24d-e914" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c858-4da3-4b0d-5314" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="4883-f73b-bdf4-c74d" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly Cult of
-Strife units whilst they are within 6&quot; of this unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -353,13 +334,18 @@ Strife units whilst they are within 6&quot; of this unit.</characteristic>
       <profiles>
         <profile id="5f40-753c-5a0d-4078" name="Succubus" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e19-6943-855c-0b68" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit wound of 1 and 2 for attacks made with melee weapons by friendly &lt;WYCH CULT&gt; units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -374,34 +360,18 @@ Strife units whilst they are within 6&quot; of this unit.</characteristic>
         <categoryLink id="238a-19ac-a302-e0f3" name="Succubus" hidden="false" targetId="de6a-c23b-ec93-bd12" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0411-9346-bb23-3984" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f3e-5b95-a5f3-8668" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4814-be91-16de-9516" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="4b5b-feb3-0657-034d" name="Brides of Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly &lt;WYCH CULT&gt; units whilst they are within 6&quot; of this unit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="46ec-c886-c808-b356" name="Wych Cult Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b25-e866-6069-9ae5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987f-c1b3-603f-04c7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="01f8-b1d2-8c99-02ce" name="Wych Cult Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="01f8-b1d2-8c99-02ce" name="Succubus Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -436,9 +406,31 @@ Strife units whilst they are within 6&quot; of this unit.</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="2493-de4b-53a0-954b" name="Sculptor of Torments" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to wound rolls for attacks made by friendly Prophets of Flesh
+units when using melee weapons whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="17ea-7bf9-6bb5-af8d" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to saving throws taken for friendly Prophets of Flesh units whilst they
+are within 6&quot; of any Prophets of Flesh units from your army with this ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1343-b559-f4ed-886b" name="Contempt for Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can replace a large blast marker next to this unit with a small blast marker.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7802-cf39-1f24-9476" name="Fleshcraft" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the beginning of the Damage phase, remove a small blast marker from one &lt;HAEMONCULUS COVEN&gt; LIGHT unit within 3&quot; of this model.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cfb5-4148-a8a4-99dd" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+        <infoLink id="cfb5-4148-a8a4-99dd" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b593-bedc-a196-872a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
@@ -465,61 +457,13 @@ Strife units whilst they are within 6&quot; of this unit.</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">One Use Only</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">One Use Only, Inferno</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b9a6-a180-fb1b-ac05" name="Sculptor of Torments" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f366-e6a0-c488-890e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="173c-c990-4098-5662" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="a564-a8cd-0271-16c4" name="Sculptor of Torments" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to wound rolls for attacks made by friendly Prophets of Flesh
-units when using melee weapons whilst they are within 6&quot; of this unit.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9d51-a050-9c37-0236" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9d-126d-96bb-5403" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e818-03c1-918d-378c" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="80d4-5139-563a-302a" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to saving throws taken for friendly Prophets of Flesh units whilst they
-are within 6&quot; of any Prophets of Flesh units from your army with this ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0325-2bc6-e2cd-bf57" name="Contempt for Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c26d-80f5-64bf-e4dd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d48-4ff0-37d7-ae8a" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="9fa4-c9cd-f8ec-7c9a" name="Contempt for Death" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Damage phase, you can remove half of the blast markers,
-rounding down, from this unit. Small blast markers must be removed before large blast markers.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="bcc2-f41b-e368-b6a2" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -543,12 +487,22 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b67-63b9-fbc9-8062" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to saving throws taken for friendly &lt;HAEMONCULUS COVEN&gt; units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d70b-3ba5-7edd-59dc" name="Fleshcraft" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the beginning of the Damage phase, remove a small blast marker from one &lt;HAEMONCULUS COVEN&gt; LIGHT unit within 3&quot; of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2af7-8cf8-88e3-a86d" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+        <infoLink id="2af7-8cf8-88e3-a86d" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b731-3a05-2ae6-4daf" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
@@ -560,30 +514,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <categoryLink id="be39-3c36-7c29-8b66" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="a1b0-3a14-6f6f-88b6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9ad2-5114-ecb7-fdb5" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ab-68c6-83be-8d37" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c007-bdb0-df7d-70ff" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="ac15-2748-7750-1533" name="Master of Pain" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to saving throws taken for friendly &lt;HAEMONCULUS COVEN&gt; units whilst they are within 6&quot; of any &lt;HAEMONCULUS COVEN&gt; units from your army with this ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="5c7a-e6fd-a3e8-50f0" name="Haemonculus Tools" hidden="false" collective="false" import="true" targetId="2b03-6967-65a2-6e59" type="selectionEntry"/>
         <entryLink id="97d4-dfec-5d13-ecac" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3e1-5c4b-8981-26dd" name="Kabalite Warriors" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -748,6 +684,13 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="6298-2e7d-b945-6ef4" name="Wyches" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3356-4a59-161e-2d96" name="Dodge" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 5+ until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="3379-2d89-e1fd-a351" name="Faction: &lt;WYCH CULT&gt;" hidden="false" targetId="cb7c-1a71-1a58-69b9" primary="false"/>
         <categoryLink id="e6c0-e535-1d8b-07f3" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
@@ -777,10 +720,10 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <profile id="7e06-5169-bd8c-7bb5" name="Wych Weapons" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">MElee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -804,18 +747,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="b0c3-7b7c-e24a-76ef" name="5 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="03cd-f3c4-f5a5-89e8" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -825,18 +768,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="0396-8966-aa4d-8e8a" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="932b-874b-f9a6-6294" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -846,18 +789,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="3af8-30ca-0119-7f9a" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfb1-e8fa-2840-939e" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -867,18 +810,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="2b9f-0670-0b8d-b231" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -894,7 +837,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
     </selectionEntry>
     <selectionEntry id="5fab-1d88-23b5-b612" name="Wracks" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="8e8b-4f4e-39e1-967c" name="Ignore Damage (6+)" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+        <infoLink id="8e8b-4f4e-39e1-967c" name="Ignore Damage (5+)" publicationId="8df9-0b3e-abea-3c15" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f735-f520-f1ca-1303" name="Faction: &lt;HAEMONCULUS COVEN&gt;" hidden="false" targetId="784b-a6b0-402c-c53c" primary="false"/>
@@ -922,10 +865,10 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -943,15 +886,57 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="25c6-c011-b4f7-89e4" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ab1-25dd-dd05-5f62" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="98a5-c561-9c3a-9700" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3077-48b6-0d73-e803" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f440-349d-6dcc-e6a1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4859-0dd6-1415-e68f" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1222,6 +1207,13 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="7eac-7fed-a4ce-81c5" name="Incubi" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2793-d827-5f1f-fd26" name="Lethal Precision" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made by this unit, on an unmodified wound roll of 12 add an additional blast marker to the target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="0f74-749e-b057-e742" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="2363-33d3-5560-d1e7" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
@@ -1232,22 +1224,6 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <categoryLink id="3e33-5252-3bd6-28fc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ad17-6b46-332e-9c12" name="Tormentors" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853f-5802-b7c4-ea5d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04e-649b-11c2-bb62" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9206-d9d6-3525-f0ec" name="Tormentors" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If the result of a Morale test taken for an enemy unit within 6&quot; of any Incubi units from your army is equal to the Leadership value of that enemy unit, that Morale test is failed.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="5c31-da7c-2dcb-bda8" name="Klaives" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94df-42fa-cfab-0a5b" type="max"/>
@@ -1285,7 +1261,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 <profile id="d9d0-7fe3-b0d2-2a26" name="5 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
@@ -1306,7 +1282,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 <profile id="b987-07d0-25c8-6bfa" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
@@ -1432,7 +1408,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1506,6 +1482,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="8375-f549-e3a0-8e5d" name="Grotesques" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="a31d-39cf-0ca6-5154" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="186b-b96c-4a09-107f" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="66d5-b424-c38c-bfce" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
@@ -1558,33 +1537,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="31db-d1e2-5393-af73" name="9 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e8f-a69d-5ee4-a777" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="da3c-d80b-aa8f-9656" name="9 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">7</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">7</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42c8-b297-54a3-0886" name="6 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -1600,33 +1558,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8144-b51b-87b6-d1da" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4253-616a-2d93-67ec" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c461-870c-8322-64cc" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">7</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">7</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1640,29 +1577,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42c8-b297-54a3-0886" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="47e1-5b0c-026a-bd11" value="9.0">
-                  <conditions>
-                    <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31db-d1e2-5393-af73" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="47e1-5b0c-026a-bd11" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8144-b51b-87b6-d1da" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="313f-106a-5f96-3d02" value="9.0">
-                  <conditions>
-                    <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31db-d1e2-5393-af73" type="equalTo"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" field="313f-106a-5f96-3d02" value="6.0">
                   <conditions>
                     <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42c8-b297-54a3-0886" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="313f-106a-5f96-3d02" value="10.0">
-                  <conditions>
-                    <condition field="selections" scope="8375-f549-e3a0-8e5d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8144-b51b-87b6-d1da" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1696,7 +1613,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -1718,6 +1635,23 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="ac2d-9b4a-1b24-0493" name="Clawed Fiends" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0313-d049-61a3-3876" name="Beserk Rage" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a6df-eac3-e034-b89e" name="Clawed Fists" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="aeb3-b266-6be7-177f" name="Beasts" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
         <categoryLink id="b70a-d57d-a629-75c5" name="Clawed Fiends" hidden="false" targetId="e441-4999-28d9-0a86" primary="false"/>
@@ -1726,45 +1660,6 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <categoryLink id="71a3-cb94-7716-2211" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c2a0-bd55-948e-2f16" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ca67-e2ba-9308-3622" name="Beserk Rage" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7487-9cdf-0f31-2be4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9385-7455-c420-13c7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3036-ca3e-9f39-5a2f" name="Beserk Rage" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit does not suffer the penalty for being critically damaged. Whilst this unit has any damage markers next to it, add 1 to its Attacks Characteristic.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fdf8-a8a7-4128-8e98" name="Clawed Fists" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b64-c62f-edd9-ca00" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="297b-8f78-b512-d4d3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="50be-f257-e555-2aa2" name="Clawed Fists" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="cdb0-dc76-df56-2321" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="9821-988b-84c8-3c45">
           <constraints>
@@ -1906,7 +1801,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="82d0-9212-7f7a-6fee" name="2 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="82d0-9212-7f7a-6fee" name="3 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="638b-e8d6-19b0-cac0" type="max"/>
               </constraints>
@@ -1917,7 +1812,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
@@ -1938,7 +1833,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
@@ -1946,69 +1841,6 @@ rounding down, from this unit. Small blast markers must be removed before large 
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6975-4d2a-7410-3c02" name="8 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d9-4bcc-5f81-faa4" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="218e-5be1-c6e9-8ecb" name="8 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9790-2500-bbd1-954c" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e65-9846-75e2-4b1d" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="4dc7-6fba-6d6d-3f45" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7dc9-d2dd-679b-bfa8" name="12 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ca-d2d6-15ff-8cc0" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e9cd-e2f0-fe3e-16ad" name="2 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2073,9 +1905,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2094,9 +1926,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2115,35 +1947,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">11+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3f91-3e16-9426-fa9f" name="12 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfb-7062-e16f-66df" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="60f9-9d19-d792-99f4" name="12 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2181,18 +1992,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="9d10-90d8-361f-836b" name="3 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">20&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">18&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9913-4a17-f160-a12b" name="6 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2202,18 +2013,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="50cf-fe3a-236a-0d90" name="6 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">20&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">18&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa12-ee17-dbca-61e8" name="9 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2223,18 +2034,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="1864-0e60-cd5b-195d" name="9 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">20&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">18&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="71b2-8418-a803-81d8" name="12 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2244,18 +2055,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <profiles>
                 <profile id="d53a-a738-a50e-8051" name="12 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">20&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">18&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2336,7 +2147,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">12+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -2357,7 +2168,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -2376,7 +2187,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
           <profiles>
             <profile id="6c0d-09b3-d161-b240" name="Hit and Run" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Whilst this unit Falls Back, double its Move characteristic. When this unit Falls Back, it can finish that Move action in base contact with enemy models.</characteristic>
+                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit Falls Back, double its Move characteristic. It can finish that Move action in base contact with enemy models and still Fight this turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2403,14 +2214,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff3a-89ce-3847-7f3b" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2424,14 +2235,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="54e3-e926-acc9-f35b" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2445,14 +2256,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="36a1-d89b-d9af-c582" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2466,14 +2277,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2519,12 +2330,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5402-80a2-7b86-72dc" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -2540,7 +2351,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2619,6 +2430,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="d406-f907-6898-c727" name="Talos" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="aa3d-cc95-0264-00f3" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="818e-947e-1457-5339" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="ea5e-561b-772a-e70a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -2726,7 +2540,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <entryLink id="d128-2a4a-7d89-d910" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2738,6 +2552,9 @@ rounding down, from this unit. Small blast markers must be removed before large 
       </costs>
     </selectionEntry>
     <selectionEntry id="d1e6-d3d5-dc28-9c3b" name="Cronos" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3547-6766-7b59-3394" name="Ignore Damage (5+)" hidden="false" targetId="958c-7037-989a-6da0" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6a4c-f809-b364-ec78" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="fd9a-1cff-1aeb-d796" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -2759,7 +2576,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                 <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
                 <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                 <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                 <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                 <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
@@ -2767,7 +2584,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             </profile>
             <profile id="7ca0-687b-da4f-b328" name="Spirit Probe" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll wound rolls of 1 for attacks made with melee weapons by friendly Drukhari units whilst they are within 6&quot; of this unit.</characteristic>
+                <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll wound rolls of 1 for attacks made with melee weapons by friendly DRUKHARI LIGHT units whilst they are within 6&quot; of this unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2802,8 +2619,8 @@ rounding down, from this unit. Small blast markers must be removed before large 
                 <profile id="b95e-2ba5-11e4-6578" name="Spirit Syphon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
@@ -2823,7 +2640,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -2839,7 +2656,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <entryLink id="5c0e-4148-fa4d-ed99" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2860,7 +2677,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="085d-f0cb-4764-1fc1" name="Night Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2915,12 +2737,17 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
         <profile id="c3f3-4147-1df2-6593" name="Raider" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly Drukhari Infantry models. Each Grotesque model takes the space of 2 other Infantry models. It cannot transport Scourge or Skyboard units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95f9-d275-078d-4477" name="Night Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2979,12 +2806,18 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
         <profile id="df66-416d-dfd9-4b50" name="Venom" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 5 friendly Drukhari Infantry models. It cannot transport Grotesque, Scourge or Skyboard units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="21aa-75ce-2cf8-5581" name="Flickerfield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a ranged attack is made against this model, subtract 1 from that attack’s hit roll. 
+If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3034,7 +2867,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <entryLink id="e0c3-6f21-d668-5de6" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc8e-57b3-eda1-c605" name="Razorwing Jetfighter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3047,7 +2880,12 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c1d0-a843-96e3-eb41" name="Night Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3138,20 +2976,25 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <entryLink id="3228-a608-db2d-bae0" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9da5-a417-8adb-6bd8" name="Voidraven Bomber" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ac81-777e-01ed-50be" name="Voidraven Bomber" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-72&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-60&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="201f-449c-2613-ec87" name="Night Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3295,7 +3138,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -3313,7 +3156,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">12+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3577,9 +3420,14 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f8e5-8f29-2280-b675" name="Night Shield" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit was not in engagement range of an enemy unit at the start of the Damage phase, its Save characteristic becomes 6+ until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3656,7 +3504,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
         <profile id="f20a-c5e4-f114-a939" name="Tantalus" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
@@ -3727,7 +3575,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6968-70b8-0797-74a2" name="Raven Strike Fighter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3820,6 +3668,186 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7ed3-ff34-3aba-5e7b" name="Corsair Voidreavers" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c118-bc62-6d81-b75a" name="Reavers of the Void" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes an attack, on an unmodified hit roll of 6, place a blast marker next to the target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ff1e-5960-7229-4f26" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
+        <categoryLink id="c7cb-8542-452a-d1af" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
+        <categoryLink id="7a57-da77-697e-f3de" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="5e21-0c77-3b45-e04a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="aad7-1fd4-0d42-4ba3" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1704-9126-58f2-82e2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c88-a75f-21d4-90d2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05f5-8df6-ca86-e94c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ddc4-57a0-6734-937c" name="5 Models" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a61f-b18d-b4ef-48e4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4cf8-1118-67d7-838a" name="5 Models" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1959-5485-4159-ecfc" name="10 Models" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da90-4331-3ef4-f887" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b275-80fe-effc-f804" name="10 Models" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e2a9-6ff1-163a-28ae" name="Close Combat Weapons" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" targetId="e22b-84a3-88e7-016e" type="selectionEntry"/>
+        <entryLink id="edae-e91a-78be-456e" name="Shuriken Pistols" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" targetId="90fb-bf7a-bbf4-0af8" type="selectionEntry"/>
+        <entryLink id="8014-a609-bbbc-ab60" name="Commander" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="982f-15f6-022f-2d56" name="Corsair Voidscarred" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ec10-5023-98b2-48dd" name="Reavers of the Void" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit makes an attack, on an unmodified hit roll of 6, place a blast marker next to the target.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89e6-f75f-524c-941f" name="Shade Runner Assault" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">After this unit moves, you can select one enemy unit within Engagement Range of this unit and roll one D6. On a 3+ place a blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c919-fbd6-cae2-e1bd" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
+        <categoryLink id="ab66-7fab-b982-9573" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
+        <categoryLink id="6656-459d-89fc-1afe" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8c28-b13d-c14c-2c2e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="10fa-3773-1342-8670" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="e501-c82a-36b6-5ecc" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b73b-393f-f5d2-cec2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0b-3eee-5e5d-99c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b45-a29c-4501-6ff2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ac84-7cc0-db5f-dbd4" name="10 Models" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="model">
+              <profiles>
+                <profile id="f45a-848f-3e57-5b77" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="656f-357b-21d9-1839" name="Shuriken Rifles" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="b0a6-14ed-e0d2-4b57" type="selectionEntry"/>
+        <entryLink id="cae8-516b-6673-d15b" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="235c-d7ce-76fa-3f59" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="e22b-84a3-88e7-016e" type="selectionEntry"/>
+        <entryLink id="35c4-98c0-9cb2-7edc" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="446d-8d64-5ada-49e9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90fb-bf7a-bbf4-0af8" name="Shuriken Pistols" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1160-e343-fd5d-e4bd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8793-b1fb-05d6-bae2" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="97fd-1d69-6cac-0cf9" name="Shuriken Pistols" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0a6-14ed-e0d2-4b57" name="Shuriken Rifles" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d234-6a9b-cf5c-14e8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7627-2cb6-aba8-bfc9" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="af6b-ce2b-279c-f5f5" name="Shuriken Rifles" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="97fa-3941-8e4e-15d5" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="5eaa-c4f9-b8ab-2158" name="Splinter Rifle" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
@@ -3827,7 +3855,7 @@ rounding down, from this unit. Small blast markers must be removed before large 
         <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
         <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
         <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
         <characteristic name="SAT" typeId="4b6c-996a-d317-affb">12+</characteristic>
         <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
       </characteristics>
