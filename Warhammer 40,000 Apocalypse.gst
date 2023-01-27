@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="faa2-6155-22f4-8288" name="Warhammer 40,000: Fundapocalypse" revision="13" battleScribeVersion="2.03" authorName="JHales" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme></readme>
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -198,6 +197,11 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="19d1-eeb5-a6a1-8fe4" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="632b-88db-7004-aff6" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7481-65e8-12db-65c3" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="113d-50e8-996e-70c3" name="Spearhead Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -258,6 +262,11 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9251-08d4-acc0-6aa6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="acdb-a50e-7110-058d" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f041-dc31-caab-2cb1" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -322,6 +331,11 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="099d-a55a-aeeb-868f" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="e3d7-1be8-527d-e81d" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26e1-04d7-46fa-8e1b" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="fb01-8e54-8822-7de4" name="Supreme Command Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -339,8 +353,8 @@
           <repeats>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab52-ca91-5911-6e0c" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -383,49 +397,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aae8-b3df-327f-f864" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5495-7aaf-e1d0-f31f" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="5642-ce25-4f9d-5cb3" name="Air Wing Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <modifiers>
-        <modifier type="increment" field="5b29-f1c1-6d9f-a5a0" value="3.0">
-          <repeats>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="102b-272b-0d3c-2da0" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="113d-50e8-996e-70c3" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9991-47ca-82d2-1371" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06e1-90a4-1407-f38b" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7657-ae85-fd30-3993" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="decrement" field="5b29-f1c1-6d9f-a5a0" value="1.0">
-          <repeats>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b29-f1c1-6d9f-a5a0" type="max"/>
-      </constraints>
-      <forceEntries>
-        <forceEntry id="8e90-59c5-616a-7480" name="Air Wing Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-          <categoryLinks>
-            <categoryLink id="5c49-d943-0f27-846b" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
-            <categoryLink id="12e3-17b5-9d84-0e76" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
-            <categoryLink id="bd24-ffc9-9b1f-2f07" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
-          </categoryLinks>
-        </forceEntry>
-      </forceEntries>
-      <categoryLinks>
-        <categoryLink id="8acc-3dba-3ac1-b829" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
-        <categoryLink id="bbfb-b430-bcd3-6086" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
-        <categoryLink id="bd48-1014-ae30-66a5" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b2a-fda7-1d00-7ac3" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d2f5-a620-b969-254c" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -490,6 +461,11 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="02bc-3627-375a-4236" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="514d-13c6-a559-2177" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4434-3b3c-63b4-a6d6" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8f70-4411-2a13-96bf" name="Patrol Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -507,8 +483,8 @@
           <repeats>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab52-ca91-5911-6e0c" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -574,6 +550,11 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26e1-86a8-064d-c6ae" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="8655-980e-1583-31ff" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1827-e76a-96df-5df2" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="0d22-806b-bfc5-db54" name="Super-heavy Auxiliary Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -591,8 +572,8 @@
           <repeats>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab52-ca91-5911-6e0c" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -623,9 +604,9 @@
         <modifier type="decrement" field="bcbe-2857-085a-0f51" value="1.0">
           <repeats>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab52-ca91-5911-6e0c" repeats="1" roundUp="false"/>
             <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -653,6 +634,49 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5250-c8e4-c1df-c101" type="max"/>
           </constraints>
         </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="ab52-ca91-5911-6e0c" name="Air Wing Detachment" hidden="false">
+      <modifiers>
+        <modifier type="decrement" field="5ea0-c847-cc3d-b2d7" value="1.0">
+          <repeats>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb01-8e54-8822-7de4" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="5ea0-c847-cc3d-b2d7" value="3.0">
+          <repeats>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="102b-272b-0d3c-2da0" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="113d-50e8-996e-70c3" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9991-47ca-82d2-1371" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06e1-90a4-1407-f38b" repeats="1" roundUp="false"/>
+            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7657-ae85-fd30-3993" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea0-c847-cc3d-b2d7" type="max"/>
+      </constraints>
+      <forceEntries>
+        <forceEntry id="03d9-1abc-7125-1913" name="Air Wing Detachment" hidden="false">
+          <categoryLinks>
+            <categoryLink id="7e0f-d760-fc43-ad72" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false"/>
+            <categoryLink id="72fe-cfd5-95a2-985d" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
+            <categoryLink id="074d-edd0-5d1e-06cc" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="5b2d-d192-e94b-91de" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d1c-8d5a-839b-b9a4" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f977-4f36-4da9-131c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f950-9db7-205e-656f" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
+        <categoryLink id="732b-6878-339c-9a71" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

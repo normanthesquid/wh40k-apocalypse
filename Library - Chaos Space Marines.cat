@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="6" battleScribeVersion="2.03" authorName="Fundamalleus" authorUrl="" library="true" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6888-3824-ab4f-1868" name="Library - Chaos Space Marines" revision="7" battleScribeVersion="2.03" authorName="Fundamalleus" authorUrl="" library="true" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4b4e-76cf-b61c-81df" name="Mutated Beyond Reason - D3">
       <characteristicTypes>
@@ -118,11 +118,11 @@
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="e7d3-3095-e373-d4b3" name="Blood Slaughterer of Khorne" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e7d3-3095-e373-d4b3" name="Blood Slaughterer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a593-93af-81e1-8f36" name="Blood Slaughterer of Khorne" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="a593-93af-81e1-8f36" name="Blood Slaughterer" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">11&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -131,14 +131,9 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e3c9-5f4c-eaf7-68c8" name="Blind Fury" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit cannot Fall Back whilst it is within 1&quot; of any enemy INFANTRY units.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="09f9-001e-1b75-3912" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
+        <infoLink id="309c-a2e8-e699-7487" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="96ce-ec98-805a-d934" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
@@ -199,7 +194,7 @@
         <entryLink id="bff8-6ea9-2d26-8afc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77e3-c8b6-ae89-11fd" name="Greater Blight Drone" hidden="false" collective="false" import="true" type="unit">
@@ -207,7 +202,7 @@
         <profile id="35e7-b50a-9931-ebc4" name="Greater Blight Drone" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
@@ -246,7 +241,7 @@
             <profile id="9ed2-c54a-f6c0-2b91" name="Bile Maw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
@@ -578,7 +573,7 @@
       <profiles>
         <profile id="8dca-a5d1-5c31-b815" name="Kytan Ravager" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">13&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -654,10 +649,10 @@
         <entryLink id="6670-4ef2-1732-1038" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f692-9c00-d320-323c" name="Greater Brass Scorpion of Khorne" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f692-9c00-d320-323c" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="950f-0ae3-a465-1168" name="Doomsday Reactor" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
@@ -669,13 +664,13 @@
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When a Psyker unit successfully hits this unit with a weapon that has the Witchfire ability, roll one D12; on a 10+ place one blast marker next to that Psyker unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1220-b6ff-8e73-52e6" name="Greater Brass Scorpion of Khorne" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="1220-b6ff-8e73-52e6" name="Greater Brass Scorpion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
@@ -789,12 +784,12 @@
         <entryLink id="b9f0-38a4-949f-c685" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="27.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a237-dcd0-5abf-c97f" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1a7a-d1d3-65d0-e619" name="Hellforged Contemptor Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="1a7a-d1d3-65d0-e619" name="Chaos Contemptor Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
@@ -1069,12 +1064,12 @@
     </selectionEntry>
     <selectionEntry id="dc43-f0a2-58b7-b478" name="Chaos Land Raider Proteus" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d992-7103-892c-00be" name="Hellforged Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="d992-7103-892c-00be" name="Chaos Land Raider Proteus" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="42f6-31a0-6118-c2a0" name="Hellforged Land Raider Proteus" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="42f6-31a0-6118-c2a0" name="Chaos Land Raider Proteus" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
@@ -1145,7 +1140,7 @@
         <entryLink id="5c23-6592-fa3c-3119" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3605-e17c-9a43-200d" name="Infernal Hunger" hidden="false" collective="false" import="true" type="upgrade">
@@ -1171,12 +1166,12 @@
     </selectionEntry>
     <selectionEntry id="84f5-0ff1-0c1b-a0c6" name="Chaos Land Raider Achilles" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a98b-08bc-faa3-1e48" name="Hellforged Land Raider Achilles" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="a98b-08bc-faa3-1e48" name="Chaos Land Raider Achilles" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models. If this model has an Accursed Phylactery, it can only transport up to 6 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="21c6-d3fc-5437-dd79" name="Hellforged Land Raider Achilles" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="21c6-d3fc-5437-dd79" name="Chaos Land Raider Achilles" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
@@ -1243,12 +1238,12 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9dd5-6059-18d1-51ec" name="Chaos Predator" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="660d-f9b6-ddc9-9946" name="Chaos Whirlwind Scorpius" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6040-6e1c-2fab-69bf" name="Hellforged Predator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="cdfb-53fb-d7e1-557f" name="Chaos Whirlwind Scorpius" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
@@ -1257,106 +1252,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="267e-77a9-7c9a-258a" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="964b-0ccc-659d-efb9" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-        <categoryLink id="0a25-e47b-42d1-7a8b" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
-        <categoryLink id="81e1-4f95-a42d-07d2" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="dfd5-630c-1f12-c652" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-        <categoryLink id="75f0-08d5-38d1-dd09" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="dc30-abe4-81c7-05c6" name="Hellforged" hidden="false" targetId="5f94-5233-ea4a-23ed" primary="false"/>
-        <categoryLink id="7f09-2ee9-5c63-5583" name="Hellforged Predator" hidden="false" targetId="ee8f-2cef-263b-5831" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fdca-c398-f970-4c98" name="Turret weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="27ef-c529-b681-b7b0">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edee-0ca4-4070-1a28" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf8-4b46-ca10-dbcb" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="2c2a-5310-5f30-e86e" name="Predator Autocannon" hidden="false" collective="false" import="true" targetId="bd6b-2c53-82c7-fde2" type="selectionEntry"/>
-            <entryLink id="27ef-c529-b681-b7b0" name="Plasma Destroyer" hidden="false" collective="false" import="true" targetId="3fa0-a2c6-805c-bc09" type="selectionEntry"/>
-            <entryLink id="06bb-331a-226f-d5bb" name="C-beam Cannon" hidden="false" collective="false" import="true" targetId="229a-7522-471b-45de" type="selectionEntry"/>
-            <entryLink id="9a68-4091-7300-ec58" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry"/>
-            <entryLink id="4956-2719-9d80-e814" name="Magna-melta" hidden="false" collective="false" import="true" targetId="278f-c238-8087-5b03" type="selectionEntry"/>
-            <entryLink id="f5ff-5dd5-696e-d1d8" name="Infernus Cannon" hidden="false" collective="false" import="true" targetId="438f-bf4c-a121-f08f" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f18e-c78e-ac0c-ee71" name="Sponson weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="620f-b381-c256-e535" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="16e2-a261-a758-df55" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="8ffb-8d10-630c-6036" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b07-ef91-3fb0-354f" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7248-80e0-be01-8b2d" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0bb8-4711-f4f8-1d10" name="Two Lascannon" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="c259-bfa5-0319-6205" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d979-9e13-b871-8736" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dca-d0ff-e141-5939" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bb55-292c-f1ed-abd5" name="Two Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="c865-cadb-ca8e-f11d" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="46e7-d278-1268-caaf" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08aa-fdd7-ec59-60d8" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a550-2cd6-da86-8374" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="25f3-546f-309b-44bd" name="Infernal Hunger" hidden="false" collective="false" import="true" targetId="3605-e17c-9a43-200d" type="selectionEntry"/>
-        <entryLink id="9477-f29e-65f4-6c93" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="a07d-031c-6cd1-7a23" type="selectionEntry"/>
-        <entryLink id="26a9-8023-aa63-e6f2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="660d-f9b6-ddc9-9946" name="Chaos Scorpius" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="cdfb-53fb-d7e1-557f" name="Hellforged Scorpius" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="ead2-3a2e-6495-6ca9" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="efab-0699-0693-012c" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="11bb-95a2-bdd1-360f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -1374,7 +1269,6 @@
           </constraints>
         </entryLink>
         <entryLink id="2f9c-ff39-6480-556c" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="a07d-031c-6cd1-7a23" type="selectionEntry"/>
-        <entryLink id="b81e-1c1c-597f-45fe" name="Infernal Hunger" hidden="false" collective="false" import="true" targetId="3605-e17c-9a43-200d" type="selectionEntry"/>
         <entryLink id="ada4-ef09-7c85-cc78" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="f25f-41f2-ba88-cb85" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a2-5cbc-3616-83c1" type="min"/>
@@ -1382,6 +1276,7 @@
           </constraints>
         </entryLink>
         <entryLink id="20dc-0b5e-aed7-5659" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="ff46-0156-60e5-9407" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
@@ -1389,7 +1284,7 @@
     </selectionEntry>
     <selectionEntry id="721a-be95-29eb-4766" name="Chaos Sicaran Venator" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b2fd-e9f3-fe18-7ba7" name="Hellforged Sicaran Venator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="b2fd-e9f3-fe18-7ba7" name="Chaos Sicaran Venator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
@@ -1489,31 +1384,28 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1234-dc9e-04cd-a218" name="Chaos Sicaran" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1234-dc9e-04cd-a218" name="Chaos Sicaran Battle Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="96d5-b7d9-e85e-f17d" name="Hellforged Sicaran" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="96d5-b7d9-e85e-f17d" name="Chaos Sicaran" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="de41-c2fa-26dc-e679" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="9bb3-34d9-9323-1a67" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="496c-97b0-1378-ada1" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
-        <categoryLink id="bdc5-733e-33a8-4c97" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="72ee-1815-36d5-27d7" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="d8fc-54a4-a0ed-5aa4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="fde5-c7f6-939b-0799" name="Hellforged" hidden="false" targetId="5f94-5233-ea4a-23ed" primary="false"/>
         <categoryLink id="04fd-21b6-1771-2629" name="Hellforged Sicaran" hidden="false" targetId="2855-f012-a549-bdea" primary="false"/>
+        <categoryLink id="52bb-167a-8ea2-95ac" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a77a-fe69-3304-fc01" name="Sponson weapons" hidden="false" collective="false" import="true">
@@ -1564,19 +1456,19 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21f-0262-29fd-4d50" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b321-f89a-eb18-0c06" name="Infernal Hunger" hidden="false" collective="false" import="true" targetId="3605-e17c-9a43-200d" type="selectionEntry"/>
+        <entryLink id="b321-f89a-eb18-0c06" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
         <entryLink id="f61a-a882-f022-caed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f94-7327-3258-42fb" name="Chaos Spartan Assault Tank" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5f94-7327-3258-42fb" name="Chaos Spartan" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d776-8603-8f6f-42b7" name="Hellforged Spartan Assault Tank" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="d776-8603-8f6f-42b7" name="Chaos Spartan" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
@@ -1584,7 +1476,7 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="95f4-b9a2-72eb-4baa" name="Hellforged Spartan Assault Tank" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="95f4-b9a2-72eb-4baa" name="Chaos Spartan Assault Tank" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 25 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -1656,12 +1548,12 @@
         <entryLink id="ace8-94e9-58c1-d27e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b186-9dcb-3dc3-2454" name="Chaos Deredeo Dreadnought" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fa0d-f7dc-781e-2599" name="Hellforged Deredeo Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="fa0d-f7dc-781e-2599" name="Chaos Deredeo Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
@@ -1826,7 +1718,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b6f8-5507-d8a2-6cd1" name="Chaos Rapier Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b6f8-5507-d8a2-6cd1" name="Chaos Rapier Carrier" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="fba0-0c2c-d3d8-1fa9" name="Artillery Battery" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
@@ -1844,10 +1736,10 @@
         <categoryLink id="66b8-df3c-c349-e03a" name="Hellforged Rapier" hidden="false" targetId="661f-f829-eb33-fc39" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="07c1-daf1-6fb5-8f61" name="Hellforged Rapier" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="07c1-daf1-6fb5-8f61" name="Chaos Rapier" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acae-331a-4d25-f64c" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="808a-e7e4-8477-93e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="808a-e7e4-8477-93e0" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="82e7-6992-8bcd-be1f" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1903,7 +1795,7 @@
         <entryLink id="99e2-b22d-49fa-72cd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e81-49f0-bd2b-f680" name="Ectoplasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1925,7 +1817,7 @@
     </selectionEntry>
     <selectionEntry id="ba52-d3a1-0032-94b0" name="Chaos Leviathan Dreadnought" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d398-3d3e-8870-1b02" name="Hellforged Leviathan Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="d398-3d3e-8870-1b02" name="Chaos Leviathan Dreadnought" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
@@ -2068,9 +1960,9 @@
     </selectionEntry>
     <selectionEntry id="6962-3f8f-63d3-803c" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4542-05df-0f25-369f" name="Hellforged Dreadclaw Drop Pod" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="4542-05df-0f25-369f" name="Dreadclaw Drop Pod" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -2079,7 +1971,7 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b56-7504-2a82-e9f2" name="Hellforged Dreadclaw Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="4b56-7504-2a82-e9f2" name="Dreadclaw Drop Pod" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models, or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -2151,23 +2043,23 @@
         <entryLink id="2524-50a8-7380-02b8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b56-60e3-1ec2-2be6" name="Kharybdis Assault Claw" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1180-c9ab-a399-2cdd" name="Hellforged Kharybdis Assault Claw" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="1180-c9ab-a399-2cdd" name="Kharybdis Assault Claw" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">15&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3810-cf8e-7bb6-a60c" name="Hellforged Kharyndis Assault Claw" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="3810-cf8e-7bb6-a60c" name="Kharyndis Assault Claw" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly &lt;LEGION&gt; INFANTRY models, or up to 3 friendly &lt;LEGION&gt; HELLFORGED RAPIER units or 1 friendly CHAOS DECIMATOR model, or 1 friendly HELBRUTE model. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -2282,20 +2174,20 @@
         <entryLink id="7fbc-9920-9b54-d2ff" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e39f-1bdb-b3aa-1d6c" name="Chaos Cerberus Heavy Destroyer" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e39f-1bdb-b3aa-1d6c" name="Chaos Cerberus" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5359-ef66-602c-f0f1" name="Hellforged Cerberus Heavy Destroyer" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="5359-ef66-602c-f0f1" name="Chaos Cerberus" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2379,15 +2271,15 @@
         <entryLink id="c3ff-4e8f-1b50-a625" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3503-4ef7-b6f7-6c37" name="Chaos Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3503-4ef7-b6f7-6c37" name="Chaos Typhon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b607-7206-ff25-18b5" name="Hellforged Typhon Heavy Siege Tank" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="b607-7206-ff25-18b5" name="Chaos Typhon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
@@ -2481,12 +2373,12 @@
         <entryLink id="49b4-b653-4132-048e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1481-8054-00fd-6add" name="Chaos Fellblade" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b5f5-acbf-7bdf-ec3a" name="Hellforged Fellblade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="b5f5-acbf-7bdf-ec3a" name="Chaos Fellblade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
@@ -2592,7 +2484,7 @@
         <entryLink id="ffb9-de5d-4564-f4a3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="33.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4225-0de4-57c9-5d38" name="Eternal Hunger" hidden="false" collective="false" import="true" type="upgrade">
@@ -2618,10 +2510,10 @@
     </selectionEntry>
     <selectionEntry id="7c0d-9c5e-91ba-ced6" name="Chaos Falchion" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="63bb-dc95-5ee8-f43f" name="Hellforged Fellblade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="63bb-dc95-5ee8-f43f" name="Chaos Falchion" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
@@ -2698,15 +2590,15 @@
         <entryLink id="4979-460f-e7b4-6b82" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="033e-f9c8-c4b0-2f34" name="Chaos Mastodon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f764-d076-01ba-39a6" name="Hellforged Mastodon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="f764-d076-01ba-39a6" name="Chaos Mastodon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
@@ -2714,7 +2606,7 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5cdb-6b0f-c7d5-fd02" name="Hellforged Mastodon" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="5cdb-6b0f-c7d5-fd02" name="Chaos Mastodon" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport friendly &lt;LEGION&gt; models in one of the following combinations:
 -- Up to 40 INFANTRY models.
@@ -2769,14 +2661,14 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="d046-e6c5-ccf8-3ecf" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="37.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b299-fe4e-bf7e-f9b1" name="Chaos Hell Blade" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b299-fe4e-bf7e-f9b1" name="Hell Blade" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9899-328f-4042-62c0" name="Chaos Hell Blade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="9899-328f-4042-62c0" name="Hell Blade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">18-60&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-60&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -2857,12 +2749,12 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="54cf-65e2-b473-6054" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8d9-844d-d0fb-1ac2" name="Chaos Hell Talon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b8d9-844d-d0fb-1ac2" name="Hell Talon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="93f3-4b2e-41f2-fbed" name="Chaos Hell Talon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="93f3-4b2e-41f2-fbed" name="Hell Talon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-60&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
@@ -2938,7 +2830,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="3ad9-ef04-7679-4650" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69a3-6c7c-432b-0342" name="Bladed Wings" hidden="false" collective="false" import="true" type="upgrade">
@@ -2962,20 +2854,20 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8ee-b78e-6d77-a8ad" name="Chaos Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e8ee-b78e-6d77-a8ad" name="Chaos Storm Eagle Gunship" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ab0b-baaf-d8ed-094a" name="Chaos Storm Eagle Assault Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="ab0b-baaf-d8ed-094a" name="Chaos Storm Eagle Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-45&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0117-40fd-06a2-b0c6" name="Chaos Storm Eagle Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="0117-40fd-06a2-b0c6" name="Chaos Storm Eagle Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 20 friendly LEGION INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -3071,15 +2963,15 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0f9-589e-8b1a-a844" name="Chaos Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a0f9-589e-8b1a-a844" name="Chaos Fire Raptor Gunship" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="df93-b92e-c9c5-236d" name="Chaos Fire Raptor Assault Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="df93-b92e-c9c5-236d" name="Chaos Fire Raptor Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-45&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -3215,18 +3107,18 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
     </selectionEntry>
     <selectionEntry id="bb86-f1fb-b77f-2ba1" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3bb7-880b-70e0-a2c6" name="Chaos Thunderhawk Assault Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="3bb7-880b-70e0-a2c6" name="Chaos Thunderhawk Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-50&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b51f-4099-3451-7cd2" name="Chaos Thunderhawk Assault Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="b51f-4099-3451-7cd2" name="Chaos Thunderhawk Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 30 friendly LEGION INFANTRY, BIKER or CAVALRY models. Each BIKER or CAVALRY model tales the space of 3 INFANTRY models, each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
           </characteristics>
@@ -3329,23 +3221,23 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="8818-9a2a-38c7-5c01" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="42.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff97-c9c5-ad18-6f68" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff97-c9c5-ad18-6f68" name="Chaos Sokar Pattern Stormbird" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5eee-acb6-533c-e33a" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="5eee-acb6-533c-e33a" name="Chaos Sokar Pattern Stormbird" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-50&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">10</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ac97-8e18-2b5a-5372" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+        <profile id="ac97-8e18-2b5a-5372" name="Chaos Sokar Pattern Stormbird" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 50 friendly &lt;LEGION&gt; INFANTRY, BIKER and CAVALRY models, or up to 25 friendly &lt;LEGION&gt; INFANTRY, BIKER and CAVALRY  models and 1 friendly CHAOS RHINO. Each BIKER or CAVALRY model tales the space of 3 INFANTRY models, each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 otherINFANTRY models. A CHAOS RHINO can transport models whilst it is embarked aboard this unit.</characteristic>
           </characteristics>
@@ -3452,7 +3344,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       <profiles>
         <profile id="1c41-6705-e20d-345e" name="Chaos Xiphon Interceptor" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-70&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-60&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
@@ -3511,12 +3403,18 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="bfe1-bb67-1bce-32a7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ca7-9758-48ff-235b" name="Helbrute" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f4d9-7dc8-a8fb-f79b" name="Frenzy" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack, if it has any damage markers next to it, re-roll a wound roll of 1 or 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="818f-698f-5939-5956" name="Crazed" hidden="false" targetId="581f-b622-5ecd-3fac" type="profile"/>
         <infoLink id="83f1-d1f9-8a06-08e3" name="Helbrute" hidden="false" targetId="b437-cca7-7704-5c4b" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -3533,7 +3431,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="0c3f-02c5-f223-199d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0de5-74b3-8e23-e51e" name="Ferrum Infernus Chaos Dreadnought" hidden="false" collective="false" import="true" type="unit">
@@ -3651,9 +3549,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="336c-a9c4-1554-9a46" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="e97e-5cad-5ec3-b924" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="25b0-fee2-a175-c1ee" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
@@ -3692,7 +3587,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9baa-18ca-7b94-441c" name="Infernal Hunger" hidden="false" collective="false" import="true" targetId="3605-e17c-9a43-200d" type="selectionEntry"/>
         <entryLink id="111e-72f5-91dc-6dd7" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-9cb2-6992-7db1" type="min"/>
@@ -3700,12 +3594,13 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
           </constraints>
         </entryLink>
         <entryLink id="6f60-ba60-036f-066a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="88e3-bdbe-b74c-3125" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56e4-bce0-be0a-9f92" name="Terrax-Pattern Termite Assault Drill" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="56e4-bce0-be0a-9f92" name="Chaos Terrax-Pattern Termite" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3e6b-befc-4142-73dd" name="Terrax-Pattern Termite Assault Drill" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -3713,9 +3608,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
         <profile id="42ab-55cd-820f-0540" name="Terrax-Pattern Termite Assault Drill" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
@@ -3851,7 +3746,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="585f-ca0c-dc9a-99c0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8fa-3ec8-92bd-35de" name="Chaos Lord" hidden="false" collective="false" import="true" type="unit">
@@ -4212,22 +4107,22 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
     </selectionEntry>
     <selectionEntry id="ed66-68de-c8bb-af54" name="Chaos Spawn" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="7.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="3.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="9.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="4.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="11.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="5.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="1466-da3f-0d27-dace" value="4.0">
+        <modifier type="set" field="1466-da3f-0d27-dace" value="2.0">
           <conditions>
             <condition field="selections" scope="ed66-68de-c8bb-af54" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a08f-c4a2-229e-a3d3" type="equalTo"/>
           </conditions>
@@ -4355,7 +4250,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="f24f-02dd-0824-fc64" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7278-4a41-c1ee-16f3" name="Defiler" hidden="false" collective="false" import="true" type="unit">
@@ -4363,8 +4258,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <profile id="bbb5-b5ae-c31d-ca96" name="Defiler" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
@@ -4459,7 +4354,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="49cf-70b3-3b87-be24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c977-6ee2-730c-59f6" name="Forgefiend" hidden="false" collective="false" import="true" type="unit">
@@ -4467,8 +4362,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <profile id="304a-62a5-fb3c-1d83" name="Forgefiend" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
@@ -4573,7 +4468,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="60d3-fedb-9555-bb65" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bea-15a3-ca58-e113" name="Hades Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4598,8 +4493,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <profile id="3e46-57e5-ebe6-eda3" name="Maulerfiend" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
@@ -4694,9 +4589,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8dbc-6837-ede6-1e74" name="Chaos Predator" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8dbc-6837-ede6-1e74" name="Chaos Predator Annihilator" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="42f2-8380-2cf5-642f" name="Chaos Predator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="42f2-8380-2cf5-642f" name="Chaos Predator Annihilator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
@@ -4704,7 +4599,17 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c06b-5cbb-a39b-3d21" name="Twin Soulshatter Lascannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4717,16 +4622,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <categoryLink id="8278-891e-c6dd-284c" name="Chaos Predator" hidden="false" targetId="741a-0e8a-5515-0be5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c355-9931-2c11-124a" name="Turret weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="04ba-4031-63ff-ed65">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="827c-5b24-ba3d-ef28" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe8-34e9-c467-c5e2" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="04ba-4031-63ff-ed65" name="Predator Autocannon" hidden="false" collective="false" import="true" targetId="bd6b-2c53-82c7-fde2" type="selectionEntry"/>
-            <entryLink id="558a-79d0-0757-b521" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="ca25-e5ce-34c4-ec69" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="8c56-deb7-c51f-edee" name="Sponson Weapons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f0-353c-b189-bc01" type="min"/>
@@ -4772,7 +4667,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="6a41-4b91-8ab3-ff61" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54cb-7a5f-9c51-8129" name="Chaos Vindicator" hidden="false" collective="false" import="true" type="unit">
@@ -4792,7 +4687,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4825,7 +4720,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="3f5c-64d2-2590-455d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e58-d7f5-8d06-d98b" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -4870,18 +4765,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models. It cannot transport TERMINATORS, CULT OF DESTRUCTION or JUMP PACK units.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c503-2beb-497f-47fa" name="Chaos Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1446-5d49-98f4-8489" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly DEATH GUARD INFANTRY models. It cannot transport TERMINATORS or JUMP PACK units.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="d156-e962-cc30-7882" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
@@ -4908,7 +4791,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="6c65-85c5-e3f0-36dc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0a7-ca99-f182-aa7c" name="Chaos Land Raider" hidden="false" collective="false" import="true" type="unit">
@@ -4916,48 +4799,12 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <profile id="a0f7-0ccb-8ee2-36a2" name="Chaos Land Raider" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="23cc-91e6-9415-769c" name="Chaos Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ff1-b8b9-e2c5-392a" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly &lt;LEGION&gt; INFANTRY models. Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models and each CULT OF DESTRUCTION model takes the space of 3 other INFANTRY models.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="3b8a-f0de-5aa3-70f0" name="Chaos Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1446-5d49-98f4-8489" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly DEATH GUARD INFANTRY models. Each TERMINATOR and JUMP PACK model takes up the space of two other models.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e243-600a-9e3e-06af" name="Chaos Land Raider" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b3f9-0064-26dc-658f" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 10 friendly THOUSAND SONS INFANTRY models. Each TERMINATOR and JUMP PACK model takes up the space of two other models.</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4992,16 +4839,16 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="f398-6272-84b1-da27" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92bd-5224-16c2-5754" name="Heldrake" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0d46-ec51-d2e7-b29b" name="Heldrake" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">30&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-60&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
@@ -5011,6 +4858,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       </profiles>
       <infoLinks>
         <infoLink id="79ad-2c2e-ccbc-3766" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
+        <infoLink id="69d8-4927-3893-b09a" name="Hover Jet" hidden="false" targetId="aa32-7211-4565-9df5" type="profile"/>
+        <infoLink id="2095-216a-e73c-5f92" name="Supersonic" hidden="false" targetId="a828-c8a3-c4ed-f34b" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8cb5-1cdd-9b2e-dbe2" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
@@ -5069,7 +4918,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <entryLink id="37e2-b803-64a8-4b03" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d31e-96b7-567b-db1d" name="Plague Marines" hidden="false" collective="false" import="true" type="unit">
@@ -5108,7 +4957,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4889-3abd-d7e4-27b6" name="5 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="726b-8305-8efa-06e2">
+        <selectionEntryGroup id="4889-3abd-d7e4-27b6" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="726b-8305-8efa-06e2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fd-0e35-7346-3da1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23a-8aee-4f81-eee2" type="max"/>
@@ -5122,7 +4971,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -5130,42 +4979,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7c3c-02b2-12b4-a974" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c577-84c5-a715-8d54" name="Plague Marines (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d891-aed0-b1e7-333a" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6818-afb4-aadb-2c62" name="Plague Marines (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1af0-bf0b-c3eb-1e81" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5176,7 +4989,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -5273,7 +5086,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         <categoryLink id="c3e6-89c8-b720-ff1b" name="Rubric Marines" hidden="false" targetId="886e-1a90-19c0-9d5a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a349-bd7b-8564-4e80" name="5 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9848-6d54-efbb-3224">
+        <selectionEntryGroup id="a349-bd7b-8564-4e80" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9848-6d54-efbb-3224">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012d-6128-d7cc-96f6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41f-64f9-ab21-dbf2" type="max"/>
@@ -5283,11 +5096,11 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
               <profiles>
                 <profile id="4d80-7c62-8d89-cb86" name="Rubric Marines (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -5297,51 +5110,15 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="29e7-e10b-7092-631b" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="0f1e-5a06-3782-644d" name="Rubric Marines (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2d8a-efe9-816d-dc65" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="8fae-b1ab-69ce-f599" name="Rubric Marines (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="dd69-7a33-dbd6-b922" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="5a5c-39b6-3109-319b" name="Rubric Marines (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -5405,24 +5182,18 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       <entryLinks>
         <entryLink id="62fc-3f4c-5571-5c97" name="Soulreaper Cannon" hidden="false" collective="false" import="true" targetId="3880-a251-e54e-063c" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="25e9-dc9b-e614-7d01" value="1.0">
+            <modifier type="set" field="25e9-dc9b-e614-7d01" value="2.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="245e-1cea-9d5d-0e2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd69-7a33-dbd6-b922" type="equalTo"/>
-                    <condition field="selections" scope="245e-1cea-9d5d-0e2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="29e7-e10b-7092-631b" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="25e9-dc9b-e614-7d01" value="2.0">
-              <conditions>
-                <condition field="selections" scope="245e-1cea-9d5d-0e2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8a-efe9-816d-dc65" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e9-dc9b-e614-7d01" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e9-dc9b-e614-7d01" type="max"/>
           </constraints>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
@@ -5473,13 +5244,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       </costs>
     </selectionEntry>
     <selectionEntry id="5115-64ae-c958-a99f" name="Possessed" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="c166-92cd-ed90-0298" name="Writhing Tentacles" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this unit fights with a melee weapon, roll one D3 for every 5 models this unit contains to determine the number of attacks it makes.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="53f0-4281-092f-2766" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0bc7-f21c-4cfa-e418" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="2997-9399-d52f-6f13" name="New CategoryLink" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -5513,7 +5280,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3671-48a5-e437-cee6" name="5 - 20 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="e42f-cc11-f0c7-4491">
+        <selectionEntryGroup id="3671-48a5-e437-cee6" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="e42f-cc11-f0c7-4491">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdde-9257-0aa9-3d57" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e8-9d28-eee1-251b" type="max"/>
@@ -5526,15 +5293,15 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">D3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d447-61e1-06a3-67d5" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5544,51 +5311,15 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2D3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3e8d-1bfb-c449-8b1d" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="9e7b-6219-0417-772d" name="Possessed (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3D3</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9ce9-6f6b-5db5-ee70" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="a356-7990-51d7-5213" name="Possessed (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4D3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">8</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5666,6 +5397,170 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2646-38f6-549d-e80d" name="Chaos Predator Destructor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fbc0-db87-8c24-e8c4" name="Chaos Predator Annihilator" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="46a9-c2fd-ce77-0b72" name="Predator Autocannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f1f7-698e-da67-30a0" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="925c-6d42-92f4-c300" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="4251-3011-2716-24fb" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="7549-9175-1907-50a4" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="4f2b-2a6f-61ff-91a9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="7551-198a-4807-083d" name="Chaos Predator" hidden="false" targetId="741a-0e8a-5515-0be5" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dbfb-d945-81e6-fd6a" name="Sponson Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-a169-a520-cbf9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a0-6285-dae3-2c24" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1339-f4a1-8665-cbd3" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="1a3b-9682-10a9-79fc" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9c-0ce8-4457-cfbb" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc7-381d-3f35-4585" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f8b0-ad5b-d7b0-7428" name="Two Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="fa65-1828-aa2a-e10b" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bd-e12f-b5ca-f8d8" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b89-cb40-494b-ac63" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dd2d-0fbf-e84a-beb7" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef82-a0ad-16f3-09d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2e-eb0e-8ef2-771a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7d01-0815-1b69-d9ec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29a3-897f-2c8b-2e56" name="Chaos Sicaran Punisher" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9967-b086-9be6-e4b4" name="Chaos Sicaran" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="da0b-56c6-18e6-a13a" name="Punisher Rotary Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8acf-ca94-abcc-626f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="4972-1bcd-39dd-58a5" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="e76f-5434-eb6c-e301" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="d716-6c00-5ba4-f9ba" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="589f-23de-6889-648c" name="Hellforged" hidden="false" targetId="5f94-5233-ea4a-23ed" primary="false"/>
+        <categoryLink id="755a-43eb-81fb-ecc2" name="Hellforged Sicaran" hidden="false" targetId="2855-f012-a549-bdea" primary="false"/>
+        <categoryLink id="8a41-99fc-e9dd-16a0" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ae50-75e5-4260-8475" name="Sponson weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="655c-8c6d-c884-343e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2ae8-465f-4426-0598" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="1183-4c3d-4620-addc" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f54-c79a-5ed4-54ef" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f58-3c49-cda7-3bcc" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd1e-dcce-eb3e-cf7a" name="Two Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="1e81-e1b0-86a0-8501" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4078-3253-4728-7e6f" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="198e-ca41-348a-cb63" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="aa5e-df8c-016f-b1eb" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="a07d-031c-6cd1-7a23" type="selectionEntry"/>
+        <entryLink id="e0c0-fd6e-8ee9-c254" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa3c-41a2-fec6-e59b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db9f-a9d1-82f8-2a4f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8ce-c9d5-413c-3d87" name="Armoured Tracks" hidden="false" collective="false" import="true" targetId="7e58-d7f5-8d06-d98b" type="selectionEntry"/>
+        <entryLink id="02e9-43c9-d6b9-a41c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5904,7 +5799,7 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other Infantry models a
     </profile>
     <profile id="b437-cca7-7704-5c4b" name="Helbrute" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+        <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
         <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>

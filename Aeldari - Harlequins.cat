@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce2f-fa36-3f5c-564a" name="Aeldari - Harlequins" revision="8" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce2f-fa36-3f5c-564a" name="Aeldari - Harlequins" revision="9" battleScribeVersion="2.03" authorName="JHales" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="85e9-a70a-b094-f132" name="Harlequin Apoc Datasheets"/>
   </publications>
@@ -30,13 +30,18 @@
       <profiles>
         <profile id="dc24-baac-d8d1-928a" name="Troupe Master" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="340b-e373-a4db-de11" name="Choreographer of War" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly HARLEQUINS LIGHT unit is within 6&quot; of this model, each time an attack is made by a model in that unit, re-roll a wound roll of 1 and 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -59,7 +64,7 @@
           <profiles>
             <profile id="1916-259e-3196-d92a" name="Troupe Master Weapons" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <modifiers>
-                <modifier type="set" field="74b1-f85d-ede5-c758" value="3+">
+                <modifier type="set" field="74b1-f85d-ede5-c758" value="4+">
                   <conditions>
                     <condition field="selections" scope="3c5a-c6d6-3439-148b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5ef-4c7d-1dfc-1802" type="equalTo"/>
                   </conditions>
@@ -87,40 +92,28 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5033-260e-7fdb-1d97" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1fe7-f425-91af-d809" name="Darkness&apos; Bite" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1fe7-f425-91af-d809" name="Queen of Shards" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="46ce-7513-a728-7ad5" name="Darkness&apos; Bite" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+                <profile id="46ce-7513-a728-7ad5" name="Queen of Shards" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
                     <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Fight phase, you can select one enemy unit this model made an attack against and place one blast marker next to it.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8669-242c-6d0e-ba4f" name="Choreographer of War" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f5ef-4c7d-1dfc-1802" name="Veiled King" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="837e-ab4a-4eac-99ff" name="Choreographer of War" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+                <profile id="c3d6-2db8-55bf-3b91" name="Veiled King" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with melee weapons by friendly &lt;MASQUE&gt; units whilst they are within 6&quot; of this unit.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made by this model against a LIGHT unit, a wound roll of of 4+ is always successful (already reflected in the profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f5ef-4c7d-1dfc-1802" name="Twilight&apos;s Grasp" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c3d6-2db8-55bf-3b91" name="Twilight&apos;s Grasp" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made by this model against a LIGHT unit, a wound roll of of 3+ is always successful (already reflected in the profile).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="46d1-07d2-3da1-970e" name="Prince of Light" hidden="false" collective="false" import="true" type="upgrade">
@@ -132,7 +125,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -151,13 +144,18 @@
       <profiles>
         <profile id="1dbf-ba58-fd89-57aa" name="Shadowseer" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3025-50d4-bc12-5358" name="Shield From Harm" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly HARLEQUINS LIGHT unit is within 6&quot; of this model, each time an attack is made against that unit, subtract 1 from that attack’s wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -269,7 +267,7 @@
         <entryLink id="c680-c569-ad23-2909" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="229e-ce42-82d8-aee0" name="Troupe" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="unit">
@@ -303,7 +301,7 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x8</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -335,54 +333,33 @@
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="442c-8488-c6fc-9bb6" name="10 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="442c-8488-c6fc-9bb6" name="12 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70be-ae00-8baa-2209" type="max"/>
               </constraints>
               <profiles>
-                <profile id="07ad-028e-3d32-0431" name="10 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="07ad-028e-3d32-0431" name="12 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9cd4-ec10-e890-3db1" name="12 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c66-b561-d168-cc90" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="45de-50d8-bc1c-e2d4" name="12 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -401,13 +378,13 @@
       <profiles>
         <profile id="a500-9a34-40e9-4671" name="Death Jester" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -456,6 +433,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="90c1-8ad4-6bfa-4615" name="Sniper" hidden="false" targetId="d452-1a22-2e0c-7a9e" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
@@ -468,48 +448,40 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c1b-e7c4-ee95-8afd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e314-8d6a-204f-5784" name="Terror Troops" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="fbba-e5c6-7896-36d6" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="1c04-60a3-da2a-2c17" name="Harvester of Torment" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1500-054b-40d4-be42" name="Harvester of Torment" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with this unit&apos;s Shrieker Cannon that target units with 6 or more models.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes a ranged attack, an unmodified hit roll of 6 scores 3 additional hits.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f5f7-20cf-713b-2e34" name="The Jest Inescapable" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f5f7-20cf-713b-2e34" name="Rift Ghoul" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9001-fcef-353f-22c8" name="The Jest Inescapable" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+                <profile id="9001-fcef-353f-22c8" name="Rift Ghoul" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 12&quot; to the Range characteristic of this unit&apos;s Shrieker Cannon (already reflected in the profile). This unit does not suffer the penalty for attacks made with ranged weapons that target obscured targets.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit ignores all modifiers to the hit roll with ranged weapons.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c9c2-636b-0bcc-74cb" name="Humbling Cruelty" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c9c2-636b-0bcc-74cb" name="Lord of Crystal Bones" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1941-276f-089f-fb75" name="Humbling Cruelty" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+                <profile id="1941-276f-089f-fb75" name="Lord of Crystal Bones" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack made by this model scores a hit, that unit is pinned until after it carries out its next order. While a unit is pinned, subtract 2&quot; from its Move Characteristic.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack made by this model scores a hit on a LIGHT unit, that unit is pinned until after it carries out its next order. While a unit is pinned, subtract 2&quot; from its Move Characteristic.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -521,21 +493,21 @@
         <entryLink id="443e-b571-3998-4b49" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71d5-d82a-cd7b-453d" name="Solitaire" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6230-823d-e0e0-5316" name="Solitaire" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <modifiers>
-            <modifier type="set" field="606d-344a-bc3d-9dce" value="15&quot;">
+            <modifier type="set" field="606d-344a-bc3d-9dce" value="14&quot;">
               <conditions>
                 <condition field="selections" scope="71d5-d82a-cd7b-453d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b26-67c1-4178-749a" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
@@ -547,6 +519,11 @@
         <profile id="7805-4562-c3d4-f8e7" name="The Path of Damnation" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit cannot be a WARLORD.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20b8-b390-216c-c172" name="Blitz" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, when this model makes a Move action, it can Blitz. If it does so, until the end of the turn, add D6&quot; to this model’s Move characteristic and add 2 to this model’s Attacks characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -594,7 +571,7 @@
               <profiles>
                 <profile id="177d-315e-dc60-77bc" name="Shocking Emergence" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit arrives as reinforcements, add 1&quot; to its Move characteristic until the end of the turn.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit arrives as reinforcements, add 2&quot; to its Move characteristic until the end of the turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -609,7 +586,7 @@
               <profiles>
                 <profile id="f79e-4238-5f86-cd0d" name="Chromatic Rush" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1&quot; to this models movement characteristic (already reflected in the profile). In addition when this unit piles in, it can move an additional 3&quot;.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 2&quot; to this models movement characteristic (already reflected in the profile).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -617,11 +594,11 @@
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="85bb-a7e8-c628-f5d4" name="Unnatural Acrobatics" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="85bb-a7e8-c628-f5d4" name="Prince of Sins" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1cf2-b889-00f9-70cc" name="Unnatural Acrobatics" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+                <profile id="1cf2-b889-00f9-70cc" name="Prince of Sins" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made by enemy units that target this unit.</characteristic>
+                    <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack is made against this model, subtract 1 from that attack’s hit roll and that attack’s hit roll cannot be re-rolled.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -638,18 +615,28 @@
         <entryLink id="59d7-a0c2-cb66-4f52" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d3-9025-87d1-d921" name="Skyweavers" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1666-cc04-ca1e-50d5" name="Skyweaver Close Combat Weapons" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+        <profile id="91c0-4d58-7e39-ce92" name="Skyweaver Mirage Launchers" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack is made against this unit, that attack’s hit roll cannot be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a16-3f55-8ed2-0a36" name="Harlequin&apos;s Mask" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a melee attack is made against this unit, subtract 1 from that attack’s hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e22-0160-4224-90c7" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
             <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -678,18 +665,18 @@
               <profiles>
                 <profile id="304a-0b68-9759-3683" name="2 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">17&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bfcc-e60b-981b-41bb" name="4 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
@@ -705,12 +692,12 @@
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6892-b08d-a648-431f" name="6 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
@@ -726,12 +713,12 @@
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -900,6 +887,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
+        <profile id="8191-df46-8096-106c" name="Mirage Launchers" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack is made against this unit, subtract 1 from that attack’s hit roll, and that attack’s hit roll cannot be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="424e-e28f-57e3-5134" name="Faction: &lt;Masque&gt;" hidden="false" targetId="96b5-b9fd-7da6-1b58" primary="false"/>
@@ -962,7 +954,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -982,7 +974,7 @@
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                     <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
@@ -991,6 +983,77 @@
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cbf9-15b1-de42-c98a" name="Unit size" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9634-14a2-008c-2a96" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a2-ebb1-be0f-173f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cfac-4598-e191-9997" name="1 Model" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cdc-18cf-e28e-50ae" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9928-fc2c-6743-4330" name="1 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="05a1-4b30-4a74-fe91" name="2 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be52-04b9-bf7c-50f7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c676-1be6-4b91-2d38" name="2 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba2c-23eb-950d-b724" name="3 Models" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dc2-9102-28ac-c92a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="de68-7a4e-23ae-5547" name="3 Models" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1008,13 +1071,13 @@
       <profiles>
         <profile id="0855-5b11-1b25-6cce" name="Starweaver" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">17&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">16&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
           </characteristics>
         </profile>
         <profile id="fb12-1018-c73f-f90e" name="Open-topped" publicationId="85e9-a70a-b094-f132" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
@@ -1025,6 +1088,11 @@
         <profile id="b6d2-293a-b641-cf82" name="Starweaver (Transport)" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly &lt;MASQUE&gt; INFANTRY models.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b49-7a25-9839-0dca" name="Mirage Launchers" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack is made against this unit, subtract 1 from that attack’s hit roll, and that attack’s hit roll cannot be re-rolled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1079,7 +1147,7 @@
         <entryLink id="7947-9962-5304-99eb" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb56-15a7-73e0-85e9" name="Holo-fields" publicationId="85e9-a70a-b094-f132" hidden="false" collective="false" import="true" type="upgrade">

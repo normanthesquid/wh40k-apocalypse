@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Heretic Astartes" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Chaos Space Marines" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -1133,7 +1133,7 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="bef5-96ee-9a0c-625b" name="Warp-sighted Butcher" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="bef5-96ee-9a0c-625b" name="Trophy-taker" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll wound rolls for attacks made with melee weapons by this unit that target CHARACTER units.</characteristic>
           </characteristics>
@@ -1146,7 +1146,7 @@
         <categoryLink id="0b01-66a7-3827-c4c9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="e6e5-fc84-4548-1692" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c651-ddc2-60c0-6aeb" name="Master of Executions" hidden="false" targetId="8241-c346-74bc-63cc" primary="false"/>
-        <categoryLink id="205e-dfd7-46e7-2d0a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="f420-b3b0-5eed-e542" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aebe-6c39-80db-7159" name="Axe of Dismemberment" hidden="false" collective="false" import="true" type="upgrade">
@@ -1160,7 +1160,7 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -1176,7 +1176,7 @@
         <entryLink id="2632-d817-4348-efc2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b28b-28bd-fd5c-ff7f" name="Lord Discordant on Helstalker" hidden="false" collective="false" import="true" type="unit">
@@ -1363,7 +1363,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <categoryLink id="f725-61f6-e00f-d210" name="Terminator" hidden="false" targetId="24bd-5192-53cb-efe8" primary="false"/>
         <categoryLink id="7fa6-4b52-fc98-8646" name="Abaddon the Despoiler" hidden="false" targetId="5ee8-ac92-35da-018d" primary="false"/>
         <categoryLink id="e7d2-2579-53f5-403a" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
-        <categoryLink id="6ffe-ece1-517f-4676" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="true"/>
+        <categoryLink id="f8cd-13e0-2358-7acd" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2d5-443a-d27b-6ff1" name="Talon of Horus &amp; Drach&apos;nyen" hidden="false" collective="false" import="true" type="upgrade">
@@ -1863,15 +1863,16 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <categoryLink id="55cc-cc84-650a-991a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="6f7d-693b-f2c7-54fd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="5749-52bc-d7cf-ee0e" name="Khorne Berserkers" hidden="false" targetId="503a-b789-3ae8-5e5c" primary="false"/>
+        <categoryLink id="8e97-647c-d0d2-8e13" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a9ab-1f6e-d440-a504" name="Chain Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a9ab-1f6e-d440-a504" name="Berzerker Chainblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ac-e1fd-86fb-3597" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c40e-d96c-1491-3f15" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7ea8-d544-45f2-4b64" name="Chain Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="7ea8-d544-45f2-4b64" name="Berzerker Chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -1888,7 +1889,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="70d6-0d16-647b-27b4" name="5 - 20 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="58db-ff63-4524-5c4a">
+        <selectionEntryGroup id="70d6-0d16-647b-27b4" name="5 - 10 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="58db-ff63-4524-5c4a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79f3-ddea-7227-ad73" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4354-1877-793a-3232" type="max"/>
@@ -1909,7 +1910,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e011-f130-018b-c66d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1927,43 +1928,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5aaf-d41f-640f-9c37" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="0e07-6c77-9b4f-85a6" name="Khorne Berserkers (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4a35-20a8-4f18-6226" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="7303-fecb-277a-a442" name="Khorne Berserkers (20 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2160,14 +2125,14 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4c38-d389-5575-2bee" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2179,93 +2144,13 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5ff9-d77f-ca0e-1785" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ef7-f519-5a93-f5ae">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b7-f9f7-a5b8-a542" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc2-c8d4-84a6-af89" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e264-cf59-fcf3-a307" name="Bolt Pistols and Chosen Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="dfee-5381-bde6-6136" name="Chosen Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf8-5d1f-b565-a1c0" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e20-f897-5feb-a20f" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="6201-53ad-76c8-833a" name="Chosen Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
-                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="6a54-13d3-53e9-46ea" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="470f-196a-65be-f649" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52a-d6ba-7f35-3468" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5def-d30d-fff9-e595" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6ef7-f519-5a93-f5ae" name="Boltguns and Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="6818-4291-3802-51f4" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8c-0175-e11e-d54d" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d74c-1fed-16b4-dc3f" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="f42f-0508-27d0-247f" name="Close Combat Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="d41d-13ec-13bf-0e5e" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d61-bfd1-e332-0f15" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b50-403b-1daa-65d2" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2274,12 +2159,14 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
       <entryLinks>
         <entryLink id="7d28-0c04-8cb7-9781" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="ccca-5580-87f7-e34c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="515e-bef0-a49d-ab24" name="Accursed Weapons" hidden="false" collective="false" import="true" targetId="1409-3304-40d8-164d" type="selectionEntry"/>
+        <entryLink id="b513-e097-57f7-9359" name="Boltguns" hidden="false" collective="false" import="true" targetId="2d61-a814-63d8-0398" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df26-fe50-9f0f-2535" name="Terminators" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="df26-fe50-9f0f-2535" name="Chaos Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="d882-c74c-5569-ecb0" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
@@ -2316,27 +2203,6 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cd69-7024-a597-660c" name="Terminator Power Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b228-7092-4796-1b1a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea2e-e8f9-5a42-4c10" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="8cec-9dcf-3e98-806d" name="Terminator Power Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="983b-2733-1265-1aa4" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="7244-65b7-c5a0-e6a3">
@@ -2353,14 +2219,14 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="417e-572d-121b-7120" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2371,14 +2237,14 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2417,6 +2283,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
       <entryLinks>
         <entryLink id="1e2b-d884-eac6-057c" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
         <entryLink id="a164-fe0b-516a-a1b5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="c93e-6e64-6dc7-4ca4" name="Accursed Weapons" hidden="false" collective="false" import="true" targetId="1409-3304-40d8-164d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2749,8 +2616,8 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2767,8 +2634,8 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2785,8 +2652,8 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">9</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -2834,7 +2701,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <categoryLink id="e1a7-19dc-910a-2d46" name="Raptors" hidden="false" targetId="5e87-b043-3ede-fa85" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d4e8-5983-763a-8b52" name="5 - 15 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f258-d3eb-1fd5-702b">
+        <selectionEntryGroup id="d4e8-5983-763a-8b52" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f258-d3eb-1fd5-702b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="194f-8d0c-f71d-4226" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a7-5fad-6c0f-9749" type="max"/>
@@ -2847,9 +2714,9 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
@@ -2865,33 +2732,15 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="55c6-a4c9-4296-8e58" name="15 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="df80-f1cf-ec72-b2e6" name="Raptors (15 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2946,15 +2795,15 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">24</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a683-f93e-b913-233a" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2964,15 +2813,15 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3095,9 +2944,9 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
       <profiles>
         <profile id="bcf8-c9c5-c3fa-1ae2" name="Venomcrawler" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
@@ -3106,8 +2955,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3d07-aa90-f96b-3908" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
-        <infoLink id="452e-8955-8fde-08a2" name="Machina Malifica" hidden="false" targetId="2560-b1d8-655e-4f2a" type="profile"/>
+        <infoLink id="3cca-ea10-c073-94b6" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="189b-0a75-87ad-0aa6" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -3141,13 +2989,13 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f595-f093-1461-46cc" name="Eviscerating Claws" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f595-f093-1461-46cc" name="Soulflayer Tendrils and Claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f0-32d2-aef6-17cb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3239-5636-f959-9b2d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7077-3bd9-2045-6924" name="Eviscerating Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="7077-3bd9-2045-6924" name="Soulflayer Tendrils and Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -3197,8 +3045,8 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -3218,8 +3066,8 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -3240,54 +3088,54 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
               <profiles>
                 <profile id="c66d-109e-14b9-daea" name="Obliterators (1 model)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd3d-de53-a53d-b63f" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="38d3-76a7-119b-4008" name="Obliterators (2 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a2f-8820-efae-7313" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="3a49-d1fd-9cb0-49fa" name="Obliterators (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3309,14 +3157,9 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e502-a303-7890-382f" name="Unending Rage" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Whilst this unit has any damage markers next to it, add 1 to its Attacks characteristic for each of those markers.</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3474,7 +3317,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <entryLink id="3c4b-ba0b-e8bb-9066" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="29.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf79-176b-1748-c2c0" name="Noctilith Crown" hidden="false" collective="false" import="true" type="unit">
@@ -3492,7 +3335,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         </profile>
         <profile id="acb5-6216-9c9a-2cc7" name="Loathsome Aura" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Improve the Save characteristic (to a maximum of 4+) of friendly LIGHT CHAOS units by 1 whilst they are within 18&quot; of any units with this ability.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Improve the Save characteristic (to a maximum of 4+) of friendly LIGHT CHAOS units by 1 whilst they are within 12&quot; of any units with this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3534,7 +3377,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <entryLink id="3069-3c2f-3790-6e87" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="501e-82b8-325c-024a" name="Lucius the Eternal" hidden="false" collective="false" import="true" type="unit">
@@ -4066,7 +3909,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <entryLink id="4770-d9b3-94ba-fe02" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd17-86e4-1609-fe64" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="unit">
@@ -4079,7 +3922,12 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c6fe-b983-8869-0171" name="Voltagheist Field" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">And the end of the action phase, roll a D6 for each enemy unit in engagement range of this unit. On a 6+ place a blast marker next to that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4322,6 +4170,9 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         </entryLink>
         <entryLink id="e6f7-e9e1-aacf-8ae1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0bb7-054e-7e45-7162" name="Las Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -4420,6 +4271,9 @@ When this unit is selected to perform its action, you may remove a damage marker
       <entryLinks>
         <entryLink id="288d-fc13-c366-928a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="edcf-66a0-3dda-fabd" name="Dark Apostle" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -4509,6 +4363,192 @@ When this unit is selected to perform its action, you may remove a damage marker
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1409-3304-40d8-164d" name="Accursed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae8-f50f-1f98-cc2d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1862-4517-48e3-b957" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ae36-a12c-b531-1adc" name="Accursed Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="016e-ec58-fa65-9e1c" name="Cultist Firebrand" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f297-22f5-8a6a-bd09" name="Cultist Firebrand" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33fc-8440-e9f8-8ccb" name="Hellfire Torch" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6679-eede-a62a-0cf5" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8786-91fd-e79e-73af" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="3686-8364-c099-389f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="c7fd-130f-ea2c-b68f" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="9bb2-a058-5671-5622" name="Faction: Servants of the Abyss" hidden="false" targetId="24b1-d03e-7c15-b914" primary="false"/>
+        <categoryLink id="c784-9445-7de8-de07" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ad46-09bb-456d-a517" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40c2-caac-2369-2363" name="Traitor Enforcer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="21ea-3c1f-3ed4-de0e" name="Traitor Enforcer and Ogryn" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="edeb-9562-06b7-5fc2" name="Mutant Claw and Power Fist" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+        <profile id="4236-54aa-a050-05c6" name="Forward, for the Dark Gods!" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, when a friendly TRAITOR GUARDSMEN SQUAD within 6&quot; of this unit fails a Morale test, that unit automatically passes instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="209f-7932-bd2a-90e5" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="e488-a786-e294-0de0" name="Faction: &lt;Legion&gt;" hidden="false" targetId="a9db-51a0-4be9-9856" primary="false"/>
+        <categoryLink id="a0ec-d129-031b-f3e7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="465b-fa58-cd21-1cb8" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="7658-3627-ebdb-e577" name="Cultists" hidden="false" targetId="9a9d-5c54-ec18-a714" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="435a-49c3-de64-abdd" name="Gellerpox Infexted" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="934e-001e-5ff7-bf74" name="Gellerpox Infexted" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">6+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e16b-139c-f075-d9cd" name="Belly-flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34be-adb2-0c9f-d8be" name="Brutal Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f2e3-77d3-ce34-9093" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+        <infoLink id="7919-6edf-d468-809a" name="Terror Troops" hidden="false" targetId="e5e7-bd6d-fdb7-b022" type="profile"/>
+        <infoLink id="60fc-7df8-942d-c059" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6bee-d216-8bcb-fc17" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="db10-83dc-c787-99ed" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ed8c-425f-0ef5-d659" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="0b24-d8af-9c94-0b0d" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="1130-6298-4f08-e3d8" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="ebb0-ed9f-9d10-eb7a" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dbbc-411b-fea5-6917" name="Mutoid Vermin" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">13+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0460-2121-7ad1-6905" name="Mindless Fodder" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time a Morale test is taken for this unit, it is automatically passed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b2e-3281-ce43-4a4a" name="Mutoid Vermin" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">12+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d31c-5c93-50b3-2998" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e05-b478-0a37-7790" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="false"/>
+        <categoryLink id="116d-ef60-35cd-4a45" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="7b9a-f148-8af6-8e7c" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="9295-a6f0-270f-da30" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
