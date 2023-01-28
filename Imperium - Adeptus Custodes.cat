@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="7" battleScribeVersion="2.03" authorName="JHales" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d8d-c2f6-d13b-8174" name="Imperium - Adeptus Custodes" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -26,6 +26,9 @@
     <categoryEntry id="6a14-8a51-f3db-2233" name="Coronus Grav-carrier" hidden="false"/>
     <categoryEntry id="1609-aa77-03ad-c077" name="Orion Assault Dropship" hidden="false"/>
     <categoryEntry id="8891-662c-b052-6e2e" name="Blade Champion" hidden="false"/>
+    <categoryEntry id="6232-30be-371f-0538" name="Anathema Psykana" hidden="false"/>
+    <categoryEntry id="3406-ba3e-88bc-198f" name="Knight Centura" hidden="false"/>
+    <categoryEntry id="2a19-d723-19bb-9baa" name="Ares Gunship" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4723-62f6-a2f8-2990" name="Captain-General Trajann Valoris" hidden="false" collective="false" import="true" type="unit">
@@ -40,7 +43,8 @@
         </profile>
         <profile id="ed6d-0105-1ac0-0ca4" name="Moment Shackle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit is a WARLORD, and is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Damage phase, roll one D12 instead of one D6 when making a saving
+throw for this unit, irrespective of the size of the blast marker.</characteristic>
           </characteristics>
         </profile>
         <profile id="c6aa-85d2-5df7-30fb" name="Captain-General Trajann Valoris" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -50,7 +54,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -103,7 +107,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -136,7 +140,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -173,7 +177,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -287,7 +291,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -312,7 +316,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -337,7 +341,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -365,7 +369,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -400,7 +404,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -487,7 +491,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a58-e7b5-3a9e-2ec2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-6514-54e5-20e4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1a-76c0-e6d5-2dac" type="max"/>
@@ -501,8 +505,8 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -519,8 +523,8 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -570,7 +574,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -588,7 +592,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -655,7 +659,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -707,7 +711,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -788,7 +792,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
@@ -879,7 +883,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -964,7 +968,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -1124,7 +1128,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">3+</characteristic>
           </characteristics>
         </profile>
@@ -1236,7 +1240,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1254,7 +1258,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1375,7 +1379,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1393,7 +1397,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1491,7 +1495,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1509,7 +1513,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1661,7 +1665,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1679,7 +1683,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
@@ -1707,7 +1711,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1824,7 +1828,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1842,7 +1846,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1870,7 +1874,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -1939,7 +1943,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2035,7 +2039,7 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
@@ -2108,7 +2112,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="22d2-879b-96c3-1df0" name="3 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="22d2-879b-96c3-1df0" name="3 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb3a-5505-160e-1369">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81d-1cac-9ef2-685e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3e-39ee-03d4-a390" type="max"/>
@@ -2123,7 +2127,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2141,7 +2145,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2159,7 +2163,7 @@
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
                     <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -2187,11 +2191,11 @@
         <categoryLink id="9e3e-e184-e07d-2f79" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="f749-e8b0-ab0e-b066" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1287-3dda-3eb5-02c4" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="37e3-862e-cf95-9206" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
-        <categoryLink id="4b02-76ef-2464-5b9d" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="4b02-76ef-2464-5b9d" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="8b67-510a-8b86-dc4f" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6950-cd24-ae0a-a5b7" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6950-cd24-ae0a-a5b7" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="c02d-36f7-bb1f-1b50">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a6-bcba-afc0-aeb2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9741-7b6a-4d77-6945" type="max"/>
@@ -2266,10 +2270,10 @@
         <categoryLink id="7193-1287-d11e-c65f" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="cbe2-8316-2b90-7ef3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="3cc1-162d-8c8a-54d6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="1fbd-f52b-b09c-abbc" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
+        <categoryLink id="9cac-3de8-2ac4-c268" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1823-6170-b0e6-cb01" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1823-6170-b0e6-cb01" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="da64-31e1-fd9c-964c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ae-462d-a0b4-104a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d3-cb96-28ae-1766" type="max"/>
@@ -2337,17 +2341,18 @@
       <infoLinks>
         <infoLink id="076a-1579-116c-1cc9" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
         <infoLink id="7cf2-a9ef-603b-a53d" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
+        <infoLink id="fccc-68e2-9b26-9bde" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b5af-7c9e-6161-85c4" name="New CategoryLink" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="1751-607e-674b-efe9" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
         <categoryLink id="4e3b-7c88-a046-dc28" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1ed1-5d4c-a167-c6cf" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="4021-fd22-d210-41bd" name="Custodian Wardens" hidden="false" targetId="1cf4-4da9-04a8-417c" primary="false"/>
         <categoryLink id="9651-21db-9a32-8289" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="a965-5f7c-0a38-8b31" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7341-5ebd-a7c3-058c" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7341-5ebd-a7c3-058c" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a4e-4887-1c57-fc1a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5728-d420-dd3f-aad0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e2-c98a-f381-ca8a" type="max"/>
@@ -2397,6 +2402,336 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4346-18ce-e038-24c7" name="Valerian" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="83be-ec9c-aefc-06ae" name="Valerian" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6388-2db8-ef3b-efe6" name="Hero of the Lion&apos;s Gate" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time an attack is made against this model, an unmodified wound roll of 1-6 always fails.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="090d-4746-9549-0a03" name="Golden Laurels" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Damage phase, roll one D12 instead of one D6 when making a saving
+throw for this unit, irrespective of the size of the blast marker.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="67ca-548d-f994-d4b1" name="Inspirational Fighter" hidden="false" targetId="0b3c-9c63-6141-f2e8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5095-320a-bef1-f563" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="89c3-b693-feef-2686" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="4dbe-6055-2469-80c2" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="9799-2057-f415-677d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="a978-acc2-c3f3-8352" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="87e4-a491-f874-4c9e" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f167-b65d-02fa-017d" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
+        <entryLink id="ca96-0617-0025-75ed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb94-d39c-f2ab-6076" name="Aleya" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b478-2ce8-aeba-f359" name="Aleya" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02d9-436a-4d6d-9119" name="Cadre Tactics" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly ANATHEMA PSYKANA unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a wound roll of 1 and 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1559-eee6-1143-43e0" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bbd7-ec33-a8d5-48e2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="e3a5-bc7a-8128-9828" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="7ef2-2bd5-4694-5e8d" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="cb5c-18c8-f93f-68fa" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="93a4-8894-4fc4-b26d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="1286-617b-c324-c83d" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
+        <categoryLink id="c998-cf32-0462-6bae" name="Knight Centura" hidden="false" targetId="3406-ba3e-88bc-198f" primary="false"/>
+        <categoryLink id="867a-bd0f-53d0-3c22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ce1d-90a3-e007-5075" name="Somnus" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833e-c856-985f-7c45" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-dc3d-8c81-e439" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="42a1-8caf-410c-0034" name="Somnus" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="111d-fdf9-fcd4-b05c" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
+        <entryLink id="f14b-c213-f14b-0cb9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1f0-f6cb-dd1e-7ed0" name="Knight-Centura" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="18ea-46ca-a518-212c" name="Knight-Centura" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c50-bac3-f586-60a6" name="Cadre Tactics" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly ANATHEMA PSYKANA unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a wound roll of 1 and 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0517-340f-aa87-62a1" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f28-7a07-afac-08fc" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="a204-492a-6c98-effe" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="869f-526d-97fb-c35b" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="0847-672a-def6-3695" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d0b7-2b57-2a30-10f2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="04bd-4ea3-fb1f-aa86" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
+        <categoryLink id="f6e2-ecc5-fbdf-5028" name="Knight Centura" hidden="false" targetId="3406-ba3e-88bc-198f" primary="false"/>
+        <categoryLink id="dae1-baad-8753-a660" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4acf-c55a-6a26-7c32" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="36af-8b93-6097-6295">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d729-b51b-3d2d-2bc4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf7-0a3b-de6c-e94e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c057-6426-df4c-d114" name="Witchseeker Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56d-5f94-bc95-7936" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0a-c6b3-3c2c-1b3b" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="8337-2e0c-1f15-1966" name="Witchseeker Flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="36af-8b93-6097-6295" name="Executioner Greatblade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="561a-fe75-6afd-2b80" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661f-299b-690a-7e0b" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="090d-90c4-a3f9-3974" name="Executioner Greatblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                    <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9e21-fc20-a998-7a8d" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
+        <entryLink id="5021-323d-7013-a5ca" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4b5-7cef-a02d-a685" name="Anathema Psykana Rhino" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1dab-112f-1419-7fdf" name="Anathema Psykana Rhino" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="127d-dda6-850e-a195" name="Anathema Psykana Rhino (Transport)" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 10 ANATHEMA PSYKANA INFANTRY models. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b1b1-cc8c-9366-fd31" name="Daughters of the Abyss" hidden="false" targetId="9009-87c1-91e5-b7b3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8771-304d-09a2-bc0e" name="Anathema Psykana" hidden="false" targetId="6232-30be-371f-0538" primary="false"/>
+        <categoryLink id="eba7-8f0a-a205-042a" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="48c6-9045-d934-5765" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="6f46-439d-0f95-b988" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="5a82-c6db-8fcb-2343" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="0ccb-abd2-92ea-8ac3" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="a01b-fd07-0d34-2d9f" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="73cb-a40a-6e1f-ed09" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155f-deb1-a0ce-9454" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca7-a7d8-ffb6-8b62" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f103-05a9-20bd-5b35" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
+        <entryLink id="efc9-1240-c6b2-6f89" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7805-1a62-2e62-8131" name="Ares Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a456-f44f-7ba3-930f" name="Ares Gunship" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20-50&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">9</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="712a-b43e-75f9-068a" name="Hover Jet" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Action phase, you can declare that this unit will hover. If it does, then until the end of the phase, its Move characteristic changes to 20&quot; but it loses the Supersonic ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2569-b422-ca95-bf5a" name="Infernus Firebombs" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit finishes making a Move action, select one enemy unit it moved over whilst making that Move action. Roll three D6, subtracting 1 from each result if that unit is a Character and adding 1 to each result if that unit is Infantry; for each result of 4+ place one blast marker next to that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4255-2f5b-eb2f-eb90" name="Supersonic" hidden="false" targetId="a828-c8a3-c4ed-f34b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a989-ca0a-1d2c-de03" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="813c-9e86-dd63-92a0" name="Faction: Adeptus Custodes" hidden="false" targetId="a70b-b27c-4926-d99c" primary="false"/>
+        <categoryLink id="5c1d-aaee-88a1-7e5c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="2ff9-37bb-247a-d23b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="a353-5324-74b3-304e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="d1e7-32a3-01db-fa44" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
+        <categoryLink id="7569-26f6-db71-d5dc" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="aaf7-a082-fb63-ee39" name="Ares Gunship" hidden="false" targetId="2a19-d723-19bb-9baa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0c8-0cbf-1be3-6785" name="Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f8-cce9-3e50-8771" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e6-7b89-1194-8a89" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5348-a588-ea80-be7f" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34b4-1805-6429-0690" name="Arachnus Magna-Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-59d3-812b-a767" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5bf-1aa2-9034-18ef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d13b-d578-3de4-a88e" name="Arachnus Heavy Blaze Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a0b9-6963-7a34-4147" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="096d-a3b0-4d78-7285" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="7f1b-d939-5f11-dff7" type="selectionEntry"/>
+        <entryLink id="430b-0bff-7632-a7d5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
