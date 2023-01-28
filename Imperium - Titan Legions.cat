@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ad6-683d-80fa-142e" name="Imperium - Titan Legions" revision="6" battleScribeVersion="2.03" authorName="JHales" authorContact=" " authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ad6-683d-80fa-142e" name="Imperium - Titan Legions" revision="6" battleScribeVersion="2.03" authorName="th3proj3ct" authorContact=" " authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="d85d-ebb1-82e6-b43d" name="Faction: &lt;Titan Legion&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="1610-bc0d-5985-3a9f" name="Warbringer Nemesis Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -10,22 +10,22 @@
     <categoryEntry id="7881-95a2-41d1-c8cd" name="Faction: Adeptus Titanicus" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="68f0-eed4-8de8-dd19" name="!Reaver Battle Titan" hidden="false" collective="false" import="true" targetId="e4a2-d010-2175-43de" type="selectionEntry">
+    <entryLink id="68f0-eed4-8de8-dd19" name="Reaver Battle Titan" hidden="false" collective="false" import="true" targetId="e4a2-d010-2175-43de" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="74c2-f061-dfc3-95d1" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2b3a-3762-1a2d-04e9" name="!Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="c990-d3a3-799d-772f" type="selectionEntry">
+    <entryLink id="2b3a-3762-1a2d-04e9" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="c990-d3a3-799d-772f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7c85-1c8e-ba53-1304" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="71ab-5ded-142c-34dc" name="!Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="cf68-68ea-3ea1-8ef1" type="selectionEntry">
+    <entryLink id="71ab-5ded-142c-34dc" name="Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="cf68-68ea-3ea1-8ef1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9304-6c74-ce94-36bd" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d7c6-b655-707a-1c23" name="!Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="fee3-fccb-c067-05ce" type="selectionEntry">
+    <entryLink id="d7c6-b655-707a-1c23" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="fee3-fccb-c067-05ce" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3cbb-bb57-95ab-bf33" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
@@ -204,7 +204,7 @@
         <entryLink id="6d5b-7500-2bd8-b759" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1250.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c990-d3a3-799d-772f" name="Warhound Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -397,6 +397,7 @@
         <categoryLink id="8847-d80e-c110-5e39" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="4ee3-5efc-2f50-5065" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="63b2-a4a3-1858-8819" name="Warlord Battle Titan" hidden="false" targetId="1ec0-fc35-2e73-98d6" primary="false"/>
+        <categoryLink id="d461-b9ad-30e7-882d" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a9c1-2e70-4818-d2ae" name="Ardex-defensor Twin Lascannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
@@ -472,9 +473,6 @@
                 <infoLink id="8e7c-cc7f-6ca3-6fe9" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
                 <infoLink id="5d69-3f5d-78a4-afe4" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
               </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
-              </costs>
             </selectionEntry>
             <selectionEntry id="f5d2-a515-1c8f-1ce9" name="Arioch Power Claw w/ Titan Volcan Mega-Bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -505,9 +503,6 @@
               <infoLinks>
                 <infoLink id="6061-f2e9-a316-53ba" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
               </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="30.0"/>
-              </costs>
             </selectionEntry>
             <selectionEntry id="1840-efc1-2006-fc49" name="Belicosa Volcano Cannon" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -548,9 +543,6 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
