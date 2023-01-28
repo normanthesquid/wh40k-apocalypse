@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e8a9-35f0-2c03-94db" name="Necrons" revision="7" battleScribeVersion="2.03" authorName="JHales" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e8a9-35f0-2c03-94db" name="Necrons" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="68dd-6404-9212-3a21" name="Mechanical Augmentation">
       <characteristicTypes>
@@ -143,19 +143,9 @@
         <categoryLink id="8561-b8ff-e337-204c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4d57-d2f8-ca59-d646" name="Cryptek" hidden="false" collective="false" import="true" targetId="b173-1142-adaa-768d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c72c-dc8b-e4f3-df81" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="0731-8eac-1a89-2fd2" name="Lord" hidden="false" collective="false" import="true" targetId="2143-e73d-74c5-bdd6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e6f0-5332-8167-3780" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f282-52c6-117e-7fcf" name="Destroyer Lord" hidden="false" collective="false" import="true" targetId="947c-3283-5628-b22c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c4bf-6973-c2a7-0ea1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d10f-befa-a5b8-b019" name="Necron Warriors" hidden="false" collective="false" import="true" targetId="7e79-3a2a-805f-014c" type="selectionEntry">
@@ -210,7 +200,7 @@
     </entryLink>
     <entryLink id="27a9-6e0e-7752-8d4c" name="Triarch Praetorians" hidden="false" collective="false" import="true" targetId="cf9d-c208-3297-9218" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3f4f-859a-c1ab-84a9" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="844d-78f8-c9f3-d344" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e92b-6476-c452-02e1" name="Triarch Stalker" hidden="false" collective="false" import="true" targetId="1b4d-c9e0-0f22-bc48" type="selectionEntry">
@@ -238,19 +228,9 @@
         <categoryLink id="8594-dee7-d5b0-17f7" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9d82-dd51-c988-3ffb" name="Destroyers" hidden="false" collective="false" import="true" targetId="e125-b65c-07b8-1213" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7baf-6ce2-b90e-940d" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="ba19-dcc4-442e-e2e0" name="Tomb Blades" hidden="false" collective="false" import="true" targetId="bef5-2b03-ff26-dbea" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ceb1-e3ba-a509-0713" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="56d1-fe45-58a2-fb28" name="Heavy Destroyers" hidden="false" collective="false" import="true" targetId="2532-dd78-323b-9bd3" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="31db-8ddc-0558-f2ea" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1c0f-83fa-e772-86f7" name="Annihilation Barge" hidden="false" collective="false" import="true" targetId="d9e3-27ce-0696-f232" type="selectionEntry">
@@ -260,12 +240,12 @@
     </entryLink>
     <entryLink id="94ab-0bd6-642f-b39f" name="Monolith" hidden="false" collective="false" import="true" targetId="0548-6292-45ff-ee21" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2656-450b-6dec-2a45" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="76a8-2703-a1b8-d44e" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3052-5c18-a7eb-ce6b" name="Canoptek Spyders" hidden="false" collective="false" import="true" targetId="2dac-5d41-e411-48a5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3d3e-c22b-0f04-438a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="606c-542f-107e-e2b7" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="73d0-bf29-cca9-e02b" name="Doomsday Ark" hidden="false" collective="false" import="true" targetId="8ef9-58a3-042e-d838" type="selectionEntry">
@@ -275,7 +255,7 @@
     </entryLink>
     <entryLink id="ee19-3679-31a9-f96d" name="Transcendent C&apos;tan" hidden="false" collective="false" import="true" targetId="a33e-6649-7e7c-74e7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c956-4eb3-b8d0-2e14" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="a453-73ba-2b31-73ab" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8864-33ad-fa9e-6bf5" name="Canoptek Tomb Stalker" hidden="false" collective="false" import="true" targetId="93dc-aa68-fa95-a712" type="selectionEntry">
@@ -300,7 +280,7 @@
     </entryLink>
     <entryLink id="3b39-0371-8071-86a9" name="Sentry Pylons" hidden="false" collective="false" import="true" targetId="6330-13a2-03dd-5c59" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e1ac-ac3a-d357-3054" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="07b4-77e7-e58e-2989" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b2e7-0a26-0556-021a" name="Tesseract Ark" hidden="false" collective="false" import="true" targetId="b8cb-d4b1-fd9f-69a3" type="selectionEntry">
@@ -2670,6 +2650,7 @@
         <categoryLink id="2fb3-4a02-e87d-10f1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="f83a-b710-b6ef-e989" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="cc26-8d09-df87-d6f0" name="Triarch Praetorians" hidden="false" targetId="e8c8-7de7-5c83-b107" primary="false"/>
+        <categoryLink id="ac16-267f-9005-ad99" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2bd3-f8c8-6044-cc46" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d88-dd82-b7a6-f01b">
@@ -3806,6 +3787,7 @@
         <categoryLink id="97d7-df4e-9740-2955" name="Canoptek Spyders" hidden="false" targetId="5a9f-cfe5-2f3c-225a" primary="false"/>
         <categoryLink id="67a2-24eb-2a34-0358" name="Faction: Canoptek" hidden="false" targetId="aa05-1a68-784e-1c6e" primary="false"/>
         <categoryLink id="4ad3-4d73-89df-34b0" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="ef7f-8539-813a-f040" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0839-d28a-6267-657d" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc57-d881-c8c5-1dad">

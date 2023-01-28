@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Asuryani" revision="17" battleScribeVersion="2.03" authorName="JHales" authorContact="" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Asuryani" revision="17" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="280a-43bb-426c-aa7c" name="Asuryani Datasheets PDF"/>
   </publications>
@@ -101,7 +101,7 @@
     <entryLink id="2357-01b5-7728-1f68" name="Baharroth" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="3562-c0f4-6625-577d" type="selectionEntry"/>
     <entryLink id="409e-26ae-632b-c56c" name="Bonesinger" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="acea-54ee-29d0-cabd" type="selectionEntry"/>
     <entryLink id="f70c-41f2-732e-76a3" name="Dark Reapers" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="f04e-0066-a892-78a5" type="selectionEntry"/>
-    <entryLink id="45e6-e382-b53a-2342" name="Dire Avengers" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="1183-01ea-7fb0-5aa5" type="selectionEntry"/>
+    <entryLink id="45e6-e382-b53a-2342" name="Corsair Voidscarred" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="4a92-0e4f-c961-c3be" type="selectionEntry"/>
     <entryLink id="2585-ad44-dc86-6afe" name="Falcon" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="4e1d-50aa-a9f5-2a1a" type="selectionEntry"/>
     <entryLink id="8064-c9dc-99ed-b621" name="Fire Dragons" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="d9d6-9114-3ac9-5567" type="selectionEntry"/>
     <entryLink id="84d7-fdc8-c03d-9bd4" name="Fire Prism" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="881a-8e38-39aa-f558" type="selectionEntry"/>
@@ -155,6 +155,9 @@
     <entryLink id="a425-28ca-b280-d843" name="Corsair Reaver Band" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="a586-68c6-71b0-1e55" type="selectionEntry"/>
     <entryLink id="27aa-6020-385c-92d4" name="Corsair Venom" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="f9ca-fdc4-ed07-a9df" type="selectionEntry"/>
     <entryLink id="bc61-ef6c-e7d7-2ff3" name="Corsair Skyreaver Band" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="b8e7-fcd2-b2df-381a" type="selectionEntry"/>
+    <entryLink id="6f96-9dd8-0eee-eb2e" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="79af-4517-0198-a5c8" type="selectionEntry"/>
+    <entryLink id="6ca5-8b56-c23d-d751" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="20b5-9f27-fa22-af34" type="selectionEntry"/>
+    <entryLink id="b4b7-63e6-98fb-c0ca" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="30dd-ac10-f8b3-2c0c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e4e5-fffd-9435-163e" name="Eldrad Ulthran" publicationId="280a-43bb-426c-aa7c" page="1" hidden="false" collective="false" import="true" type="model">
@@ -321,7 +324,6 @@
         <infoLink id="0288-ea86-1fb2-8648" name="Conclave of Power" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="c35d-9645-6070-0198" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f8db-4bc2-bd56-0a73" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="ab0c-02bb-0fc6-e0c7" name="Faction: &lt;Craftworld&gt;" hidden="false" targetId="c595-6cad-4e25-eb78" primary="false"/>
         <categoryLink id="62b8-58c4-eaea-86d8" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
         <categoryLink id="d4bf-f46d-1f75-76d5" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
@@ -330,9 +332,10 @@
         <categoryLink id="7189-2d8b-2de2-2991" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="47b4-47d2-8b41-880d" name="Warlock" hidden="false" targetId="84a5-2e68-7574-450c" primary="false"/>
         <categoryLink id="01a1-b083-5388-2705" name="Warlock Conclave" hidden="false" targetId="30ea-ec04-7774-0e0e" primary="false"/>
+        <categoryLink id="c8b5-40d8-f446-02b2" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="babd-9151-d6cd-bcdb" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="babd-9151-d6cd-bcdb" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="d8a5-1355-2bd5-9ae4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e8-fd5c-f2e7-673e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03d-32a6-518c-4164" type="min"/>
@@ -397,7 +400,6 @@
         <infoLink id="a3c8-9d43-f720-e6a5" name="Conclave of Power" hidden="false" targetId="c35d-9645-6070-0198" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cd48-df84-a2be-14b9" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="6802-7e8c-4d74-dcf0" name="Faction: &lt;Craftworld&gt;" hidden="false" targetId="c595-6cad-4e25-eb78" primary="false"/>
         <categoryLink id="6315-3857-7a2e-0c34" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
         <categoryLink id="0390-caac-8db0-d969" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
@@ -408,6 +410,7 @@
         <categoryLink id="4983-05f3-3cfc-e3bd" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="0afe-8cff-35a5-550b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="7d52-2aa7-3e69-4724" name="Warlock Skyrunner Conclave" hidden="false" targetId="c816-fd07-538e-0ed1" primary="false"/>
+        <categoryLink id="f8a8-9eac-8a23-4b61" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="22f3-9f65-e906-63cd" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="764f-c3d8-0ed7-01a2">
@@ -1029,7 +1032,7 @@ target Necrons units.</characteristic>
         <entryLink id="16bd-0e65-431e-51b0" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cc2-4200-3c18-116b" name="Fuegan" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
@@ -2347,85 +2350,6 @@ target Necrons units.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1183-01ea-7fb0-5aa5" name="Dire Avengers" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="2cc4-3ab4-61a1-7785" name="Defence Tactics" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the blast marker.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="4272-d7e2-d776-a2d8" name="Dire Avengers" hidden="false" targetId="3350-db26-8be5-c44c" primary="false"/>
-        <categoryLink id="78e4-92ac-a581-7b23" name="Faction: &lt;Craftworld&gt;" hidden="false" targetId="c595-6cad-4e25-eb78" primary="false"/>
-        <categoryLink id="1c23-2700-2e21-0d4f" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
-        <categoryLink id="bb76-22f5-4bfd-6743" name="Faction: Aspect Warrior" hidden="false" targetId="6b12-0532-6c76-4d6a" primary="false"/>
-        <categoryLink id="624a-355a-5095-0117" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
-        <categoryLink id="71af-d4e2-8c88-ff37" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="9212-1887-2e38-fa9e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="d1e8-2773-4910-41c3" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d990-5f12-31af-05f2" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc59-584b-e57b-3964">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd22-9ea9-a78a-398d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32c-a2cb-91e6-4291" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="bc59-584b-e57b-3964" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1015-1396-a716-1a92" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c45b-9d1c-4efe-023a" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="68cf-d120-14e1-81ff" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e08-2387-5b71-6eae" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="49e7-0694-3f6a-fffb" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="d2a2-5baf-f12f-36ae" name="Avenger Shuriken Catapults" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="ab35-1721-b89b-9aeb" type="selectionEntry"/>
-        <entryLink id="650e-340c-5e5e-14a8" name="Dire Avenger Close Combat Weapons" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="9b28-4821-8027-142e" type="selectionEntry"/>
-        <entryLink id="387c-7c6e-e7f9-288f" name="Commander" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2d7c-8e48-4ab0-cfb0" name="Rangers" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2050-b411-1b9f-8d88" name="Deep Strike" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
@@ -2857,7 +2781,7 @@ target Necrons units.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d982-4d92-2b98-1313" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d982-4d92-2b98-1313" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c6e-1810-2fc9-1156">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1b-2de8-6798-4f48" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a1-c6d8-1be0-d1ca" type="max"/>
@@ -3295,10 +3219,10 @@ target Necrons units.</characteristic>
         <categoryLink id="79da-41ef-130b-e30d" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
         <categoryLink id="455a-7a96-45f5-7b68" name="Faction: Spirit Host" hidden="false" targetId="d87a-76eb-0a86-5eb4" primary="false"/>
         <categoryLink id="2723-bca7-eda1-f6c7" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="0667-9013-5144-d856" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="96a0-9f24-cb53-98a2" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="4941-fa13-aa0f-72a7" name="Wraith Construct" hidden="false" targetId="15c3-2847-803f-ab5c" primary="false"/>
         <categoryLink id="be3e-5afe-0657-0fd9" name="Wraithlord" hidden="false" targetId="4163-0f97-b7ff-d7fe" primary="false"/>
+        <categoryLink id="9903-b525-91cf-8625" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ef0e-e5fc-4397-e6a9" name="Melee Weapon Options" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd05-4c0a-1914-62b1">
@@ -3564,7 +3488,7 @@ target Necrons units.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3df6-d770-2f90-bf5d" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3df6-d770-2f90-bf5d" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="29c4-8c96-0a0a-a4af">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc9-a7b6-e661-7dc3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7164-6ad6-bbf9-091e" type="max"/>
@@ -4724,7 +4648,7 @@ weapons by this unit.</characteristic>
         <categoryLink id="3035-376f-843a-c239" name="Wasp Assault Walkers" hidden="false" targetId="8ba9-8ba5-d74e-d22f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b369-6bbe-2c61-f3b9" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b369-6bbe-2c61-f3b9" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5fc-91e8-f52a-14f1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ff-c1ba-a76b-cbe1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9b2-62e1-17c5-4eca" type="max"/>
@@ -5715,13 +5639,13 @@ weapons by this unit.</characteristic>
         <categoryLink id="2b1e-0cb5-3fe8-b855" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
         <categoryLink id="3074-2247-4f47-086b" name="Faction: Warhost" hidden="false" targetId="426a-d6ae-7bf1-76e7" primary="false"/>
         <categoryLink id="04e4-3be0-346a-2514" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="f39f-2a49-a085-61a0" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="98bf-22b9-61f7-1810" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="a16a-9ad3-855b-dac2" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="914e-0ee5-64e5-df94" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
         <categoryLink id="3b45-cad3-9c3e-110a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="4459-ff7d-a3b5-e5bf" name="Vampire" hidden="false" targetId="121a-d5f2-7401-9a6f" primary="false"/>
         <categoryLink id="328f-bdbe-cdc3-5677" name="Vampire Raider" hidden="false" targetId="2e07-1eaf-522f-cc39" primary="false"/>
+        <categoryLink id="508a-8c98-d24b-99db" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c95c-2039-32ee-df78" name="Armoured Hull" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="45fa-707e-2263-3d07" type="selectionEntry"/>
@@ -5783,12 +5707,12 @@ weapons by this unit.</characteristic>
         <categoryLink id="1d31-c5d8-5650-9456" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
         <categoryLink id="380d-4381-ed84-a9cf" name="Faction: Warhost" hidden="false" targetId="426a-d6ae-7bf1-76e7" primary="false"/>
         <categoryLink id="e487-9e20-533b-2a74" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-        <categoryLink id="5d5b-4364-8d8c-0cd4" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="3867-6dcb-6df8-3669" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="f3df-f121-49f9-8f39" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="f71b-5ecb-73b6-71a8" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="8dea-a3c8-965e-b67e" name="Vampire" hidden="false" targetId="121a-d5f2-7401-9a6f" primary="false"/>
         <categoryLink id="1cf1-02bc-c600-3554" name="Vampire Hunter" hidden="false" targetId="b655-b288-dd53-8de9" primary="false"/>
+        <categoryLink id="1464-d4c7-01d9-d691" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a720-7a37-a638-1197" name="Twin Vampire Pulsar" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
@@ -7049,7 +6973,7 @@ weapons by this unit.</characteristic>
         <categoryLink id="3f91-aa07-def0-90c8" name="Faction: Anrathe" hidden="false" targetId="3ba6-75b9-a82e-4567" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b09f-7fc7-5ab5-ed51" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b09f-7fc7-5ab5-ed51" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="3137-851c-658b-ff72">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199b-800c-0bbe-7ee7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83a5-4e72-255c-90fc" type="max"/>
@@ -7135,7 +7059,7 @@ weapons by this unit.</characteristic>
         <categoryLink id="f5d6-40be-3f63-11f4" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5687-54e3-306d-0ca2" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5687-54e3-306d-0ca2" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="98c6-022b-4682-90da">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e866-a46b-dd4e-0f4a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beac-8b37-e628-fd21" type="max"/>
@@ -7316,6 +7240,91 @@ weapons by this unit.</characteristic>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="20b5-9f27-fa22-af34" name="Dire Avengers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8705-fe9c-2b20-2bc3" name="Defense Tactics" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Damage phase, roll one D12 instead of one D6 when making a saving throw for this unit, irrespective of the size of the damage marker.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4c5d-61d6-99e8-2e91" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
+        <categoryLink id="a052-6d88-e52e-b06f" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
+        <categoryLink id="4d79-7fce-b43a-7b90" name="Faction: Aspect Warrior" hidden="false" targetId="6b12-0532-6c76-4d6a" primary="false"/>
+        <categoryLink id="e72f-1dda-4251-9113" name="Faction: &lt;Craftworld&gt;" hidden="false" targetId="c595-6cad-4e25-eb78" primary="false"/>
+        <categoryLink id="9ead-5b30-aed0-eee8" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0f9e-aadc-3df0-4d69" name="Dire Avengers" hidden="false" targetId="3350-db26-8be5-c44c" primary="false"/>
+        <categoryLink id="eddc-e35f-a12e-1b1f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c257-0750-2af1-6001" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8eef-dd1e-36b8-a5f3" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="6bbb-331b-8352-1212">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff13-2d04-dd08-2685" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb57-d271-a4c1-87d1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6bbb-331b-8352-1212" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aca-9c15-4839-49df" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2066-7ea3-804e-4fdb" name="5 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="468a-6a41-52cb-35a1" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f24-a7ed-597f-b6c7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3a58-1aa4-a1a1-3a51" name="10 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2593-646d-347f-0d99" name="Avenger Shuriken Catapults" hidden="false" collective="false" import="true" targetId="ab35-1721-b89b-9aeb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8328-f62e-62a9-f8ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8171-e1a7-2d3b-caf3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fc01-3357-304e-7733" name="Close Combat Weapons (8/9)" hidden="false" collective="false" import="true" targetId="9b28-4821-8027-142e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d9c-5dc0-47f0-7ff2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf7-2a0c-e6a3-3768" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

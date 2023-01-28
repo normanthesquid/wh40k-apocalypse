@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="14" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a3b2-b1e4-7815-ac21" name="Aeldari - Drukhari" revision="16" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3cef-65f6-1938-6b57" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="052f-2cba-abf7-da92" name="Faction: &lt;KABAL&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -56,19 +56,15 @@
     <entryLink id="8f64-9160-46c6-c805" name="Kabalite Warriors" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="c3e1-5c4b-8981-26dd" type="selectionEntry"/>
     <entryLink id="4861-61ad-c363-b52a" name="Khymerae" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="9902-aa8d-82b5-e21c" type="selectionEntry"/>
     <entryLink id="51a1-5cef-b7d0-3149" name="Lelith Hesperax" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="4a2e-4184-b8f7-697e" type="selectionEntry"/>
-    <entryLink id="a4e5-fb5e-d757-6a2d" name="Lhamaean" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="a0e0-f5be-7816-7644" type="selectionEntry"/>
     <entryLink id="d276-c309-01b7-a174" name="Mandrakes" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="81d5-ce97-be93-c097" type="selectionEntry"/>
-    <entryLink id="4985-ab3e-2666-b394" name="Medusae" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="b79c-f4e9-84c7-5cc8" type="selectionEntry"/>
     <entryLink id="991a-5d5f-af54-0118" name="Raider" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="b2a0-384e-77db-3e90" type="selectionEntry"/>
     <entryLink id="88d4-7a32-8b56-0e4b" name="Ravager" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="a8a1-1517-c076-9735" type="selectionEntry"/>
     <entryLink id="5c29-23fa-d130-1a0d" name="Razorwing Flocks" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="5191-70c1-dd81-d41d" type="selectionEntry"/>
     <entryLink id="18a0-3a6e-eecd-b51c" name="Razorwing Jetfighter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="cc8e-57b3-eda1-c605" type="selectionEntry"/>
     <entryLink id="72f8-4805-f17c-43df" name="Reavers" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7f1c-92b2-07f1-0840" type="selectionEntry"/>
     <entryLink id="3fb1-4e54-457c-0e12" name="Scourges" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7c16-eb8a-287a-2510" type="selectionEntry"/>
-    <entryLink id="4419-c3ac-41d7-95cf" name="Sslyth" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="874f-f349-7d65-c4d6" type="selectionEntry"/>
     <entryLink id="dd11-ecd9-72d7-ea80" name="Succubus" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="dddd-8b39-8dd4-f1c9" type="selectionEntry"/>
     <entryLink id="a3a2-ad88-2ea4-589b" name="Talos" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="d406-f907-6898-c727" type="selectionEntry"/>
-    <entryLink id="7c33-35f6-fda0-8504" name="Ur-Ghul" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="8c0a-36f7-f3b0-4320" type="selectionEntry"/>
     <entryLink id="ff33-082c-80dd-c675" name="Urien Rakarth" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="6574-cfed-e776-1db6" type="selectionEntry"/>
     <entryLink id="0880-77e7-14f5-810a" name="Venom" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="c4c5-a5fb-9b1d-a364" type="selectionEntry"/>
     <entryLink id="48dd-78b1-9cab-c3ef" name="Voidraven Bomber" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="9da5-a417-8adb-6bd8" type="selectionEntry"/>
@@ -78,6 +74,17 @@
     <entryLink id="6d41-6021-f008-0c79" name="Reaper" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="240a-0b05-43dd-4520" type="selectionEntry"/>
     <entryLink id="5c5f-36fe-f80a-fcd9" name="Tantalus" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="5967-7f20-d3ac-aeaa" type="selectionEntry"/>
     <entryLink id="d295-f135-6ceb-dad2" name="Raven Strike Fighter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="6968-70b8-0797-74a2" type="selectionEntry"/>
+    <entryLink id="2720-cd20-d805-ec8d" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="7ed3-ff34-3aba-5e7b" type="selectionEntry"/>
+    <entryLink id="3fb1-a8d9-127d-54f9" name="Court of the Archon" hidden="false" collective="false" import="true" targetId="0d57-b083-681e-ebdf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3cef-65f6-1938-6b57" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="bce7-2669-b4a1-574f" name="Corsair Voidscarred" hidden="false" collective="false" import="true" targetId="982f-15f6-022f-2d56" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="17d0-1558-09cd-cb58" name="Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -572,7 +579,7 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dbbe-41ec-e936-4f86" name="20 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -593,7 +600,7 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b590-07bc-c4dd-e641" name="10 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -614,7 +621,7 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="caea-8fa4-832b-9fa2" name="15 Models" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -635,7 +642,7 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -998,11 +1005,10 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="91e4-e014-9a28-c67e" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="cbc4-6d4f-3292-8b87" type="selectionEntry"/>
         <entryLink id="8227-c486-0e4d-1ce7" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b79c-f4e9-84c7-5cc8" name="Medusae" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1074,11 +1080,10 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fc78-3a05-af83-4f95" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="cbc4-6d4f-3292-8b87" type="selectionEntry"/>
         <entryLink id="3856-d7f5-b4f4-369e" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="874f-f349-7d65-c4d6" name="Sslyth" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1144,11 +1149,10 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c8d9-dead-c74b-086b" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="cbc4-6d4f-3292-8b87" type="selectionEntry"/>
         <entryLink id="6eaa-d6bf-1740-9d56" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c0a-36f7-f3b0-4320" name="Ur-Ghul" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -1199,11 +1203,10 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0034-00ea-86a5-81e2" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="cbc4-6d4f-3292-8b87" type="selectionEntry"/>
         <entryLink id="6711-dbe0-6646-6d9a" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7eac-7fed-a4ce-81c5" name="Incubi" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2724,7 +2727,7 @@ are within 6&quot; of any Prophets of Flesh units from your army with this abili
         <entryLink id="013f-6c06-90e8-441c" name="Commander" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2a0-384e-77db-3e90" name="Raider" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3157,22 +3160,6 @@ If this unit was not in engagement range of an enemy unit at the start of the Da
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">12+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cbc4-6d4f-3292-8b87" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5f-3aae-d9e0-3b93" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bb-74d4-d59c-93a7" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="a345-0e28-002a-ab8a" name="Court of the Archon" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls for attacks made by this unit whilst it is within 3&quot; of any friendly &lt;Kabal&gt; Archon units. This unit does not take up a slot in a Detachment that includes any &lt;Kabal&gt; Archon units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3678,13 +3665,13 @@ If this unit was not in engagement range of an enemy unit at the start of the Da
       </profiles>
       <categoryLinks>
         <categoryLink id="ff1e-5960-7229-4f26" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
-        <categoryLink id="c7cb-8542-452a-d1af" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
         <categoryLink id="7a57-da77-697e-f3de" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="5e21-0c77-3b45-e04a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="aad7-1fd4-0d42-4ba3" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
+        <categoryLink id="e00c-005f-b78f-f82e" name="Faction: Drukhari" hidden="false" targetId="fb21-5552-52d6-42e7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1704-9126-58f2-82e2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1704-9126-58f2-82e2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" defaultSelectionEntryId="ddc4-57a0-6734-937c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c88-a75f-21d4-90d2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05f5-8df6-ca86-e94c" type="max"/>
@@ -3759,14 +3746,14 @@ If this unit was not in engagement range of an enemy unit at the start of the Da
       </profiles>
       <categoryLinks>
         <categoryLink id="c919-fbd6-cae2-e1bd" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
-        <categoryLink id="ab66-7fab-b982-9573" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
         <categoryLink id="6656-459d-89fc-1afe" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="8c28-b13d-c14c-2c2e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="10fa-3773-1342-8670" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="e501-c82a-36b6-5ecc" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="8711-5593-5f44-40ab" name="Faction: Drukhari" hidden="false" targetId="fb21-5552-52d6-42e7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b73b-393f-f5d2-cec2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b73b-393f-f5d2-cec2" name="Unit Size" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac84-7cc0-db5f-dbd4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0b-3eee-5e5d-99c7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b45-a29c-4501-6ff2" type="max"/>
@@ -3846,6 +3833,75 @@ If this unit was not in engagement range of an enemy unit at the start of the Da
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d57-b083-681e-ebdf" name="Court of the Archon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="1466-da3f-0d27-dace" value="10.0">
+          <conditions>
+            <condition field="selections" scope="0d57-b083-681e-ebdf" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8101-255a-377a-6e0b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1466-da3f-0d27-dace" value="15.0">
+          <conditions>
+            <condition field="selections" scope="0d57-b083-681e-ebdf" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8101-255a-377a-6e0b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1466-da3f-0d27-dace" value="20.0">
+          <conditions>
+            <condition field="selections" scope="0d57-b083-681e-ebdf" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8101-255a-377a-6e0b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79cd-9386-2ab6-cfed" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="71f4-384d-5b4c-d8b6" name="Court of the Archon" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit can only be included in a Detachment if that Detachment also includes one or more ARCHON units, and you can only include a maximum of 1 COURT OF THE ARCHON unit for each ARCHON unit in that Detachment. This unit does not take up slots in a Detachment.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="edb5-0c48-9bf7-d15b" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="true"/>
+        <categoryLink id="caef-bf46-515d-1425" name="Court of the Archon" hidden="false" targetId="63e7-b437-e421-b98a" primary="false"/>
+        <categoryLink id="815e-6fb0-5d76-4d82" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="5d34-5a5d-5732-4d77" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="2809-1457-c9de-7e29" name="Faction: &lt;KABAL&gt;" hidden="false" targetId="052f-2cba-abf7-da92" primary="false"/>
+        <categoryLink id="c2d3-c4b6-a17a-98b8" name="Faction: Drukhari" hidden="false" targetId="fb21-5552-52d6-42e7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8101-255a-377a-6e0b" name="Members of the Court" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d63-714c-8b08-79bf" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e61e-f1c4-058f-2d33" name="Lhamaean" hidden="false" collective="false" import="true" targetId="a0e0-f5be-7816-7644" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b85-7c51-3e85-3ee9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d610-d501-cb66-b988" name="Medusae" hidden="false" collective="false" import="true" targetId="b79c-f4e9-84c7-5cc8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d699-d34e-4ce4-4186" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3c9d-31ed-07cc-0348" name="Sslyth" hidden="false" collective="false" import="true" targetId="874f-f349-7d65-c4d6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df1-3fb1-c414-91d4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="695d-7da4-e2a3-3948" name="Ur-Ghul" hidden="false" collective="false" import="true" targetId="8c0a-36f7-f3b0-4320" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5431-2440-6f0c-6d00" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

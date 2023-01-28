@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="13ea-2d01-372d-b903" name="T&apos;au Empire" revision="8" battleScribeVersion="2.03" authorName="Fundamalleus" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="13ea-2d01-372d-b903" name="T&apos;au Empire" revision="8" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6e11-42ed-c084-ce74" name="Datasheet T&apos;au Empire"/>
     <publication id="e282-a216-345a-e73a" name="Datasheet FW T&apos;au Empire"/>
@@ -90,7 +90,6 @@
   <entryLinks>
     <entryLink id="1b3c-ffd5-59f4-28b7" name="Commander Shadowsun" hidden="false" collective="false" import="true" targetId="ccb7-9961-bfa0-718f" type="selectionEntry"/>
     <entryLink id="60c5-e844-b67e-53a6" name="Commander Farsight" hidden="false" collective="false" import="true" targetId="9b32-1123-1cf0-6714" type="selectionEntry"/>
-    <entryLink id="52ec-3506-4f0c-23e8" name="Commander" hidden="false" collective="false" import="true" targetId="9044-4216-a621-0d1a" type="selectionEntry"/>
     <entryLink id="fd6d-26bf-3748-0b7c" name="Ethereal" hidden="false" collective="false" import="true" targetId="8a85-cdb3-e89c-52ea" type="selectionEntry"/>
     <entryLink id="6bef-2e4c-e1cb-53a5" name="Cadre Fireblade" hidden="false" collective="false" import="true" targetId="1675-2edd-b2c3-6ecd" type="selectionEntry"/>
     <entryLink id="4fd9-01f6-fca6-0ee6" name="Darkstrider" hidden="false" collective="false" import="true" targetId="0be5-d2af-5555-9676" type="selectionEntry"/>
@@ -115,7 +114,7 @@
     <entryLink id="2cca-3e84-67f5-48e8" name="TX78 Sky Ray Gunship" hidden="false" collective="false" import="true" targetId="b7d9-434a-7b7b-f1d8" type="selectionEntry"/>
     <entryLink id="8526-bf4e-b632-d3ed" name="MV71 Sniper Drones" hidden="false" collective="false" import="true" targetId="fb9d-ca4a-6d1e-2350" type="selectionEntry"/>
     <entryLink id="a863-40ca-82c0-1874" name="TY7 Devilfish" hidden="false" collective="false" import="true" targetId="2e13-e0a8-d776-6c07" type="selectionEntry"/>
-    <entryLink id="3225-61b2-599e-067d" name="Barracuda AX-5-2" hidden="false" collective="false" import="true" targetId="651d-7466-1bed-9a8a" type="selectionEntry"/>
+    <entryLink id="3225-61b2-599e-067d" name="AX-5-2 Barracuda " hidden="false" collective="false" import="true" targetId="651d-7466-1bed-9a8a" type="selectionEntry"/>
     <entryLink id="c9eb-cd51-2dd6-86eb" name="AX39 Sun Shark Bomber" hidden="false" collective="false" import="true" targetId="d779-f370-1603-177a" type="selectionEntry"/>
     <entryLink id="47e2-ab93-2d4e-189f" name="Tidewall Shieldline (slot)" hidden="false" collective="false" import="true" targetId="ca0d-9690-4244-bacc" type="selectionEntry"/>
     <entryLink id="2024-ca92-8630-70ae" name="Tidewall Droneport" hidden="false" collective="false" import="true" targetId="5f9b-0297-c7bc-7e6c" type="selectionEntry"/>
@@ -147,6 +146,9 @@
     <entryLink id="b701-381c-1f47-a818" name="XV9 Hazard Support Team" hidden="false" collective="false" import="true" targetId="2076-2b76-3ade-c420" type="selectionEntry"/>
     <entryLink id="f381-e7e9-80fc-017c" name="Commander In XV81 Crisis Battlesuit" hidden="false" collective="false" import="true" targetId="2ffb-0c89-c69f-90b2" type="selectionEntry"/>
     <entryLink id="fbea-1d65-79ee-ee56" name="DX-4 Technical Drones" hidden="false" collective="false" import="true" targetId="d159-bffe-6ef1-ef2a" type="selectionEntry"/>
+    <entryLink id="005c-71ad-ae08-52a6" name="Commander In Coldstar Battlesuit" hidden="false" collective="false" import="true" targetId="f862-010a-f1d9-7ecb" type="selectionEntry"/>
+    <entryLink id="9b6b-b106-4d7f-f8f2" name="Commander In Enforcer Battlesuit" hidden="false" collective="false" import="true" targetId="5ccf-80aa-1da0-1bc8" type="selectionEntry"/>
+    <entryLink id="060d-fbae-87ff-3804" name="Kroot Farstalkers" hidden="false" collective="false" import="true" targetId="dc1d-bc95-f35c-40a7" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="2a43-fe14-7278-383b" name="For the Greater Good" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -424,7 +426,7 @@
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1313,6 +1315,26 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="e025-83fb-cb07-f66d" name="Breacher Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
+              <conditions>
+                <condition field="selections" scope="8fdd-e4ec-3053-84b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="9121-503f-d5b8-ac15" name="Breacher Team" hidden="false" targetId="a620-d290-7923-43fd" primary="false"/>
         <categoryLink id="34f7-52c5-9fa1-7187" name="Faction: &lt;Sept&gt;" hidden="false" targetId="13b0-eb31-2aeb-6a2b" primary="false"/>
@@ -1377,39 +1399,6 @@
             <entryLink id="5cb0-5e8b-23e9-b87f" name="Guardian Drone" hidden="false" collective="false" import="true" targetId="5a65-5c41-ead0-78ab" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e180-1b83-a355-e772" name="Models" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="368a-8448-db92-53a0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="657a-a99b-d535-107e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1eac-3f3d-b3d6-5915" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="5770-7d8b-3ab7-498c" name="Breacher Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <modifiers>
-                    <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
-                      <conditions>
-                        <condition field="selections" scope="8fdd-e4ec-3053-84b3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6bc7-3733-646c-2029" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -1426,6 +1415,26 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="9e55-f17e-ab4e-cd5c" name="Strike Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
+              <conditions>
+                <condition field="selections" scope="248a-af9d-cd8e-f3f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="3b56-15b9-7d5e-f43a" name="Faction: &lt;Sept&gt;" hidden="false" targetId="13b0-eb31-2aeb-6a2b" primary="false"/>
         <categoryLink id="e8d1-9dfd-7187-7413" name="Faction: T&apos;au Empire" hidden="false" targetId="0ab2-e0c9-6254-5de7" primary="false"/>
@@ -1482,39 +1491,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d278-6fa8-c92b-57bd" name="Models" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97dd-8403-17b7-81ad" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb27-24c7-974f-068a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ceaf-0aeb-1bca-143b" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="12b8-b2b8-2c60-2c57" name="Strike Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <modifiers>
-                    <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
-                      <conditions>
-                        <condition field="selections" scope="248a-af9d-cd8e-f3f8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="b1ae-532c-9c46-046a" name="Drones (Power Rating +1) (0-2)" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="292b-78fa-61a6-b34c" type="max"/>
@@ -1531,7 +1507,7 @@
         <entryLink id="e31e-cd1f-681f-0129" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1552-d7b8-2ff8-938c" name="Kroot Carnivores" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true" type="unit">
@@ -2706,10 +2682,10 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
         <categoryLink id="5b36-2fc8-75a0-2e43" name="Battlesuit" hidden="false" targetId="cddc-e90c-2a2c-cc25" primary="false"/>
         <categoryLink id="14fc-20ac-ccb7-662e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="9975-40eb-7ac2-1cc6" name="Jet Pack" hidden="false" targetId="b9f7-43d5-dd6a-0b50" primary="false"/>
-        <categoryLink id="93f5-f730-9425-820e" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="f510-a7ef-0a66-4364" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="22d5-6010-25ca-9e1e" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="f2e0-1dcb-05df-8981" name="XV104 Riptide Battlesuit" hidden="false" targetId="f0ff-bfca-b3ea-415e" primary="false"/>
+        <categoryLink id="4bb2-e30f-c073-46d1" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="22a2-01c7-5d48-7f60" name="Close Combat Weapons" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true" type="upgrade">
@@ -2876,6 +2852,26 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile id="4506-18b2-bb4f-3c5b" name="Pathfinder Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
+              <conditions>
+                <condition field="selections" scope="de3d-8155-6a93-8ce0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="be66-e94c-d187-159e" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
       </infoLinks>
@@ -2954,39 +2950,6 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b2a-7836-a748-6173" name="Models" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f6-9702-e19c-b6cc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9352-3d5d-8c87-ceee" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="50d6-aac1-e5dd-d9a9" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c9f4-64b6-9ee6-2c07" name="Pathfinder Team (10 models)" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <modifiers>
-                    <modifier type="set" field="a56f-38ae-3917-aadc" value="7+">
-                      <conditions>
-                        <condition field="selections" scope="de3d-8155-6a93-8ce0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="904a-178c-f29c-e404" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="466c-88fb-9395-7eae" name="Drones (Power Rating +1) (0-2)" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b9-beb2-9851-7c9d" type="max"/>
@@ -3086,7 +3049,7 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
         <entryLink id="dafc-c19c-bfa8-96fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1e7-a443-94a5-a0a1" name="TX4 Piranhas" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true" type="unit">
@@ -4216,7 +4179,7 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4581,6 +4544,9 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
           <infoLinks>
             <infoLink id="e657-a82b-6db0-2749" name="Seeker Missile" hidden="false" targetId="f1cb-7cda-d398-85de" type="infoGroup"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4714,6 +4680,9 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
           <infoLinks>
             <infoLink id="5ca0-6b79-241f-54b5" name="Seeker Missile" hidden="false" targetId="f1cb-7cda-d398-85de" type="infoGroup"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5077,7 +5046,7 @@ When this unit is deployed, also deploy a unit of 3 SNIPER DRONES within 3&quot;
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5825,7 +5794,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
         <categoryLink id="cf7e-a87b-da16-b4db" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="bf47-a77f-d91c-c94e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="ec32-309a-a4fa-4ce2" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
-        <categoryLink id="10f2-4d0b-e3a6-30a8" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="8932-b3bb-5dad-a2f3" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="32e4-be05-7b1b-b550" name="Armoured Hull" publicationId="e282-a216-345a-e73a" hidden="false" collective="false" import="true" type="upgrade">
@@ -7634,7 +7603,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7708,7 +7677,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
         <categoryLink id="fc09-302f-1cc1-49b6" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="35e4-9bf3-b03e-50b2" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="6cc7-0edd-260e-6bd7" name="XV107 R&apos;varna Battlesuit" hidden="false" targetId="6816-6588-e482-955a" primary="false"/>
-        <categoryLink id="8203-c59d-2f17-7d47" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="22f9-bf41-83ec-d0de" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a8f8-cf82-1677-e0a9" name="Close Combat Weapons" publicationId="6e11-42ed-c084-ce74" hidden="false" collective="false" import="true" type="upgrade">
@@ -7884,7 +7853,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
               </characteristics>
             </profile>
           </profiles>
@@ -9044,6 +9013,19 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
       </costs>
     </selectionEntry>
     <selectionEntry id="dc1d-bc95-f35c-40a7" name="Kroot Farstalkers" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f2f2-d9bc-132b-8005" name="Kroot Farstalkers" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="fed8-bf84-a2b5-76c6" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
         <infoLink id="52eb-180c-13a9-2d05" name="Stealth" hidden="false" targetId="b133-8e04-3e7b-9fd6" type="profile"/>
@@ -9110,7 +9092,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
                     <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
                     <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+                    <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9148,31 +9130,6 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d5aa-6b65-14d5-5acd" name="Models" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ad-6b03-6f85-92c0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c4-39b9-6f24-bf12" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="761c-d517-9c1d-6872" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="0333-739c-7d66-0b7f" name="Kroot Farstalkers" publicationId="6e11-42ed-c084-ce74" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="86a4-53c3-8e63-3f8f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -9252,7 +9209,7 @@ TX7 DEVILFISH models can transport models whilst they are embarked aboard this u
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"></characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
           </characteristics>
         </profile>
       </profiles>
