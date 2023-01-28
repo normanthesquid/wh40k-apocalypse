@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -174,13 +174,13 @@
     </entryLink>
     <entryLink id="aa02-dd67-e1e8-1227" name="Genestealers" hidden="false" collective="false" import="true" targetId="0d14-6fe5-d44d-18a3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ceda-d0d1-508c-23d3" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="a731-ec2a-1db0-af71" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="e887-e86f-e8fd-507a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b765-ef4f-2e28-185e" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="beda-4cd4-50c2-2dd4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d478-2f2f-7926-a2ec" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="bcbb-f4f3-135d-d841" name="Genestealer" hidden="false" targetId="cf6e-9231-1de2-581a" primary="false"/>
+        <categoryLink id="56b1-46bf-0e4d-3621" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="976b-a903-b8aa-4890" name="Termagants" hidden="false" collective="false" import="true" targetId="9fc3-06cf-aaea-e1da" type="selectionEntry">
@@ -207,13 +207,13 @@
     </entryLink>
     <entryLink id="884c-f36b-5e30-fe7d" name="Ripper Swarms" hidden="false" collective="false" import="true" targetId="97ce-65ed-fe40-db59" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cd9c-9d55-9b44-cb73" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="7f07-6c41-040f-3fdd" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="6284-22d3-ae45-4675" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="bd17-9c30-2781-b122" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="a0be-205a-a046-d9a0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1730-e6b2-7c6b-85d7" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
         <categoryLink id="2606-eead-5eb4-fc0d" name="Rippers" hidden="false" targetId="f9c2-e211-d57c-fdf6" primary="false"/>
+        <categoryLink id="dbcf-075b-2879-4847" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bd12-af40-1e8c-f378" name="Tyrant Guard" hidden="false" collective="false" import="true" targetId="250f-e0bb-9599-ebd4" type="selectionEntry">
@@ -229,13 +229,13 @@
     </entryLink>
     <entryLink id="3eff-2b83-7b48-4ac7" name="Hive Guard" hidden="false" collective="false" import="true" targetId="e6d6-364d-6fa0-a9a0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7c36-b59f-eaa1-7917" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="1bca-5927-39aa-2e48" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="caba-bb52-31e3-dbb3" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="29a3-75e1-3ac2-6ada" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="7d8f-66d7-9e94-9f21" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="0acd-e6e6-013c-3c08" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="af7c-178f-6057-5396" name="Hive Guard" hidden="false" targetId="c365-0644-5acc-f3da" primary="false"/>
+        <categoryLink id="7f90-0088-bbf5-21f7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5b0e-f784-969d-cc8b" name="Lictor" hidden="false" collective="false" import="true" targetId="c7d0-43a0-929f-6821" type="selectionEntry">
@@ -403,40 +403,39 @@
     </entryLink>
     <entryLink id="5a46-435e-165a-62df" name="Toxicrene" hidden="false" collective="false" import="true" targetId="c79e-29e3-82c4-48be" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="832e-4633-90db-d21f" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="be41-96bb-1efa-4aa3" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="5275-d5d1-107f-818c" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="a638-9ece-4070-c755" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="0c3f-ee80-8a24-ac21" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="96f9-3e57-69d2-a5f6" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="6773-fa0e-eb81-8ea1" name="Toxicrene" hidden="false" targetId="f8da-8567-fd60-ad4e" primary="false"/>
+        <categoryLink id="bffb-5440-e368-6f4c" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1402-ee3d-8e9a-2895" name="Mawloc" hidden="false" collective="false" import="true" targetId="a030-fdd8-d837-99f7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d6cf-0410-a804-b0ab" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="e5e3-8e00-17df-f69e" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="35d1-bef1-aef0-35b5" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b9fa-ecce-5303-e36d" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="aab5-77ad-fe1a-584e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="5eb6-6add-ae09-39bb" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="4031-2cc9-bed6-7ca5" name="Mawloc" hidden="false" targetId="8e04-8f92-e3c4-ed5b" primary="false"/>
+        <categoryLink id="c1e0-afe2-de6b-d674" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca08-6e7e-95b7-53a1" name="Trygon" hidden="false" collective="false" import="true" targetId="a9f7-475d-fe91-1c8a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7908-9524-15f3-6f61" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="cc15-9151-50f0-5f9c" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="fd56-23ef-8d70-2878" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="b84f-3301-ba22-9da5" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
         <categoryLink id="32a0-1740-dc3c-3c7a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="e143-d897-e5b7-0d13" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="d251-2e08-2a02-3691" name="Trygon" hidden="false" targetId="edfd-70f8-1b83-70fc" primary="false"/>
+        <categoryLink id="971b-528e-369f-2ddb" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dde4-dac2-e1b7-c3c6" name="Trygon Prime" hidden="false" collective="false" import="true" targetId="7d96-c482-e632-6725" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fa77-ca82-1a37-1ba3" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="c00b-6f65-214b-0caf" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="123f-2956-6abe-657a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="bcb9-39c3-8dbe-8c69" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -445,6 +444,7 @@
         <categoryLink id="6799-9b5a-6073-be17" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="4178-38ae-bfce-a9c3" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
         <categoryLink id="8a18-60fd-b676-069e" name="Trygon Prime" hidden="false" targetId="15b1-5a86-b0ad-e244" primary="false"/>
+        <categoryLink id="cdcd-b1c9-9200-90b8" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0c23-5db7-e3bd-0336" name="Tyrannocyte" hidden="false" collective="false" import="true" targetId="5f42-a1d3-985d-e444" type="selectionEntry">
@@ -554,7 +554,6 @@
     </entryLink>
     <entryLink id="7f4a-3261-94dc-f899" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="a8de-6b31-47d8-66e9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3c86-a92b-74a4-44c0" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="e9da-e542-2e6d-a88f" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="7756-7cbc-a163-e95a" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="1694-c3da-3dcd-b488" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -562,11 +561,11 @@
         <categoryLink id="a702-6103-3683-6733" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="4582-4fb7-06be-fd34" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="744a-62df-995d-9b0f" name="Barbed Hierodule" hidden="false" targetId="b3b9-329c-60f4-e81f" primary="false"/>
+        <categoryLink id="0e0d-ce62-2989-37e2" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2eaa-9723-4105-04f9" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="dfc8-23b4-6714-4703" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7574-c879-00b5-8e69" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
         <categoryLink id="adc5-42b6-c0d0-3222" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="c30b-d2c1-d7e7-a94e" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
         <categoryLink id="5a78-bacd-ce76-5a24" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
@@ -574,6 +573,7 @@
         <categoryLink id="9f7a-f47a-ffba-4a80" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
         <categoryLink id="c612-1ec1-8b8c-05d3" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="3266-304e-9d69-a1a0" name="Scythed Hierodule" hidden="false" targetId="308f-0380-f963-15fd" primary="false"/>
+        <categoryLink id="9058-8866-0156-01c1" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="42da-df1c-d94d-fc26" name="Harridan" hidden="false" collective="false" import="true" targetId="27b1-be5d-75ba-1499" type="selectionEntry">
@@ -601,6 +601,43 @@
         <categoryLink id="69e8-53bd-e808-8855" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
         <categoryLink id="f74f-0b18-bf93-76c4" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="7b49-28d8-7973-dcda" name="Hierophant Bio-titan" hidden="false" targetId="e2d0-8e4e-b4dd-c8ce" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7591-bf0e-5292-844d" name="Winged Hive Tyrant" hidden="false" collective="false" import="true" targetId="4b5e-ef6c-b377-638c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b1c2-9e72-6581-48da" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="1c65-d903-42af-55e7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="0d41-c006-ee1f-e80f" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
+        <categoryLink id="95de-30e9-1f33-8a7b" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
+        <categoryLink id="f6b4-ff4c-452e-9325" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
+        <categoryLink id="3e98-bf8e-eda1-82da" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="0bb6-078a-b4c4-f535" name="Hive Tyrant" hidden="false" targetId="93b8-74e7-70bf-bf53" primary="false"/>
+        <categoryLink id="c003-76df-4c5c-fa49" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="96e3-4a72-8582-e2ed" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="e08a-1a5c-f77d-f221" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cd7a-893f-2e05-4c80" name="Parasite of Mortrex" hidden="false" collective="false" import="true" targetId="9f9b-e536-e7b7-a662" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2101-79d9-e946-48c5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="5916-3b6b-15fa-4a2f" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="79da-ad6a-266c-781b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="9ff1-6db7-5f7e-acc4" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="49a1-3eeb-3c0f-4c36" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4f76-31a6-eeb2-53b6" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
+        <categoryLink id="b173-019a-23b2-9a2f" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
+        <categoryLink id="6bfa-92d9-f681-254f" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
+        <categoryLink id="029b-fc8e-fe62-fe0f" name="Synapse Creature" hidden="false" targetId="9006-f915-0a26-a45e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="58fb-1bcb-695e-f599" name="Sky-slasher Swarms" hidden="false" collective="false" import="true" targetId="3f62-da0a-c683-a460" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f85-9006-49e3-1616" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="false"/>
+        <categoryLink id="7466-1334-ade7-f511" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="1e5a-ed97-6d62-1471" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="c771-6987-2c7d-e5fa" name="Faction: &lt;Hive Fleet&gt;" hidden="false" targetId="e4b8-286f-8440-1d05" primary="false"/>
+        <categoryLink id="7f6f-81d7-1b7f-b256" name="Faction: Tyranid Hive Fleets" hidden="false" targetId="3699-ec81-e389-df02" primary="false"/>
+        <categoryLink id="48e8-ee73-0652-917a" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1600,6 +1637,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -3115,7 +3155,7 @@
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e378-b59a-f77a-a9b8" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6246-42f9-2e2b-7483">
+        <selectionEntryGroup id="e378-b59a-f77a-a9b8" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4b5-a5f0-74eb-cfc7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb8-619d-c122-140c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0862-9916-e678-82d8" type="max"/>
@@ -3287,7 +3327,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b899-841b-e062-7903" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3305,7 +3345,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="65d9-33da-c159-f5c7" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3323,7 +3363,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3723,7 +3763,7 @@
         <entryLink id="d512-aa79-f80c-97a6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a030-fdd8-d837-99f7" name="Mawloc" hidden="false" collective="false" import="true" type="unit">
@@ -4441,7 +4481,7 @@
         <entryLink id="33d4-9f8a-a96f-2f00" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d78d-1bf6-4d38-d6ef" name="Meiotic Spores" hidden="false" collective="false" import="true" type="unit">
@@ -4591,7 +4631,7 @@
         <entryLink id="94f1-58e1-56a7-c38a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8de-6b31-47d8-66e9" name="Barbed Hierodule" hidden="false" collective="false" import="true" type="unit">
@@ -5056,7 +5096,7 @@
         <categoryLink id="b83f-5e49-e130-8a20" name="Sky-slasher Swarms" hidden="false" targetId="de59-105b-7c5b-1844" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9325-1208-4c1c-2902" name="Unit Size" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9325-1208-4c1c-2902" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="1712-9331-f433-70b1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de4-09c5-d905-7dd2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da8-16c9-48db-5313" type="max"/>
