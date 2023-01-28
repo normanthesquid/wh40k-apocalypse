@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1446-5d49-98f4-8489" name="Chaos - Death Guard" revision="6" battleScribeVersion="2.03" authorName="JHales" authorUrl="" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1446-5d49-98f4-8489" name="Chaos - Death Guard" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="466a-33f5-0faf-5cd1" name="Faction: The Tainted" hidden="false"/>
     <categoryEntry id="f6d9-ab1f-fe48-ea06" name="Necrosius the Undying" hidden="false"/>
@@ -34,7 +34,7 @@
         <categoryLink id="d7b4-3ced-8a2d-f898" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a171-3d6c-2fd7-d8ce" name="Hellforged Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
+    <entryLink id="a171-3d6c-2fd7-d8ce" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="64c9-f952-fdf1-f08b" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="85c1-eed4-67c8-d079" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
@@ -182,7 +182,7 @@
     <entryLink id="7803-ebef-60c8-1d8b" name="Typhus" hidden="false" collective="false" import="true" targetId="32de-ce1a-25c3-af45" type="selectionEntry"/>
     <entryLink id="b404-56e2-8f2a-3c01" name="Lord of Contagion" hidden="false" collective="false" import="true" targetId="ea83-76e7-98a4-88a2" type="selectionEntry"/>
     <entryLink id="4746-e56e-73c5-7ff6" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" targetId="4b4f-14f0-0b4c-cc6d" type="selectionEntry"/>
-    <entryLink id="6788-682e-bcc1-e717" name="Chaos Cultists" hidden="false" collective="false" import="true" targetId="ccff-966b-bc9a-05c8" type="selectionEntry">
+    <entryLink id="6788-682e-bcc1-e717" name="Death Guard Cultists" hidden="false" collective="false" import="true" targetId="e209-2218-7454-b324" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="05a1-8b28-19f9-6461" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
         <categoryLink id="5e67-5cf7-ed1d-e1a3" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
@@ -233,6 +233,8 @@
     <entryLink id="03dc-fc1e-b6c0-5f84" name="Plague Marines" hidden="false" collective="false" import="true" targetId="aae6-7b1d-3d9c-f6af" type="selectionEntry"/>
     <entryLink id="3978-ef95-9f4d-a054" name="Miasmic Malignifier" hidden="false" collective="false" import="true" targetId="5433-a692-859c-b8d4" type="selectionEntry"/>
     <entryLink id="8f7b-cb4b-35bf-6a13" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="0715-41f7-2439-d7f5" type="selectionEntry"/>
+    <entryLink id="a4f9-bbae-d43a-1f6c" name="Lord of Virulence" hidden="false" collective="false" import="true" targetId="acb9-e818-c285-d1b1" type="selectionEntry"/>
+    <entryLink id="34b6-3cf8-c20a-abf4" name="Death Guard Possessed" hidden="false" collective="false" import="true" targetId="63e9-88c9-c32c-5b6b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e830-e821-04db-978a" name="Death Guard Daemon Prince" hidden="false" collective="false" import="true" type="unit">
@@ -971,7 +973,7 @@
             <profile id="6c7a-a35d-8799-0387" name="Plaguespurt Gauntlets" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">6&quot;</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
@@ -1700,7 +1702,6 @@
         <categoryLink id="79ca-56d0-44ba-8950" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="1ca0-c86f-3df2-270e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="1662-b376-2d4c-ed2d" name="Mortarion" hidden="false" targetId="3e46-c33d-fcab-96c5" primary="false"/>
-        <categoryLink id="1a88-f094-7ccd-4f06" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="true"/>
         <categoryLink id="4e21-b063-087a-422e" name="Bubonic Astartes" hidden="false" targetId="a60c-03d3-7296-7e30" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2221,6 +2222,98 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63e9-88c9-c32c-5b6b" name="Death Guard Possessed" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4605-2e86-4ba6-064b" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+        <infoLink id="81d6-9085-630d-1df9" name="Ignore Damage (6+)" hidden="false" targetId="a219-d9fd-9c8c-10c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="079c-0472-7cab-e93d" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="9b67-f326-86c1-9983" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
+        <categoryLink id="2cce-791a-8b6f-40c7" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
+        <categoryLink id="93d1-73a0-3afc-8976" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
+        <categoryLink id="84e9-ed1d-b18b-0d02" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
+        <categoryLink id="44ef-e376-a5a5-868e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="8dfc-1c0b-c005-09f3" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="7765-bf10-809f-bb4e" name="Bubonic Astartes" hidden="false" targetId="a60c-03d3-7296-7e30" primary="false"/>
+        <categoryLink id="840d-8d3b-9814-43f8" name="Possessed" hidden="false" targetId="cf25-3f10-bb2b-9ea0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c2ca-b011-3dfc-3a9f" name="Horrifying Mutations" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fd-96ba-6562-15b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4664-8558-21f9-eda8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d96-ee53-6c6c-8c3a" name="Bubonic Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="10e5-6f21-a654-c74a" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2306-5632-9394-ee4b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770e-3f76-37dc-2e98" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="60e8-b6b7-b0e0-8f82" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ee46-c11a-6966-6ba1" name="Death Guard Possessed (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a029-58e6-1b7b-18f7" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d5f8-804d-7bb4-5709" name="Death Guard Possessed (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="23ac-dd05-ba63-133d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

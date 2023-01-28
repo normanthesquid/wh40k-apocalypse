@@ -158,6 +158,9 @@
     <entryLink id="6f96-9dd8-0eee-eb2e" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="79af-4517-0198-a5c8" type="selectionEntry"/>
     <entryLink id="6ca5-8b56-c23d-d751" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="20b5-9f27-fa22-af34" type="selectionEntry"/>
     <entryLink id="b4b7-63e6-98fb-c0ca" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="30dd-ac10-f8b3-2c0c" type="selectionEntry"/>
+    <entryLink id="4541-ab09-e988-d5c4" name="The Yncarne" hidden="false" collective="false" import="true" targetId="fa64-5ec0-197e-c36e" type="selectionEntry"/>
+    <entryLink id="6a22-c5c7-319c-0505" name="Yvraine" hidden="false" collective="false" import="true" targetId="3b6b-b0f9-6361-03b4" type="selectionEntry"/>
+    <entryLink id="3fac-69e9-f6f0-643f" name="The Visarch" hidden="false" collective="false" import="true" targetId="7a5a-a144-d8bf-314f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e4e5-fffd-9435-163e" name="Eldrad Ulthran" publicationId="280a-43bb-426c-aa7c" page="1" hidden="false" collective="false" import="true" type="model">
@@ -7325,6 +7328,9 @@ weapons by this unit.</characteristic>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -7432,5 +7438,6 @@ weapons by this unit.</characteristic>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="1893-2069-9681-e8e3" name="AeldariWeapons" targetId="d311-d4fb-a860-0cf3" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="f0f0-2ae2-aaf1-370d" name="Aeldari - Ynnari" targetId="8417-7887-00f4-19f1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

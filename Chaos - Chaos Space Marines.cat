@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Chaos Space Marines" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ff1-b8b9-e2c5-392a" name="Chaos - Chaos Space Marines" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -182,7 +182,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="3ed5-c6f4-b557-0550" name="Blood Slaughterer of Khorne" hidden="false" collective="false" import="true" targetId="e7d3-3095-e373-d4b3" type="selectionEntry">
+    <entryLink id="3ed5-c6f4-b557-0550" name="Blood Slaughterer" hidden="false" collective="false" import="true" targetId="e7d3-3095-e373-d4b3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -234,7 +234,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="734e-b1a1-afb9-cb91" name="Hellforged Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
+    <entryLink id="734e-b1a1-afb9-cb91" name="Chaos Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a237-dcd0-5abf-c97f" type="selectionEntry">
       <entryLinks>
         <entryLink id="e6ac-e3ec-a502-4d36" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
       </entryLinks>
@@ -282,11 +282,6 @@
     <entryLink id="af2e-88ad-66dc-5c64" name="Hellforged Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="ba52-d3a1-0032-94b0" type="selectionEntry">
       <entryLinks>
         <entryLink id="30cc-42d7-50dd-fb26" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
-      </entryLinks>
-    </entryLink>
-    <entryLink id="a195-1c35-d332-3084" name="Hellforged Predator" hidden="false" collective="false" import="true" targetId="9dd5-6059-18d1-51ec" type="selectionEntry">
-      <entryLinks>
-        <entryLink id="480c-0b83-312f-ce2e" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="7c08-87ce-6a09-9044" name="Hellforged Rapier Battery" hidden="false" collective="false" import="true" targetId="b6f8-5507-d8a2-6cd1" type="selectionEntry">
@@ -525,7 +520,7 @@
         <entryLink id="1363-735e-aa9f-3657" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="a31f-0d6e-6f6f-4b48" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="2732-d183-8eed-023f" name="Bikers" hidden="false" collective="false" import="true" targetId="a877-d244-52cd-e73e" type="selectionEntry"/>
+    <entryLink id="2732-d183-8eed-023f" name="Chaos Bikers" hidden="false" collective="false" import="true" targetId="a877-d244-52cd-e73e" type="selectionEntry"/>
     <entryLink id="aa6e-5f3d-5d4f-ae57" name="Raptors" hidden="false" collective="false" import="true" targetId="90e2-3f76-0fa7-206f" type="selectionEntry"/>
     <entryLink id="e47b-1858-e9ca-b34f" name="Warp Talons" hidden="false" collective="false" import="true" targetId="c5d6-2c31-59f2-3100" type="selectionEntry"/>
     <entryLink id="ce8a-5630-a015-33d4" name="Havocs" hidden="false" collective="false" import="true" targetId="135f-675d-50a5-bef3" type="selectionEntry"/>
@@ -691,28 +686,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="8f9e-a512-a453-94aa" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9299-ab5b-aef6-1e06" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="345d-9813-b00b-fb17" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bce-7b4a-ce17-aea9" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ce85-ffb0-ad5d-5829" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="07f5-cdcb-5934-8d69" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -796,6 +769,10 @@
       </modifiers>
     </entryLink>
     <entryLink id="b995-5a9d-6e53-cc84" name="Dark Commune" hidden="false" collective="false" import="true" targetId="1606-f6b3-c088-97aa" type="selectionEntry"/>
+    <entryLink id="17d8-e823-164b-f970" name="Chaos Lord in Terminator Armor" hidden="false" collective="false" import="true" targetId="03b5-aa62-96d1-1610" type="selectionEntry"/>
+    <entryLink id="4bed-7d0a-31d4-87eb" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="6d6c-a1eb-ffbb-3a88" type="selectionEntry"/>
+    <entryLink id="04ab-39a5-e5fc-9923" name="Accursed Cultists" hidden="false" collective="false" import="true" targetId="da06-c951-23fd-0cb4" type="selectionEntry"/>
+    <entryLink id="e8dc-8a49-002f-401f" name="Traitor Enforcer" hidden="false" collective="false" import="true" targetId="40c2-caac-2369-2363" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4cdf-0f1f-0d39-5750" name="Zhufor the Impaler" hidden="false" collective="false" import="true" type="unit">
@@ -2460,7 +2437,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c48c-429b-f2d9-26eb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2478,7 +2455,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2958,7 +2935,6 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <infoLink id="3cca-ea10-c073-94b6" name="Infernal Regeneration" hidden="false" targetId="3fae-f59b-a76c-6bd2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="189b-0a75-87ad-0aa6" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="5a93-5435-4424-3c88" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="53d0-ef51-9490-5d8d" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="4493-3cb0-f3ff-b802" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -2966,6 +2942,7 @@ You can re-roll wound rolls for attacks made by friendly BLACK LEGION units whil
         <categoryLink id="9e7b-470e-9f25-1b15" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="98af-0597-eefc-8712" name="Daemon Engine" hidden="false" targetId="206c-38ea-ac45-dae2" primary="false"/>
         <categoryLink id="1c18-74a4-c8ac-b83a" name="Venomcrawler" hidden="false" targetId="4b9f-ea04-a140-8f60" primary="false"/>
+        <categoryLink id="7cd6-528c-6357-f62e" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="588e-a204-5423-15fb" name="Excruciator Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4461,6 +4438,9 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="465b-fa58-cd21-1cb8" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="7658-3627-ebdb-e577" name="Cultists" hidden="false" targetId="9a9d-5c54-ec18-a714" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="435a-49c3-de64-abdd" name="Gellerpox Infexted" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4508,6 +4488,9 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="0b24-d8af-9c94-0b0d" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
         <categoryLink id="1130-6298-4f08-e3d8" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ebb0-ed9f-9d10-eb7a" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
