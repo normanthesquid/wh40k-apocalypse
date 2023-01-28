@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9ad1-1c51-8e17-f1ae" name="Imperium - Adepta Sororitas" revision="8" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9ad1-1c51-8e17-f1ae" name="Imperium - Adepta Sororitas" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="571e-a83e-e771-780a" name="Faction: Adeptus Ministorum" hidden="false"/>
     <categoryEntry id="21f5-1b47-2570-42d1" name="Faction: Adepta Sororitas" hidden="false"/>
@@ -167,8 +167,14 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1325,7 +1331,6 @@
         <infoLink id="858d-b721-d97d-cb2d" name="Zealot" hidden="false" targetId="f96a-ae7c-9e11-c7bc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0c16-7a1f-d056-556a" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="1de1-8bb4-aa33-9e56" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="88c5-d60a-8fb7-f709" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="6e7e-52b9-9850-cffe" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
@@ -1333,6 +1338,7 @@
         <categoryLink id="ecd3-a8c9-60da-0b58" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="79b0-4457-befa-6b77" name="Ministorum Priest" hidden="false" targetId="3649-ee2c-d401-047d" primary="false"/>
         <categoryLink id="0a8e-f418-e957-2e33" name="Missionary" hidden="false" targetId="c65e-3c36-96a7-7da4" primary="false"/>
+        <categoryLink id="0e92-f3ca-0fb2-0637" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5727-a3ec-1f23-20e1" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1708,7 +1714,6 @@
     </selectionEntry>
     <selectionEntry id="001c-9e13-b3b7-76c5" name="Zephyrim Squad" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="2310-5ec3-ea21-5be7" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
         <categoryLink id="36bb-9330-3b31-dd00" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="a62f-a21e-cc3b-c29e" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="f091-450c-8e80-a91a" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
@@ -1718,6 +1723,7 @@
         <categoryLink id="1918-66eb-3cd1-2723" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="c850-fef2-4bd2-106f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="ed3b-2ac3-a895-73d4" name="Zephyrim Squad" hidden="false" targetId="ce62-6952-14f9-bbce" primary="false"/>
+        <categoryLink id="8e61-3c72-e9d7-d536" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ae1e-d9cb-502e-e859" name="Zephyrim Power Swords" hidden="false" collective="false" import="true" type="upgrade">
@@ -2561,7 +2567,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="f3e1-36ab-70ee-9f35" name="Mistress of Repentance" hidden="false" collective="false" import="true" targetId="4c42-09d7-f233-74e0" type="selectionEntry">
+    <entryLink id="f3e1-36ab-70ee-9f35" name="Repentia Superior" hidden="false" collective="false" import="true" targetId="4c42-09d7-f233-74e0" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2570,7 +2576,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="e77b-0cde-ff13-4929" name="Mistress of Repentance" hidden="false" collective="false" import="true" targetId="4c42-09d7-f233-74e0" type="selectionEntry">
+    <entryLink id="e77b-0cde-ff13-4929" name="Repentia Superior" hidden="false" collective="false" import="true" targetId="4c42-09d7-f233-74e0" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2761,7 +2767,7 @@
         <entryLink id="50bc-8b46-be30-8c58" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f341-9de2-368a-56c4" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
