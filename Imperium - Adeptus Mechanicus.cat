@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e22b-95ad-24e4-7576" name="Imperium - Adeptus Mechanicus" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e22b-95ad-24e4-7576" name="Imperium - Adeptus Mechanicus" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9542-47d3-14fe-04e0" name="Faction: Adeptus Mechanicus" hidden="false"/>
     <categoryEntry id="4dc1-30a6-aa31-19a9" name="Faction: Cult Mechanicus" hidden="false"/>
@@ -497,7 +497,7 @@
         <entryLink id="6387-0f78-4fd2-7fa7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="340c-3d19-72c6-c837" name="Archaeopter Stratoraptor" hidden="false" collective="false" import="true" type="upgrade">
@@ -562,7 +562,7 @@
         <entryLink id="e9c4-51c6-9430-e207" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e13e-fc8f-2471-59a8" name="Archaeopter Fusilave" hidden="false" collective="false" import="true" type="upgrade">
@@ -610,7 +610,122 @@
         <entryLink id="00a1-119a-85ee-6c24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26c0-fc9c-1ac6-0e6d" name="Skitarii Marshal" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b18c-3972-7bc9-b54f" name="Skitarii Marshal" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b7a-2b8d-adad-8ddb" name="Servo-skull Uplink" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly  SKITARII LIGHT unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a wound roll of 1 and 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="95da-6bac-2c13-2596" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="718a-8a53-7e2f-8796" name="Faction: Skitarii" hidden="false" targetId="47b6-38f8-7a3a-5ccd" primary="false"/>
+        <categoryLink id="e883-524c-d1a1-2969" name="Faction: Adeptus Mechanicus" hidden="false" targetId="9542-47d3-14fe-04e0" primary="false"/>
+        <categoryLink id="a4f2-cd4a-827d-cd98" name="Faction: Cult Mechanicus" hidden="false" targetId="4dc1-30a6-aa31-19a9" primary="false"/>
+        <categoryLink id="b3d7-e64e-d61c-72f3" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="7a96-b798-801b-9a53" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1feb-c396-072b-77ba" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0214-34c9-32f7-2e32" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be1d-5c47-8834-419b" name="Control Stave" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12a-4ebf-cc89-b4da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e36b-7c7a-97ff-8445" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c6c9-a6c2-2319-22ee" name="Control Stave" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8923-7301-ff00-0fd1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e71-897d-fb52-bd78" name="Technoarcheologist" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1f5-1c6b-49c0-d4fa" name="Technoarcheologist" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9639-06ff-d001-999e" name="Omni-scrambler" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4a5a-0935-7137-3955" name="Master of Machines" hidden="false" targetId="b6e5-0a65-9d35-96c2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4be4-2616-b9eb-2a32" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="6e6b-91f4-47d5-9c72" name="Faction: Adeptus Mechanicus" hidden="false" targetId="9542-47d3-14fe-04e0" primary="false"/>
+        <categoryLink id="4290-de2b-b942-0e80" name="Faction: Cult Mechanicus" hidden="false" targetId="4dc1-30a6-aa31-19a9" primary="false"/>
+        <categoryLink id="43cf-d918-e799-bd13" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="8116-e16e-59b7-35e0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="12f9-0a8d-ef58-72fa" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="254a-47b9-8e2a-6c48" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="f80c-68e5-a2c3-c798" name="Tech-Priest" hidden="false" targetId="eb63-c223-c515-ac6b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c827-8828-9099-b614" name="Servo-arc claw" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e65-dc99-eff8-5db3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce3-f6a5-9919-5d40" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="dd30-39bd-8c26-3409" name="Servo-arc claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="80b6-c732-8376-369a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -639,6 +754,11 @@
     <entryLink id="6937-485a-6d71-05df" name="Secutarii Hoplites" hidden="false" collective="false" import="true" targetId="9602-2f0e-c4af-6535" type="selectionEntry"/>
     <entryLink id="18d7-c59a-0cf9-fbe5" name="Secutarii Peltasts" hidden="false" collective="false" import="true" targetId="ff91-9c51-4b2b-52ad" type="selectionEntry"/>
   </entryLinks>
+  <rules>
+    <rule id="c995-fbaf-ca4e-56b1" name="Blessing of the Omnissiah" hidden="false">
+      <description>Re-roll saving throws of 1 made for ADEPTUS MECHANICUS units in this detachment</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="ff60-0474-2266-31ca" name="Belisarius Cawl" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -1260,7 +1380,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="06db-feb2-6c0e-8eac" name="Models (Kataphron)" hidden="false" collective="false" import="true" targetId="2dc4-aa31-7aa0-caa7" type="selectionEntryGroup"/>
+        <entryLink id="06db-feb2-6c0e-8eac" name="3-12 models" hidden="false" collective="false" import="true" targetId="2dc4-aa31-7aa0-caa7" type="selectionEntryGroup"/>
         <entryLink id="9838-b91e-9bb6-7ce5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
