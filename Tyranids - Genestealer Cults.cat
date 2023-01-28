@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8bfe-a35b-4a37-beb7" name="Tyranids - Genestealer Cults" revision="4" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8bfe-a35b-4a37-beb7" name="Tyranids - Genestealer Cults" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="9055-71bd-c713-3f2a" name="Genestealer Cults"/>
   </publications>
@@ -92,7 +92,6 @@
     </entryLink>
     <entryLink id="274a-4ea8-3b80-a039" name="Abominant" hidden="false" collective="false" import="true" targetId="72b1-f45e-4487-8b00" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b086-293a-3115-26c4" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="2549-8724-8f82-f88e" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
         <categoryLink id="6f4a-a9bf-ebf6-3808" name="Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
         <categoryLink id="d22d-8082-9bcb-697b" name="&lt;Cult&gt;" hidden="false" targetId="ac78-3e79-bd3e-0267" primary="false"/>
@@ -101,6 +100,7 @@
         <categoryLink id="57d8-ae79-b7e3-90c4" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="018e-7100-5883-0f08" name="Aberrant" hidden="false" targetId="4c78-3a79-bd3e-0267" primary="false"/>
         <categoryLink id="0e62-b2d0-9422-e676" name="Abominant" hidden="false" targetId="4c78-3ea9-bd3e-0267" primary="false"/>
+        <categoryLink id="bb1e-9834-0745-5364" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0690-044e-c158-a9a0" name="Jackal Alphus" hidden="false" collective="false" import="true" targetId="909e-c928-b82e-5174" type="selectionEntry">
@@ -135,17 +135,6 @@
         <categoryLink id="1c88-7c9b-8ee4-71b1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f47a-32db-8f96-9ed9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="bc17-8461-07f0-9563" name="Neophyte Hybrids" hidden="false" targetId="4c78-3e79-ba3e-0267" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e09e-b4f3-2375-aa0a" name="Brood Brothers Infantry Squad" hidden="false" collective="false" import="true" targetId="e300-ed60-6386-d343" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0cf2-0ffc-fe7b-a77b" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
-        <categoryLink id="43b9-c4c1-97f6-b538" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="68ea-db3a-a8bc-cf09" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="57df-0516-4d21-1f0b" name="Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="d50d-04d2-4df9-ae70" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="35b7-c897-fd49-55ce" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="a1ac-2f17-c925-e47a" name="Brood Brothers Infantry Squad" hidden="false" targetId="4c78-3e79-bdae-0267" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="400f-35a8-a78e-9795" name="Hybrid Metamorphs" hidden="false" collective="false" import="true" targetId="533a-30a0-259f-91dc" type="selectionEntry">
@@ -276,50 +265,6 @@
         <categoryLink id="ca01-7469-45ed-869b" name="Atalan Jackals" hidden="false" targetId="4c78-3e79-bb3e-0267" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c339-25d5-ccf8-032b" name="Cult Armoured Sentinels" hidden="false" collective="false" import="true" targetId="0856-c5bf-48cc-5693" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2e17-9d64-d66a-06bf" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-        <categoryLink id="8bf8-a26f-dcfd-e18e" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="5175-077e-eb0c-5266" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="b719-c196-56cc-db2a" name="Faction: Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="0613-436e-47a4-21fd" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="431f-216e-fec3-87c8" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="955e-fb60-880e-0506" name="Cult Armoured Sentinels" hidden="false" targetId="4c78-3e79-bdbe-0267" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="2336-9702-5199-c3b2" name="Cult Scout Sentinels" hidden="false" collective="false" import="true" targetId="0b33-f0ee-4223-933c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="101a-6f9c-c391-c3a8" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-        <categoryLink id="0a10-22db-5f63-cb79" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="c5a1-2dbb-031a-ffd7" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="5355-99dd-f0b9-5e29" name="Faction: Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="89a3-f8fb-d355-54b8" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="c3a2-a869-b36d-b753" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="35a3-d44c-8d04-a113" name="Cult Scout Sentinels" hidden="false" targetId="4c78-3e79-bd3b-0267" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3164-4b71-d013-d818" name="Cult Leman Russ" hidden="false" collective="false" import="true" targetId="b0c3-533d-23aa-cc9d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3293-4201-ee9e-8256" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
-        <categoryLink id="1b4c-21b2-980b-d186" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="cfb7-7c7e-e924-e7b5" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="1073-13cb-4c2a-2ffa" name="Faction: Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="708a-c618-a9df-e48d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="5ef7-eb2f-5e69-26c9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="6915-c78c-61d4-dc3c" name="Cult Leman Russ" hidden="false" targetId="4c78-3e79-bd3e-b267" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8c72-fd7b-b33e-6411" name="Brood Brothers Heavy Weapons Squad" hidden="false" collective="false" import="true" targetId="5ef0-70a9-6579-0128" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="89e2-b3bf-f4fb-736a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
-        <categoryLink id="c252-7ad4-7761-7ee9" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="904a-0d1a-de18-2c88" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="e381-f221-f2e1-72d2" name="Faction: Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="ad0c-c64b-178f-00ab" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="3a7b-12f1-45d6-9ce3" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="0d18-b327-c0b7-deda" name="Brood Brothers Heavy Weapons Squad" hidden="false" targetId="4c78-3e79-bd3e-0b67" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="d53e-d228-8e67-a0af" name="Goliath Rockgrinder" hidden="false" collective="false" import="true" targetId="d615-5b94-8c2b-a77f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ccc0-8346-bf8a-6b8a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -344,18 +289,6 @@
         <categoryLink id="1e9f-1074-e0e9-ccad" name="Goliath Truck" hidden="false" targetId="4c78-3e79-bd3e-026b" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bf47-af4e-e90b-2e72" name="Cult Chimera" hidden="false" collective="false" import="true" targetId="23d2-80e0-de9d-2f54" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="60bb-d5b7-025a-e682" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-        <categoryLink id="5cdc-1b96-7028-20dc" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
-        <categoryLink id="2280-b7b3-b98e-ee49" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="6ccc-6297-6002-de18" name="Faction: Brood Brothers" hidden="false" targetId="cc78-3e79-bd3e-0267" primary="false"/>
-        <categoryLink id="a8e4-9026-e665-d5a0" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="b696-8a5d-9d13-1d0d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-        <categoryLink id="33fd-7c2e-992c-98f6" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
-        <categoryLink id="62d1-58ab-c4ff-fbd8" name="Cult Chimera" hidden="false" targetId="4cc8-3e79-bd3e-0267" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="907d-6c32-c8df-9def" name="Tectonic Fragdrill" hidden="false" collective="false" import="true" targetId="5667-2d59-4000-4303" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b3d6-70fa-5543-e510" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
@@ -363,6 +296,15 @@
         <categoryLink id="81c3-ff57-3f01-5b04" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
         <categoryLink id="8549-a19e-94c8-5871" name="Sector Mechanicus" hidden="false" targetId="4c7c-3e79-bd3e-0267" primary="false"/>
         <categoryLink id="0e54-87b9-107e-0b50" name="Tectonic Fragdrill" hidden="false" targetId="4c78-ce79-bd3e-0267" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0bb2-704d-1548-6abe" name="Reductus Saboteur" hidden="false" collective="false" import="true" targetId="7f46-be56-b873-41f7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bee4-20e8-de9c-7b94" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="b2d2-dfff-93e1-8467" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="5f0d-4e41-4f3b-592f" name="Faction: Genestealer Cults" hidden="false" targetId="4c78-3e79-bd3e-0267" primary="false"/>
+        <categoryLink id="fa61-6d1c-72fb-5374" name="Faction: Tyranids" hidden="false" targetId="20b7-cc09-763a-ab83" primary="false"/>
+        <categoryLink id="1cb1-9aa9-8d1b-7794" name="Faction: &lt;Cult&gt;" hidden="false" targetId="ac78-3e79-bd3e-0267" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -553,7 +495,7 @@
         <entryLink id="080a-3867-ddfb-32e2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e046-b7b4-ef67-c316" name="Acolyte Iconward" hidden="false" collective="false" import="true" type="unit">
@@ -610,7 +552,7 @@
         <entryLink id="0af0-add6-305d-57ed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72b1-f45e-4487-8b00" name="Abominant" hidden="false" collective="false" import="true" type="unit">
@@ -738,7 +680,7 @@
         <entryLink id="dc50-d0ef-5618-c9d6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="366b-8ad5-10bc-8b3b" name="Neophyte Hybrids" hidden="false" collective="false" import="true" type="unit">
@@ -811,7 +753,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8c2b-20f7-8b19-7fb8" name="20 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -829,7 +771,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1023,7 +965,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b24-9113-adc3-d270" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1041,7 +983,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1100,7 +1042,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9252-8345-8727-df6c" name="10 models" hidden="false" collective="false" import="true" type="unit">
@@ -1118,43 +1060,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="165a-71f7-15b1-52fe" name="15 models" hidden="false" collective="false" import="true" type="unit">
-              <profiles>
-                <profile id="515c-137e-92e6-e863" name="Purestrain Genestealers (15 models)" publicationId="9055-71bd-c713-3f2a" page="13" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2d2c-a1df-ee84-b5ce" name="20 models" hidden="false" collective="false" import="true" type="unit">
-              <profiles>
-                <profile id="df32-bab7-cf66-bfb9" name="Purestrain Genestealers (20 models)" publicationId="9055-71bd-c713-3f2a" page="13" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">-</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1262,7 +1168,7 @@
         <entryLink id="b155-c1a6-4798-c49e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e5f-8de7-13e3-7e3c" name="Sanctus" hidden="false" collective="false" import="true" type="unit">
@@ -1439,7 +1345,7 @@
         <entryLink id="41de-e4a1-1cc4-ac35" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a241-b456-18ff-4199" name="Nexos" hidden="false" collective="false" import="true" type="unit">
@@ -1488,7 +1394,7 @@
         <entryLink id="c270-2381-8a45-bacd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbd1-5e44-57be-e953" name="Biophagus" hidden="false" collective="false" import="true" type="unit">
@@ -1685,7 +1591,7 @@
         <entryLink id="a042-5c2e-f5a4-1d1c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="536e-cb48-4bda-f3d7" name="Atalan Jackals" hidden="false" collective="false" import="true" type="unit">
@@ -1755,7 +1661,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7fd8-e65b-c5bb-9829" name="8 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1773,25 +1679,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6b75-b475-02d3-ccb1" name="12 models" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ecb0-0dbf-9457-1d2c" name="Atalan Jackals (12-15 models)" publicationId="9055-71bd-c713-3f2a" page="21" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1801,11 +1689,6 @@
             <modifier type="set" field="46ec-80f4-e9ca-1d2d" value="2.0">
               <conditions>
                 <condition field="selections" scope="536e-cb48-4bda-f3d7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fd8-e65b-c5bb-9829" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="46ec-80f4-e9ca-1d2d" value="3.0">
-              <conditions>
-                <condition field="selections" scope="536e-cb48-4bda-f3d7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b75-b475-02d3-ccb1" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2503,7 +2386,7 @@
         <entryLink id="98ac-0d31-63ec-b09d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b72-28a1-c91c-7fa3" name="Goliath Truck" hidden="false" collective="false" import="true" type="unit">
@@ -2583,7 +2466,7 @@
         <entryLink id="0bac-2f0f-bd46-1395" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23d2-80e0-de9d-2f54" name="Cult Chimera" hidden="false" collective="false" import="true" type="unit">
@@ -3280,6 +3163,76 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f46-be56-b873-41f7" name="Reductus Saboteur" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f72d-6862-4555-263a" name="Reductus Saboteur" publicationId="9055-71bd-c713-3f2a" page="4" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33c9-5b14-321a-8260" name="Clandestine" publicationId="9055-71bd-c713-3f2a" page="4" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While this model is within an Area Terrain feature, enemy models cannot target it with ranged attacks unless they are within 12&quot; of it. Each time a ranged attack is made against this model, subtract 1 from that attack’s hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="5c22-0f9f-b74b-dc62" name="Charges" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd5f-2ec3-5c0d-b6a3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2294-5db4-27f2-57db" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3dd3-6724-c6fb-d3d5" name="Blasting Charges" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">6&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="695d-be1c-8b95-9314" name="Remote Explosives" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9154-2d94-d5e4-81ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba8-fd8a-e17d-08d4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8cf4-f1a6-c48e-04e5" name="Remote Explosives" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Remote Explosives</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="906e-8eaa-4164-eec9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
