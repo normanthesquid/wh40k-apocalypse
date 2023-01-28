@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ba6e-f4e4-9c13-bd4c" name="Imperium - Adeptus Astartes" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ba6e-f4e4-9c13-bd4c" name="Imperium - Adeptus Astartes" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -3062,124 +3062,6 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3cbc-c426-3bb4-5db0" name="Roboute Guilliman" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cb6-4d82-b69c-886a" type="atLeast"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3452-3268-cdfd-b119" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="727b-1e68-570b-31fb" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="e12b-7832-8b63-fab4" name="Roboute Guilliman" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">
-3+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="1ffe-e941-eed7-a4c7" name="XIII Primarch" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls and wound rolls for attacks made by friendly ULTRAMARINES units whilst they are within 6&quot; of this unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="1634-3cb5-824a-2d90" name="Armour of Fate" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 4+ this unit is not destroyed, and one damage marker is removed from it.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="3369-2dda-d04c-653b" name="Master of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Action phase, when you select a Detachment from your army led by an IMPERIUM Commander to carry out its order, but before any units in that Detachment make an action (excluding free actions) that phase, you can replace that Detachment’s order with Advance, Aimed Fire or Assault.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="84d5-1791-e58b-0563" name="Author of the Codex Astartes" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="0779-d4d1-7168-d862" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
-        <categoryLink id="5fd8-46bd-059d-a50c" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
-        <categoryLink id="87c6-49f5-426c-da4a" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
-        <categoryLink id="4e25-2b79-7b7f-e2e1" name="Faction: Ultramarines" hidden="false" targetId="0f44-4bfd-acaf-7de9" primary="false"/>
-        <categoryLink id="3fd2-6540-62cd-935d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="3211-667c-47d3-8255" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-        <categoryLink id="91fd-2206-d712-cb09" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-        <categoryLink id="7c1d-1362-c06f-b1b5" name="Primarch" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="false"/>
-        <categoryLink id="8036-be34-d76e-1904" name="Roboute Guilliman" hidden="false" targetId="8347-520e-a8d6-9d6b" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="abf0-9f68-b6b8-a936" name="Hand of Dominion" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d537-c59c-a692-2e93" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a82d-2a98-3ee2-b544" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="cfb2-c8b5-7366-a2f1" name="Hand of Dominion" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="f3f4-93b9-473d-fbef" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c319-7210-554c-3b29" name="The Emperor&apos;s Sword" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcd-72e9-cea1-74b3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2d-6d7a-f235-77da" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c159-9dec-d1eb-a0c1" name="The Emperor&apos;s Sword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0110-b425-d882-99e2" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="6f0a-4c14-5d6c-4789" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4cd-9230-6193-50df" name="Marneus Calgar" hidden="false" collective="false" import="true" type="unit">
@@ -6624,7 +6506,137 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
         <categoryLink id="a525-cc37-a8c3-082f" name="Faction: &lt;CHAPTER&gt;" hidden="false" targetId="fe0e-e179-5b4e-c377" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="40ac-fbd9-8d79-966e" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="c56d-6b51-dcaa-a08a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6669-eeb3-dbc7-3297" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="91e1-25e5-60fd-d507" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="c56d-6b51-dcaa-a08a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c706-1769-4d3e-f6ef" name="New CategoryLink" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c56d-6b51-dcaa-a08a" name="Roboute Guilliman" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cb6-4d82-b69c-886a" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3452-3268-cdfd-b119" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee01-e6bc-ed02-cbb1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7f37-47f5-dfe9-8564" name="Roboute Guilliman" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">
+3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c6ab-0d44-8bec-b515" name="XIII Primarch" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll hit rolls and wound rolls for attacks made by friendly ULTRAMARINES units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d3e5-c19d-0ce2-c165" name="Armour of Fate" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">The first time the number of damage markers next to this unit equals its Wounds characteristic, roll a D6; on a 4+ this unit is not destroyed, and one damage marker is removed from it.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fe5f-8c49-0113-08ec" name="Master of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per Action phase, when you select a Detachment from your army led by an IMPERIUM Commander to carry out its order, but before any units in that Detachment make an action (excluding free actions) that phase, you can replace that Detachment’s order with Advance, Aimed Fire or Assault.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1e7d-6b16-c40c-f9bd" name="Author of the Codex Astartes" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit is on the battlefield at the start of the Generate Command Assets step, you generate one extra Command Asset.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1287-f879-23eb-8a6e" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="6bde-acdd-3c5a-f7a0" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="fb7a-b56f-df15-71fc" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="90ca-d364-a78f-04fb" name="Faction: Ultramarines" hidden="false" targetId="0f44-4bfd-acaf-7de9" primary="false"/>
+        <categoryLink id="1845-1111-6568-fc5c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="70e9-4e94-835b-9f57" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="aeac-d288-fd20-53f8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="0c7e-cc53-11b9-5c17" name="Primarch" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="false"/>
+        <categoryLink id="d8cd-71ba-5839-ff51" name="Roboute Guilliman" hidden="false" targetId="8347-520e-a8d6-9d6b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0c06-8028-1632-5b71" name="Hand of Dominion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af27-188c-8830-6641" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a09-5a4a-40ee-31c0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dafb-c347-5ad3-edbc" name="Hand of Dominion" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ccbd-28b3-23c3-c112" name="Rapid Fire" hidden="false" targetId="5b2f-f499-bdcd-e45d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="824c-51e4-54c4-a015" name="The Emperor&apos;s Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a56-9cfe-28a1-171f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe3-2027-8ddd-5611" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9418-fa2a-c413-05f2" name="The Emperor&apos;s Sword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cf24-c6be-6aa8-db41" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2d8b-bd93-09b5-d804" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="55a3-dbc0-205c-8c2a" name="Castellum Stronghold" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>

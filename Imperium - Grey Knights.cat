@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e73b-e178-8e7f-7ade" name="Imperium - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e73b-e178-8e7f-7ade" name="Imperium - Grey Knights" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a3ae-0df8-209f-4979" name="Faction: Grey Knights" hidden="false"/>
     <categoryEntry id="bb03-fbb1-1b83-32ee" name="Grand Master" hidden="false"/>
@@ -96,7 +96,7 @@
         <entryLink id="6fa3-c8ad-42d5-529a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5557-9c20-55ee-6360" name="Grand Master Voldus" hidden="false" collective="false" import="true" type="unit">
@@ -208,14 +208,14 @@
         <entryLink id="a2c7-6525-4fc9-5f93" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="356a-37e1-6bd8-27a2" name="Grand Master in Nemesis Dreadknight" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="265e-1f57-5c5f-3721" name="Grand Master in Nemesis Dreadknight" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
@@ -247,7 +247,7 @@
         <entryLink id="2233-86c5-d6fb-44c5" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f9b8-e7ba-49eb-84df" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a25-d2a7-dcb8-c896" name="Castellan Crowe" hidden="false" collective="false" import="true" type="unit">
@@ -314,7 +314,7 @@
         <entryLink id="f6ff-8bf2-598e-f848" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10b2-b970-236b-0ee8" name="Brother-Captain Stern" hidden="false" collective="false" import="true" type="unit">
@@ -336,6 +336,11 @@
         <profile id="6ca9-79c2-7dd1-ea09" name="The Strands of Fate" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per turn, after you have made a saving throw for this unit, you can re-roll that saving throw.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b126-cbf2-2bea-339c" name="Rites of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly GREY KNIGHTS units whilst they are within 6&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -399,6 +404,11 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
         </profile>
+        <profile id="dc2e-db20-7247-9190" name="Rites of Battle" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly GREY KNIGHTS units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="bb15-89b3-0ad7-4b2b" name="Psychic Locus" hidden="false" targetId="93ea-d536-1beb-1a1e" type="profile"/>
@@ -429,7 +439,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6eea-af48-a65c-e169" name="Librarian" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6eea-af48-a65c-e169" name="Brotherhood Librarian" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5c0f-3eb3-2440-07cb" name="Librarian" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
@@ -439,7 +449,7 @@
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -488,9 +498,9 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2cd-7b0a-06ac-8946" name="Chaplain" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f2cd-7b0a-06ac-8946" name="Brotherhood Chaplain" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b1b3-2db5-a30b-08d9" name="Chaplain" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="b1b3-2db5-a30b-08d9" name="Brotherhood Chaplain" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
@@ -537,7 +547,7 @@
         <entryLink id="dd7d-f81d-84b9-a3b8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f73-edc2-103b-811b" name="Brotherhood Champion" hidden="false" collective="false" import="true" type="unit">
@@ -573,10 +583,10 @@
         <entryLink id="9b93-f9e5-884c-23de" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1ae-4300-1def-70a0" name="Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a1ae-4300-1def-70a0" name="Brotherhood Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="04b2-7cd6-9309-e3c7" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
@@ -623,15 +633,15 @@
           <selectionEntries>
             <selectionEntry id="50f0-9eb4-ac94-6f13" name="5 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a341-157c-be15-0eb2" name="Terminator Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="a341-157c-be15-0eb2" name="Brotherhood Terminator Squad (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -641,15 +651,15 @@
             </selectionEntry>
             <selectionEntry id="9d0a-3582-7098-e468" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6d4d-0e27-bcb2-2807" name="Terminator Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                <profile id="6d4d-0e27-bcb2-2807" name="Brotherhood Terminator Squad (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -731,14 +741,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a08f-2f54-ce27-748b" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -749,14 +759,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -781,17 +791,17 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7c1-3991-9e09-bab2" name="Apothecary" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d7c1-3991-9e09-bab2" name="Brotherhood Apothecary" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="fe80-cb50-4f17-3e71" name="Narthecium" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to heal one friendly GREY KNIGHTS LIGHT unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that LIGHT unit. Only one attempt to heal each unit can be made each turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ddbd-068f-9ef6-cbd3" name="Apothecary" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="ddbd-068f-9ef6-cbd3" name="Brotherhood Apothecary" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
@@ -842,7 +852,7 @@
         <entryLink id="a466-9c98-03a7-2ee6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f0b-7476-23a3-7f53" name="Brotherhood Ancient" hidden="false" collective="false" import="true" type="unit">
@@ -902,7 +912,7 @@
         <entryLink id="c498-6052-9307-f3ab" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8e1-ea62-c59d-f5e4" name="Paladin Squad" hidden="false" collective="false" import="true" type="unit">
@@ -959,14 +969,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a8c7-5dd6-637d-ad72" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -977,14 +987,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1018,8 +1028,8 @@
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
             <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1124,14 +1134,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0591-160f-a065-cd86" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1142,14 +1152,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1250,14 +1260,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7708-8478-5d37-8183" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1268,14 +1278,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1341,14 +1351,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9455-1c6e-3670-8044" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1359,14 +1369,14 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1406,11 +1416,11 @@
       <profiles>
         <profile id="4fee-4f49-c873-e764" name="Nemesis Dreadknight" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">9&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
           </characteristics>
@@ -1428,12 +1438,12 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="afed-e9a5-81f9-6df2" name="Dreadknight Teleporter" hidden="false" collective="false" import="true" targetId="c3eb-8468-6083-1e62" type="selectionEntry"/>
-        <entryLink id="2a75-7143-8218-397c" name="Dreadknight Weapons" hidden="false" collective="false" import="true" targetId="acdd-5de2-5f3f-25e4" type="selectionEntryGroup"/>
+        <entryLink id="2a75-7143-8218-397c" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="acdd-5de2-5f3f-25e4" type="selectionEntryGroup"/>
         <entryLink id="6307-3710-5aa8-83d6" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="f9b8-e7ba-49eb-84df" type="selectionEntryGroup"/>
         <entryLink id="f22c-8ea4-f508-e8bd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bef-1cb7-ee63-fb33" name="Vortimer Pattern Razorback" hidden="false" collective="false" import="true" type="unit">
@@ -1755,23 +1765,53 @@
         <entryLink id="786f-3384-eeba-a7b3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="42.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="502a-ccd0-729e-93f9" name="Brotherhood Techmarine" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f155-601f-d98a-caab" name="Brotherhood Techmarine" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="428b-1f23-c9f0-9524" name="Blessing of the Omnissiah" hidden="false" targetId="ab23-9dca-5848-48e6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4512-c4c2-d988-f3ea" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="8cad-565a-8fe6-bd7b" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="6163-fda9-bcc3-8662" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="c047-0598-766c-6b82" name="Faction: Grey Knights" hidden="false" targetId="a3ae-0df8-209f-4979" primary="false"/>
+        <categoryLink id="3455-0c25-eef1-5b38" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="311f-a825-7df6-be37" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="d4d3-ebfe-653a-e0a8" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="2085-9d24-60b2-69a0" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="bab8-d2f8-56be-40d2" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
+        <categoryLink id="6545-100e-041f-7bf1" name="Techmarine" hidden="false" targetId="aba1-da6d-7a57-d464" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f28-27f7-0b7d-bfc0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="9862-53e7-e12c-a48a" name="Power Axe" hidden="false" collective="false" import="true" targetId="6155-b849-f7db-1be4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f11-92ec-5d01-3775" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc19-d980-efa1-41cf" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="091f-d5a3-9bfc-307b" name="Techmarine" hidden="false" collective="false" import="true" targetId="6690-dae8-1ba2-9454" type="selectionEntry">
-      <profiles>
-        <profile id="5e61-d625-16a7-982b" name="Blessings of the Omnissiah" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to repair one friendly GREY KNIGHTS VEHICLE unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that VEHICLE unit. Only one attempt to repair each unit can be made each turn.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="ce72-44e6-c868-3c28" name="Faction: Grey Knights" hidden="false" targetId="a3ae-0df8-209f-4979" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="4249-e739-70e0-7984" name="Dreadnought" hidden="false" collective="false" import="true" targetId="bd59-298f-ca7d-a418" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0bf5-a906-ad45-43f3" name="Faction: Grey Knights" hidden="false" targetId="a3ae-0df8-209f-4979" primary="false"/>

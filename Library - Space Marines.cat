@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="14" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c56b-a784-45be-6982" name="Library - Space Marines" revision="14" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="true" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -313,9 +313,9 @@
         <categoryLink id="85af-351a-e6f7-1e80" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="47b0-88c7-eb79-db50" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="050a-7655-3069-7a00" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="1d17-4f17-4f23-5839" name="New CategoryLink" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="true"/>
         <categoryLink id="e64f-a8f2-30fe-e520" name="Scout" hidden="false" targetId="27c2-0764-4952-e1de" primary="false"/>
         <categoryLink id="511b-152c-672f-4d22" name="Scout Squad" hidden="false" targetId="625f-e477-e807-1451" primary="false"/>
+        <categoryLink id="1490-b6bd-994f-7e07" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="54a6-a0a0-d093-62d5" name="Heavy Weapon" hidden="false" collective="false" import="true">
@@ -8725,7 +8725,6 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="1e02-b707-f08a-3736" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
         <categoryLink id="a3dd-433e-6287-4e0a" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
         <categoryLink id="0ffe-b0cf-833f-3ccf" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
         <categoryLink id="7ecd-7e4f-cf6b-a771" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
@@ -8733,6 +8732,7 @@
         <categoryLink id="6370-fa4c-7132-b712" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
         <categoryLink id="0d78-97bd-dd5a-87dd" name="Relic" hidden="false" targetId="59eb-2fd1-6cdc-fcc5" primary="false"/>
         <categoryLink id="b9be-2bdb-7116-eaa5" name="Relic Leviathan Dreadnought" hidden="false" targetId="03d6-bb95-4f59-bfdd" primary="false"/>
+        <categoryLink id="bb93-c7ed-8285-2a4f" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="322e-f471-00ec-7ebc" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd88-b26e-ec87-6d9e">
@@ -13845,7 +13845,7 @@ that target this unit.</characteristic>
         <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
         <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
         <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-        <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+        <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
         <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
         <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
       </characteristics>
