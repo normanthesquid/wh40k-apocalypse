@@ -229,12 +229,21 @@
         <categoryLink id="1136-174f-f5c1-9615" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b2f-87a1-775f-f506" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry"/>
+    <entryLink id="0b2f-87a1-775f-f506" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="11aa-d9c1-45b7-e4a6" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="03dc-fc1e-b6c0-5f84" name="Plague Marines" hidden="false" collective="false" import="true" targetId="aae6-7b1d-3d9c-f6af" type="selectionEntry"/>
     <entryLink id="3978-ef95-9f4d-a054" name="Miasmic Malignifier" hidden="false" collective="false" import="true" targetId="5433-a692-859c-b8d4" type="selectionEntry"/>
     <entryLink id="8f7b-cb4b-35bf-6a13" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="0715-41f7-2439-d7f5" type="selectionEntry"/>
     <entryLink id="a4f9-bbae-d43a-1f6c" name="Lord of Virulence" hidden="false" collective="false" import="true" targetId="acb9-e818-c285-d1b1" type="selectionEntry"/>
     <entryLink id="34b6-3cf8-c20a-abf4" name="Death Guard Possessed" hidden="false" collective="false" import="true" targetId="63e9-88c9-c32c-5b6b" type="selectionEntry"/>
+    <entryLink id="c6c0-46b4-ede7-b7db" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2e22-a149-680b-d0cd" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e830-e821-04db-978a" name="Death Guard Daemon Prince" hidden="false" collective="false" import="true" type="unit">

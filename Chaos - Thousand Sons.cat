@@ -247,9 +247,18 @@
         <categoryLink id="ab87-176d-4463-4714" name="Faction: Thousand Sons" hidden="false" targetId="2b4c-04cc-e8d8-5983" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e83-fe1d-ebb1-aa19" name="Magnus the Red" hidden="false" collective="false" import="true" targetId="c147-5621-32d7-ae8b" type="selectionEntry"/>
+    <entryLink id="1e83-fe1d-ebb1-aa19" name="Magnus the Red" hidden="false" collective="false" import="true" targetId="c147-5621-32d7-ae8b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b73d-6899-5d1b-5538" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="268a-d32d-0839-ca69" name="Infernal Master" hidden="false" collective="false" import="true" targetId="453b-b240-c01f-7392" type="selectionEntry"/>
     <entryLink id="4ce6-8c07-17ab-0d12" name="Exalted Sorcerer" hidden="false" collective="false" import="true" targetId="6bd8-e916-284d-b4c8" type="selectionEntry"/>
+    <entryLink id="0435-01fd-5cb6-dd49" name="Magnus the Red" hidden="false" collective="false" import="true" targetId="c147-5621-32d7-ae8b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ef58-9abe-9677-4712" name="New CategoryLink" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f783-3b8c-244e-2784" name="Ahriman" hidden="false" collective="false" import="true" type="upgrade">
