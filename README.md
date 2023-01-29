@@ -1,15 +1,5 @@
-Warhammer 40,000 Fundapocalypse
+Warhammer 40,000 Apocalypse 9th Edition
 ===========================
-
-
-[![GitHub release](https://img.shields.io/github/release/normanthesquid/wh40k-fundapocalypse.svg?style=flat-square)](https://github.com/normanthesquid/wh40k-fundapocalypse/releases/latest)
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/normanthesquid/wh40k-fundapocalypse/latest.svg?style=flat-square)
-[![Open Bug issues](https://img.shields.io/github/issues/normanthesquid/wh40k-fundapocalypse/🔠%20Type%3A%20Bug.svg?style=flat-square&label=bugs)](https://github.com/normanthesquid/wh40k-fundapocalypse/issues?q=is%3Aissue+is%3Aopen+label%3A%22🔠%20Type%3A%20Bug%22)
-[![Azure DevOps builds (branch)](https://img.shields.io/azure-devops/build/bsdata-devs/70736e70-cd5f-4af7-9ea5-541b66c3e4cb/2/master.svg?label=build%3A%20master&logo=azure-pipelines&style=flat-square)](https://dev.azure.com/bsdata-devs/data-repos/_build?definitionId=2)
-[![GitHub contributors](https://img.shields.io/github/contributors/normanthesquid/wh40k-fundapocalypse.svg?style=flat-square)](https://github.com/normanthesquid/wh40k-fundapocalypse/graphs/contributors)
-![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/normanthesquid/wh40k-fundapocalypse.svg?style=flat-square)
-
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/3QtaU2g)
 
 #### Contents ####
 
@@ -21,7 +11,7 @@ Warhammer 40,000 Fundapocalypse
 
 __What's this?__
 
-Fundamalleus Organization created this project. It's a GitHub repository of datafiles. It extends [Warhammer 40,000 Apocalypse](https://github.com/BSData/wh40k-apocalypse) and adds missing datasheets and rules from recent releases
+This repository was based off the work of the Fundamalleus Organization to catch Apocalypse up to 9th edition. Certain datasheets felt very behind if you current played (slow thousand sons, daemon engines hitting on 4s, force orgs not matching up at all, firstborn marines still having 1W, etc). It's a GitHub repository of datafiles. It extends [Warhammer 40,000 Fundapocalypse](https://github.com/normanthesquid/wh40k-fundapocalypse) and adds missing datasheets and rules from recent releases
 
 __Okay, nice project. Is it actually working?__ _I just want those files..._
 
