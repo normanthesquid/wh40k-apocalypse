@@ -4216,7 +4216,7 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="77a2-5bfb-561c-6434" name="Accursed Cultists" hidden="false" targetId="6e3e-74fc-dcfd-4f5e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="202a-dbfb-4744-7d36" name="8 - 16 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="202a-dbfb-4744-7d36" name="8 - 16 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6a6-722e-4167-a193">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42dc-8b27-73f2-b55f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a39-4049-3425-8fad" type="max"/>

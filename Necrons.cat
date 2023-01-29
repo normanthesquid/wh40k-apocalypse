@@ -5875,7 +5875,7 @@ Subtract 1&quot; from the movement characteristic of enemy units that start a mo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="db6f-a4ce-e9ea-ebfd" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="db6f-a4ce-e9ea-ebfd" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c1b-fd0a-d8f4-fa47">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38c-3e9e-3feb-3ae0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6099-4d33-b7ec-7e47" type="min"/>

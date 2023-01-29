@@ -1951,7 +1951,7 @@
         <categoryLink id="22c8-0d5a-6fee-5e6f" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0df1-76a1-fb6f-eddc" name="10 - 30 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0df1-76a1-fb6f-eddc" name="10 - 30 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="5571-e7b3-56b1-da55">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af5-6ef9-ca94-aa8b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f11a-0896-006d-eca8" type="max"/>
@@ -2269,7 +2269,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10e5-6f21-a654-c74a" name="Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="10e5-6f21-a654-c74a" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="60e8-b6b7-b0e0-8f82">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2306-5632-9394-ee4b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770e-3f76-37dc-2e98" type="max"/>

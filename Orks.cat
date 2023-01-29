@@ -220,17 +220,12 @@
         <categoryLink id="a527-f6be-ea71-26cf" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="39f6-210f-0090-edd1" name="Warboss" hidden="false" collective="false" import="true" targetId="ac00-fa4c-b2a3-bcd6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f241-02a2-ffac-3fd8" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="9998-0cd0-e9b3-17b6" name="Big Mek" hidden="false" collective="false" import="true" targetId="d95b-2cd7-065b-1e56" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a212-dfd7-53ab-ec33" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="edcc-bbe7-bdf3-e330" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="892e-1ec0-f484-651e" type="selectionEntry">
+    <entryLink id="edcc-bbe7-bdf3-e330" name="Puny Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="892e-1ec0-f484-651e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c867-6e0e-dc5c-75ab" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
@@ -438,7 +433,6 @@
     <entryLink id="83c8-c101-0509-db4e" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="3686-62a0-0bb2-3597" type="selectionEntry"/>
     <entryLink id="c4b4-8cc7-c436-1a81" name="Makari" hidden="false" collective="false" import="true" targetId="f40e-f75d-e34d-201b" type="selectionEntry"/>
     <entryLink id="0882-2994-e07e-24b4" name="Mozrog Skragbad" hidden="false" collective="false" import="true" targetId="b6f2-f105-6310-4d53" type="selectionEntry"/>
-    <entryLink id="4cea-0ff4-4f79-2059" name="Wurrboy" hidden="false" collective="false" import="true" targetId="e629-3bd4-94e7-e381" type="selectionEntry"/>
     <entryLink id="5146-da25-ca22-a91e" name="Beastboss" hidden="false" collective="false" import="true" targetId="2be2-20a9-13df-3bbb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="646c-7671-701b-6792" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
@@ -449,10 +443,6 @@
         <categoryLink id="dc1a-d68e-0740-9df0" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5c0a-a1d3-7391-fdb7" name="Painboss" hidden="false" collective="false" import="true" targetId="ddc4-a5f3-5e6a-e593" type="selectionEntry"/>
-    <entryLink id="9170-8f5f-f836-afd5" name="Warboss on Warbike" hidden="false" collective="false" import="true" targetId="715e-eb77-0c1c-7124" type="selectionEntry"/>
-    <entryLink id="d8ac-522f-3665-c369" name="Warboss in Mega Armour" hidden="false" collective="false" import="true" targetId="90c5-e795-70d1-1d25" type="selectionEntry"/>
-    <entryLink id="4464-3533-2b3e-5c4e" name="Squighog Boyz" hidden="false" collective="false" import="true" targetId="c9ed-108c-d49e-884c" type="selectionEntry"/>
     <entryLink id="d31c-7093-7572-7299" name="Big&apos;ed Bossbunka" hidden="false" collective="false" import="true" targetId="f49b-5660-00c2-d088" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8e03-aea0-6b48-b613" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
@@ -10552,7 +10542,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3282-bef8-f147-c3fc" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3282-bef8-f147-c3fc" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="0073-b414-a294-828b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a366-5201-4f40-3d3f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3369-ec03-87c5-09f2" type="min"/>

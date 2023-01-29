@@ -1239,7 +1239,7 @@
         <categoryLink id="e5b0-6e72-e3b0-955a" name="Rubric Marines" hidden="false" targetId="886e-1a90-19c0-9d5a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="53b4-c02c-aa0f-fccd" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="53b4-c02c-aa0f-fccd" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="78bf-c2f6-3833-db24">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22f-3302-3e58-8994" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba9-c1bd-f121-c107" type="max"/>
