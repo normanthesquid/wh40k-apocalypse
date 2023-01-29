@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8bfe-a35b-4a37-beb7" name="Leagues of Votann" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c47-573b-65fb-450e" name="Leagues of Votann" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8c7e-5fd7-12e1-405a" name="Brôkhyr Iron-master" hidden="false"/>
     <categoryEntry id="a15a-e673-f2ec-2d0e" name="Einhyr Champion" hidden="false"/>
@@ -474,6 +474,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -509,6 +512,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f4c7-c78d-c762-e6ad" name="HYLas Auto Rifle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -526,6 +532,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b2c5-6d64-0f0c-73ff" name="Magna-Rail Rifle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -543,6 +552,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -554,6 +566,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f1fd-2911-1297-6150" name="Cthonian Berserks" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -588,6 +603,9 @@
           <infoLinks>
             <infoLink id="13ae-93ac-d4bc-0634" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -644,6 +662,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6997-32fd-9e5b-4910" name="Einhyr Hearthguard" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -682,8 +703,14 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -784,6 +811,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -812,6 +842,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -823,6 +856,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="48a8-27ec-0aec-60be" name="Hernkyn Pioneers" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -855,6 +891,9 @@
           <infoLinks>
             <infoLink id="89d9-59f3-a73a-a260" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -931,6 +970,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d3c6-52cf-6df7-55fa" name="Ion Beamer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -939,6 +981,9 @@
               <infoLinks>
                 <infoLink id="21d2-4400-cd9e-3cde" name="Ion Beamer" hidden="false" targetId="99ad-36bf-7811-d5e6" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9bf8-05a0-95a6-c618" name="Magna-Rail Rifle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -956,10 +1001,16 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="89fa-7fd9-0cb6-3d18" name="Sagitaur" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -988,6 +1039,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1054,6 +1108,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9df4-2dc3-ef46-6815" name="MATR Autocannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1068,6 +1125,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a565-b55b-bf9c-6556" name="Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1082,10 +1142,16 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c07d-9a2d-d96a-2136" name="Hekaton Land Fortress" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1138,6 +1204,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="749b-8608-db4d-e86e" name="Ion Beamers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1155,6 +1224,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1177,6 +1249,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="cc42-74e7-017f-92ec" name="Heavy Magna-Rail Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1194,6 +1269,9 @@
               <infoLinks>
                 <infoLink id="3509-f1bc-12b1-8137" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c7d4-66c3-a763-c352" name="SP Heavy Conversion Beamer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1208,6 +1286,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1302,6 +1383,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0825-ae80-8e20-9569" name="SP Conversion Beamers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1319,6 +1403,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f529-d399-b767-804e" name="Bolt Cannons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1336,41 +1423,20 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <rules>
     <rule id="9339-82d9-8c7e-ff15" name="Eye of the Ancestors" publicationId="8df9-0b3e-abea-3c15" page="52" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <description>Each time an enemy unit destroys a VOTANN unit from your army, that enemy unit gains 1 Judgement token. Each time a VOTANN unit from your army makes an attack against a unit that has a Judgement token, on an unmodified hit roll of 6, that attack automatically wounds the target.</description>
     </rule>
   </rules>
@@ -1388,6 +1454,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6edb-d96f-7721-2630" name="Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1406,6 +1475,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5cdc-eb13-a833-3b3b" name="Ion Beamers" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1415,6 +1487,9 @@
       <infoLinks>
         <infoLink id="47c1-4ac7-407f-94e7" name="Ion Beamer" hidden="false" targetId="99ad-36bf-7811-d5e6" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e597-cb7e-bedb-ea32" name="L-7 Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1429,6 +1504,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cdd5-5334-9e16-be78" name="MATR Autocannon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1447,6 +1525,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="46a7-e8cb-5711-8cb5" name="Volkanite Disintigrator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1461,6 +1542,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c97d-a82f-4b83-5724" name="Concussion Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1475,6 +1559,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de03-6ef7-604f-ab9f" name="Autoch-Pattern Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1493,6 +1580,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ac00-9488-243b-6594" name="Rampart Crest" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1502,13 +1592,23 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ac13-2cb7-768e-e280" name="Teleport Crest" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2852-ed43-09a7-1e30" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="9ac2-5692-247e-ed07" name="Weavefield Crest" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="9ac2-5692-247e-ed07" name="Weavefield Crest" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="99ad-36bf-7811-d5e6" name="Ion Beamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">

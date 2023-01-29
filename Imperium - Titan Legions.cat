@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ad6-683d-80fa-142e" name="Imperium - Titan Legions" revision="5" battleScribeVersion="2.03" authorName="Fundamalleus" authorContact="" authorUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ad6-683d-80fa-142e" name="Imperium - Titan Legions" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="d85d-ebb1-82e6-b43d" name="Faction: &lt;Titan Legion&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="1610-bc0d-5985-3a9f" name="Warbringer Nemesis Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -45,6 +45,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="faad-399f-ef08-be14" name="Titan Dual Turbo-laser Destructor" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -62,6 +65,9 @@
       <infoLinks>
         <infoLink id="9385-23e0-2ce3-775b" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9974-007e-0074-d33a" name="Titan Plasma Blastgun" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -79,6 +85,9 @@
       <infoLinks>
         <infoLink id="2cac-af1f-934c-9abb" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fb32-ca10-86d2-9c71" name="Titan Inferno Gun" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -96,11 +105,17 @@
       <infoLinks>
         <infoLink id="beae-7827-5368-1236" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1c9e-9abe-cea3-ad29" name="Titan Vulcan Mega-bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f848-b4d3-2ef0-df0a" name="Titan Vulcan Mega-bolter" hidden="false" targetId="9a05-f2e9-b8c9-f709" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6cf7-2c0e-976e-f326" name="Titanic Armoured Feet" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -172,6 +187,9 @@
       <infoLinks>
         <infoLink id="2f6e-d557-0f55-48a2" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fb04-4d34-470d-2dda" name="Reaver Gatling Blaster" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -206,6 +224,9 @@
       <infoLinks>
         <infoLink id="645a-bb2c-a5ba-3986" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b761-2aa2-169b-5fb8" name="Reaver Melta Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -223,6 +244,9 @@
       <infoLinks>
         <infoLink id="63b3-9d6c-a8e5-b128" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="eef6-6944-e7da-a4cd" name="Reaver Power Fist" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -240,6 +264,9 @@
       <infoLinks>
         <infoLink id="5320-b5ef-bd9b-a38d" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b3f1-53ad-3540-44a4" name="Reaver Volcano Cannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -404,6 +431,9 @@
         <infoLink id="6b8a-822d-54fa-fd96" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
         <infoLink id="4a10-c30a-02e6-ef85" name="Barrage" hidden="false" targetId="7296-134e-970b-4790" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6a9-ede4-f17b-e3f1" name="Twin Titan Vulcan Mega-bolter" publicationId="8df9-0b3e-abea-3c15" page="" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -418,6 +448,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e4a2-d010-2175-43de" name="Reaver Battle Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -900,6 +933,9 @@
         <infoLink id="ebb2-2987-8f8e-ea2b" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
         <infoLink id="daf6-29ba-327a-e68f" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="acb1-ff3c-4e4d-7256" name="Arioch Power Claw w/ Titan Volcan Mega-Bolter" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -918,6 +954,9 @@
         <infoLink id="1c49-dda3-3d1a-dabf" name="Apocalyptic Destroyer" hidden="false" targetId="2315-eb7a-ff97-9084" type="rule"/>
         <infoLink id="f86b-8dd1-856a-ab94" name="Titan Vulcan Mega-bolter" hidden="false" targetId="9a05-f2e9-b8c9-f709" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

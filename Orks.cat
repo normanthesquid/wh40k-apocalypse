@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e528-2359-5486-47f4" name="Orks" revision="12" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e528-2359-5486-47f4" name="Orks" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0a10-9bdd-9094-8fd9" name="Zhadsnark Da Ripper" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="a7b6-c22d-eef2-aa0c" name="Weirdboy" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -496,33 +496,6 @@
   </entryLinks>
   <rules>
     <rule id="4177-ac6f-4aa5-c54a" name="Waaagh!" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <description>Each time you roll an unmodified hit roll of 6+ for an attack made by an ORKS unit in this Detachment, you can immediately make one additional attack at the same target using the same weapon (this additional attack cannot generate more).</description>
     </rule>
   </rules>

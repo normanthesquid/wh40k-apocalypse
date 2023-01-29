@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bb07-3af8-2f2e-3ca5" name="Chaos - Chaos Daemons" revision="1" battleScribeVersion="2.03" authorName="JHales" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bb07-3af8-2f2e-3ca5" name="Chaos - Chaos Daemons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -6732,41 +6732,10 @@
         <categoryLink id="5415-3066-5c98-6191" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ab2d-2c94-1ba8-a7ff" name="Be&apos;lakor" hidden="false" collective="false" import="true" targetId="fde8-f85d-1aa5-9e55" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="a2ab-8af9-8361-64fa" name="New CategoryLink" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="ab2d-2c94-1ba8-a7ff" name="Be&apos;lakor" hidden="false" collective="false" import="true" targetId="fde8-f85d-1aa5-9e55" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="123b-e7bd-7bec-db1e" name="Daemonic Invulnerability" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <description>Each time you roll damage for a LEGIONES DAEMONICA unit in the Detachment, you can roll one D12 for one of that unit&apos;s saving throws instead of one D6.</description>
     </rule>
   </rules>
@@ -7410,7 +7379,6 @@
         <categoryLink id="ade5-3192-48d7-6b4b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="abf4-07c0-6085-41ad" name="Daemon Prince" hidden="false" targetId="6b0d-0721-2b56-887e" primary="false"/>
         <categoryLink id="8d43-9018-93df-f082" name="Be&apos;lakor" hidden="false" targetId="61ef-f47c-b083-ce82" primary="false"/>
-        <categoryLink id="d569-fc84-f313-5d25" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="60b1-912c-d3cd-27a9" name="The Blade of Shadows" hidden="false" collective="false" import="true" type="upgrade">

@@ -5847,7 +5847,7 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4404-0180-5b33-35b4" name="Library - Space Marines" targetId="c56b-a784-45be-6982" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4404-0180-5b33-35b4" name="Library - Space Marines" targetId="98c2-e7ca-4cd2-d189" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="cb82-5c8b-3e26-964e" name="Library - Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

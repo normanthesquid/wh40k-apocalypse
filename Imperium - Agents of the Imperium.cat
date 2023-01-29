@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="44ae-efdd-4c89-5db1" name="Imperium - Agents of the Imperium" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>A fork based off the Fundapocalypse project</readme>
+<catalogue id="44ae-efdd-4c89-5db1" name="Imperium - Agents of the Imperium" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme></readme>
   <profileTypes>
     <profileType id="89bc-3cf7-adff-c6eb" name="D3 Roll">
       <characteristicTypes>

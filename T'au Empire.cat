@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="13ea-2d01-372d-b903" name="T&apos;au Empire" revision="8" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="13ea-2d01-372d-b903" name="T&apos;au Empire" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6e11-42ed-c084-ce74" name="Datasheet T&apos;au Empire"/>
     <publication id="e282-a216-345a-e73a" name="Datasheet FW T&apos;au Empire"/>
@@ -152,33 +152,6 @@
   </entryLinks>
   <rules>
     <rule id="2a43-fe14-7278-383b" name="For the Greater Good" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <description>If this Detachment is carrying out an Aimed Fire order, then until the end of the turn, T&apos;AU EMPIRE units in this Detachment can still make a shoot action if enemy units are in base contact with them, and they can target enemy units in base contact with friendly T&apos;AU EMPIRE units from this Detachment.  However, if they do either, subtract 1 from hit rolls for attacks made by those units when resolving those attacks.</description>
     </rule>
   </rules>

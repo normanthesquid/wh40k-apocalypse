@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1446-5d49-98f4-8489" name="Chaos - Death Guard" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1446-5d49-98f4-8489" name="Chaos - Death Guard" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="466a-33f5-0faf-5cd1" name="Faction: The Tainted" hidden="false"/>
     <categoryEntry id="f6d9-ab1f-fe48-ea06" name="Necrosius the Undying" hidden="false"/>
@@ -229,11 +229,7 @@
         <categoryLink id="1136-174f-f5c1-9615" name="Faction: Death Guard" hidden="false" targetId="e798-e6e5-1f68-da8b" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b2f-87a1-775f-f506" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="11aa-d9c1-45b7-e4a6" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="0b2f-87a1-775f-f506" name="Mortarion" hidden="false" collective="false" import="true" targetId="4960-c06e-c1c6-1657" type="selectionEntry"/>
     <entryLink id="03dc-fc1e-b6c0-5f84" name="Plague Marines" hidden="false" collective="false" import="true" targetId="aae6-7b1d-3d9c-f6af" type="selectionEntry"/>
     <entryLink id="3978-ef95-9f4d-a054" name="Miasmic Malignifier" hidden="false" collective="false" import="true" targetId="5433-a692-859c-b8d4" type="selectionEntry"/>
     <entryLink id="8f7b-cb4b-35bf-6a13" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="0715-41f7-2439-d7f5" type="selectionEntry"/>
@@ -2349,7 +2345,7 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="6888-3824-ab4f-1868" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4099-0c9f-eae7-0a14" name="Chaos - Chaos Space Marines" targetId="10f2-2ae7-897d-0d3d" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="7369-fef8-6ea5-e989" name="Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

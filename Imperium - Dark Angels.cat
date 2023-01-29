@@ -3107,6 +3107,6 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4404-0180-5b33-35b4" name="Library - Space Marines" targetId="c56b-a784-45be-6982" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="849a-f744-5200-d47b" name="Library - Space Marines" targetId="98c2-e7ca-4cd2-d189" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
