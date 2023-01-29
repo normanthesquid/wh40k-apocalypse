@@ -18,7 +18,7 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yes! The files should be downloadable directly through github
 
 Data Url:
-https://github.com/th3proj3ct/wh40k-apocalypse-9e/releases/latest/download/wh40k-apocalypse-9e.latest.bsi.
+https://github.com/th3proj3ct/wh40k-apocalypse-9e/releases/latest/download/wh40k-apocalypse-9e.latest.bsi
 
 On PC you go Manage Data (three rectangles) -> Import Data -> Import Data from URL -> use our data URL.
 
