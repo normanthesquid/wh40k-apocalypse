@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="27" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="28" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -158,6 +158,7 @@
         <categoryLink id="084a-a562-891b-a141" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b9da-b39a-e7c3-0e97" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dfa6-4549-6a46-d35e" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="0ebf-5e9f-2381-21ae" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false">
@@ -225,6 +226,7 @@
         <categoryLink id="bc1f-ab21-8478-1b76" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="430a-139c-0716-0456" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c18-f118-6944-b74b" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7aab-5540-6767-69ad" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false">
@@ -292,6 +294,7 @@
         <categoryLink id="8b29-180b-02d1-0306" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="14eb-abcb-23a1-5f9f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="256d-cbea-06cb-1151" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="f42a-489e-77da-1883" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false">
@@ -376,6 +379,7 @@
         <categoryLink id="05b7-791e-6411-3a21" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="4800-f05b-dd27-63cd" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb13-eb8c-e4b5-edb9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="44ff-a408-4341-9f29" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -422,6 +426,7 @@
         <categoryLink id="5590-2df0-9639-6a13" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3d3-4635-b272-bcb3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a00-3212-1388-c0fd" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1c93-18ab-8218-4509" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false">
@@ -511,6 +516,7 @@
         <categoryLink id="f8aa-8402-f857-9d62" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4b9-dac9-0c37-83a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fb6-ae45-1877-f9dd" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="32e1-4faa-3a33-6514" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false">
@@ -586,6 +592,7 @@
         <categoryLink id="efdf-5f77-4856-e2d8" name="Lord of War" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3612-8085-d853-ae52" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7aff-54a0-c6ce-6933" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
