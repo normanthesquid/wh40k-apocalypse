@@ -98,6 +98,7 @@
     <categoryEntry id="dfc6-5d64-127f-97a1" name="Daemon" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="b1fd-719c-4789-4656" name="List Configuration" hidden="false"/>
     <categoryEntry id="4800-f05b-dd27-63cd" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false"/>
+    <categoryEntry id="bc98-2b56-f8f0-4817" name="Simon" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ba0-7df9-3f27-d4b1" name="Ad Hoc Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
@@ -107,7 +108,12 @@
       <forceEntries>
         <forceEntry id="7a02-79cc-fa48-0063" name="Ad Hoc Detachment" publicationId="8df9-0b3e-abea-3c15" hidden="false">
           <categoryLinks>
-            <categoryLink id="9c59-3b94-1454-2be2" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
+            <categoryLink id="9c59-3b94-1454-2be2" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef5-5fa2-45ee-92c2" type="min"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b18-db65-9c81-334e" type="max"/>
+              </constraints>
+            </categoryLink>
             <categoryLink id="bb3d-ee0a-3da4-eff4" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
             <categoryLink id="c50b-eba8-ed7b-89c3" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
             <categoryLink id="6c78-6096-cd73-272e" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
@@ -122,7 +128,12 @@
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="8642-e76d-0d79-79a2" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false"/>
+        <categoryLink id="8642-e76d-0d79-79a2" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fecd-81d9-ba38-992f" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4b-f35d-6fec-2022" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="0164-e3dc-6c4b-37c5" name="No Force Org Slot" hidden="false" targetId="9f9b-a0ff-1523-746d" primary="false"/>
         <categoryLink id="9849-b450-329f-a162" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="2b8d-76eb-6c31-9b11" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
@@ -739,6 +750,14 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d16-dd14-b7bf-4e0b" name="Hide Legacy and Big Toys 40k units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b403-4d2b-a77e-fb52" type="max"/>
+      </constraints>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>

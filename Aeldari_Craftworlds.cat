@@ -87,6 +87,7 @@
     <categoryEntry id="3ef8-49bd-2bc1-1ba3" name="Corsair Voidreavers" hidden="false"/>
     <categoryEntry id="d078-349c-734a-7db7" name="Corsair Voidscarred" hidden="false"/>
     <categoryEntry id="c033-4ec2-8f9b-f5a8" name="Shroud Runners" hidden="false"/>
+    <categoryEntry id="a73a-db0f-8e67-2136" name="Yrrthilien Moursong" publicationId="8389-c75f-841c-95a7" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="8785-9bd8-6adf-940c" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="e4e5-fffd-9435-163e" type="selectionEntry"/>
@@ -163,6 +164,11 @@
     <entryLink id="3fac-69e9-f6f0-643f" name="The Visarch" hidden="false" collective="false" import="true" targetId="7a5a-a144-d8bf-314f" type="selectionEntry"/>
     <entryLink id="9317-b7b5-3e57-342f" name="Yrrthilien Moursong" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="8bf0-5926-7f9f-a5fe" type="selectionEntry"/>
     <entryLink id="0620-7889-ca15-374c" name="Yrrthilien Moursong" hidden="false" collective="false" import="true" targetId="7513-db79-53cf-684a" type="selectionEntry"/>
+    <entryLink id="571e-4e88-e279-2a6e" name="Unit Filter" hidden="false" collective="false" import="true" targetId="c16f-0d90-7a0c-43a5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5e32-ef6b-1114-33ae" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e4e5-fffd-9435-163e" name="Eldrad Ulthran" publicationId="280a-43bb-426c-aa7c" page="1" hidden="false" collective="false" import="true" type="model">
@@ -7336,6 +7342,13 @@ weapons by this unit.</characteristic>
     </selectionEntry>
     <selectionEntry id="7513-db79-53cf-684a" name="Yrrthilien Moursong" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="unit">
       <comment>Taken from Citadel Journal #3</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d282-d648-724c-caf0" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="251a-be7c-4a1d-cb66" type="max"/>
       </constraints>
@@ -7371,6 +7384,7 @@ weapons by this unit.</characteristic>
         <categoryLink id="b7e0-24f3-28ce-d045" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="017c-20ae-7274-396b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="8dce-1d1e-f425-b7ec" name="Faction: Aspect Warrior" hidden="false" targetId="6b12-0532-6c76-4d6a" primary="false"/>
+        <categoryLink id="f960-0d24-3b4d-da0e" name="Yrrthilien Moursong" hidden="false" targetId="a73a-db0f-8e67-2136" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bc41-a238-11df-4765" name="Sonic Crystal Cannon" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
@@ -7418,6 +7432,17 @@ weapons by this unit.</characteristic>
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c16f-0d90-7a0c-43a5" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="13b8-7805-33e5-ac6b" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d282-d648-724c-caf0" name="Hide Legacy and Big Toys 40k units" hidden="false" collective="false" import="true" targetId="1d16-dd14-b7bf-4e0b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
