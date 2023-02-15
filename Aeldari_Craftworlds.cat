@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Asuryani" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="280a-43bb-426c-aa7c" name="Asuryani Datasheets PDF"/>
   </publications>
@@ -87,7 +87,7 @@
     <categoryEntry id="3ef8-49bd-2bc1-1ba3" name="Corsair Voidreavers" hidden="false"/>
     <categoryEntry id="d078-349c-734a-7db7" name="Corsair Voidscarred" hidden="false"/>
     <categoryEntry id="c033-4ec2-8f9b-f5a8" name="Shroud Runners" hidden="false"/>
-    <categoryEntry id="a73a-db0f-8e67-2136" name="Yrrthilien Moursong" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="a73a-db0f-8e67-2136" name="Yrrthilien Moursong" publicationId="3434-17b5-4a22-f338" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="8785-9bd8-6adf-940c" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="e4e5-fffd-9435-163e" type="selectionEntry"/>
@@ -159,11 +159,8 @@
     <entryLink id="6f96-9dd8-0eee-eb2e" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="79af-4517-0198-a5c8" type="selectionEntry"/>
     <entryLink id="6ca5-8b56-c23d-d751" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="20b5-9f27-fa22-af34" type="selectionEntry"/>
     <entryLink id="b4b7-63e6-98fb-c0ca" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="30dd-ac10-f8b3-2c0c" type="selectionEntry"/>
-    <entryLink id="4541-ab09-e988-d5c4" name="The Yncarne" hidden="false" collective="false" import="true" targetId="fa64-5ec0-197e-c36e" type="selectionEntry"/>
-    <entryLink id="6a22-c5c7-319c-0505" name="Yvraine" hidden="false" collective="false" import="true" targetId="3b6b-b0f9-6361-03b4" type="selectionEntry"/>
-    <entryLink id="3fac-69e9-f6f0-643f" name="The Visarch" hidden="false" collective="false" import="true" targetId="7a5a-a144-d8bf-314f" type="selectionEntry"/>
-    <entryLink id="9317-b7b5-3e57-342f" name="Yrrthilien Moursong" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="8bf0-5926-7f9f-a5fe" type="selectionEntry"/>
-    <entryLink id="0620-7889-ca15-374c" name="Yrrthilien Moursong" hidden="false" collective="false" import="true" targetId="7513-db79-53cf-684a" type="selectionEntry"/>
+    <entryLink id="0620-7889-ca15-374c" name="Yrrthilien Moursong [Legends]" hidden="false" collective="false" import="true" targetId="7513-db79-53cf-684a" type="selectionEntry"/>
+    <entryLink id="e178-9f5d-a2af-09ac" name="Unit Filter" hidden="false" collective="false" import="true" targetId="5762-d38f-34fb-131a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e4e5-fffd-9435-163e" name="Eldrad Ulthran" publicationId="280a-43bb-426c-aa7c" page="1" hidden="false" collective="false" import="true" type="model">
@@ -7335,12 +7332,12 @@ weapons by this unit.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7513-db79-53cf-684a" name="Yrrthilien Moursong" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7513-db79-53cf-684a" name="Yrrthilien Moursong [Legends]" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="unit">
       <comment>Taken from Citadel Journal #3</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e7e3-712e-894b-658d" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20a7-9128-938d-97d3" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7348,7 +7345,7 @@ weapons by this unit.</characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="251a-be7c-4a1d-cb66" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4e65-e740-6889-a9f3" name="Yrrthilien Moursong" publicationId="8389-c75f-841c-95a7" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+        <profile id="4e65-e740-6889-a9f3" name="Yrrthilien Moursong" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="606d-344a-bc3d-9dce">17&quot;</characteristic>
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
@@ -7359,12 +7356,12 @@ weapons by this unit.</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="8038-a76e-16f5-de6c" name="Ungodly Crescendo" publicationId="8389-c75f-841c-95a7" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="8038-a76e-16f5-de6c" name="Ungodly Crescendo" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Subtract 1 from hit rolls for attacks made with melee weapons by attacks that target this unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="77c7-4c4c-b775-5175" name="Devil-may-care" publicationId="8389-c75f-841c-95a7" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+        <profile id="77c7-4c4c-b775-5175" name="Devil-may-care" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This unit may not be a warlord.</characteristic>
           </characteristics>
@@ -7382,13 +7379,13 @@ weapons by this unit.</characteristic>
         <categoryLink id="f960-0d24-3b4d-da0e" name="Yrrthilien Moursong" hidden="false" targetId="a73a-db0f-8e67-2136" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bc41-a238-11df-4765" name="Sonic Crystal Cannon" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bc41-a238-11df-4765" name="Sonic Crystal Cannon" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b744-0409-5f20-76d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9733-f0bf-2761-b8ba" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bbb0-8031-e4f3-b0a9" name="Sonic Crystal Cannon" publicationId="8389-c75f-841c-95a7" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="bbb0-8031-e4f3-b0a9" name="Sonic Crystal Cannon" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
@@ -7403,13 +7400,13 @@ weapons by this unit.</characteristic>
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f4cf-1145-9748-532c" name="The Moon Sabre of Thilienn" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f4cf-1145-9748-532c" name="The Moon Sabre of Thilienn" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c59-49ad-19c6-9e38" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9efd-811b-cb43-ea06" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8fd8-579f-5b00-d06b" name="The Moon Sabre of Thilienn" publicationId="8389-c75f-841c-95a7" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+            <profile id="8fd8-579f-5b00-d06b" name="The Moon Sabre of Thilienn" publicationId="3434-17b5-4a22-f338" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
@@ -7427,6 +7424,25 @@ weapons by this unit.</characteristic>
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5762-d38f-34fb-131a" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="24a7-7454-a8f1-9187" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7fc2-200d-bb21-7d64" name="Hide Legacy units" hidden="false" collective="false" import="true" targetId="20a7-9128-938d-97d3" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20a7-9128-938d-97d3" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc3e-2539-79be-b846" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7535,6 +7551,5 @@ weapons by this unit.</characteristic>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="1893-2069-9681-e8e3" name="AeldariWeapons" targetId="d311-d4fb-a860-0cf3" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="f0f0-2ae2-aaf1-370d" name="Aeldari - Ynnari" targetId="8417-7887-00f4-19f1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

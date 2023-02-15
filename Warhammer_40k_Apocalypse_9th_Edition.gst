@@ -694,13 +694,6 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <entryLinks>
-    <entryLink id="a444-3666-60d5-e1bf" name="Unit Filter" hidden="false" collective="false" import="true" targetId="1623-4474-423d-18e2" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="75e0-ce5b-4c55-6b06" name="New CategoryLink" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7347-5716-355f-9165" name="Commander" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -757,25 +750,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1d16-dd14-b7bf-4e0b" name="Hide Legacy and Big Toys 40k units" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b403-4d2b-a77e-fb52" type="max"/>
-      </constraints>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1623-4474-423d-18e2" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="0852-3207-8900-3d84" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="e7e3-712e-894b-658d" name="Hide Legacy and Big Toys 40k units" hidden="false" collective="false" import="true" targetId="1d16-dd14-b7bf-4e0b" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
