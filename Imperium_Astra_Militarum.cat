@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -89,6 +89,8 @@
     <categoryEntry id="aebc-fe1c-b0e7-26c1" name="Battle Tank" hidden="false"/>
     <categoryEntry id="90e8-4bf4-5119-063b" name="Hellhound" hidden="false"/>
     <categoryEntry id="7b10-8288-447c-b8b1" name="Faction: Astra Militarum" hidden="false"/>
+    <categoryEntry id="f9db-fde0-9efb-2594" name="Cyllarus Armoured Car" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="53b8-c6df-785d-1679" name="Asterion Command Vehicle" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="1df4-025c-99c1-3120" name="Hades Breaching Drill" hidden="false" collective="false" import="true" type="upgrade">
@@ -1028,6 +1030,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="99e4-0421-98d5-ad80" name="Grenadier Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1885,6 +1890,9 @@
           <infoLinks>
             <infoLink id="6306-5ee6-754d-8f05" name="Regimental Standard" hidden="false" targetId="d292-9d7e-85ad-9ea3" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="30de-e54b-4f81-a995" name="Command Squad Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1961,6 +1969,9 @@
           <infoLinks>
             <infoLink id="1fbd-7eb4-a16e-459c" name="Regimental Standard" hidden="false" targetId="d292-9d7e-85ad-9ea3" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2010,6 +2021,9 @@
           <infoLinks>
             <infoLink id="2bb4-50ab-ac36-21a5" name="Regimental Standard" hidden="false" targetId="d292-9d7e-85ad-9ea3" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9642-f73e-31fa-c73d" name="Command Squad Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6338,6 +6352,144 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ebb1-af98-338f-1d89" name="Cyllarus Armoured Cars [Legends]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken from Citadel Journal #15 renamed from Centaur to avoid confusion with the FW vehicle of the same name</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0e6-1b58-caa6-e715" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="fbca-d175-babc-0ff6" name="Cyllarus Armoured Car" hidden="false" targetId="f9db-fde0-9efb-2594" primary="false"/>
+        <categoryLink id="dafe-0612-731b-bf2c" name="Faction: Astra Militarum" hidden="false" targetId="7b10-8288-447c-b8b1" primary="false"/>
+        <categoryLink id="571e-9689-3a70-66ed" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f587-4481-01a1-d783" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="d9cd-8344-9330-c18e" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c4f8-92fe-84d1-531e" name="Cyllarus Armoured Car [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Taken from Citadel Journal #15 renamed from Centaur to avoid confusion with the FW vehicle of the same name</comment>
+          <profiles>
+            <profile id="4565-61c6-5721-db87" name="Cyllarus Armoured Car [Legends]" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+                <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+                <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8bc9-93bf-1d4d-97bc" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
+            <infoLink id="aeda-d6f2-771a-edc9" name="Vehicle Squadron" hidden="false" targetId="c176-48ec-0264-cc9a" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="f60a-55d7-bf26-b85c" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="6816-24ee-6ed6-5a64" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee6-e4ec-3cb7-e682" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="495e-0925-3485-30d1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2969-4527-b378-ad31" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8885-3b59-743d-9a6f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1662-b842-01db-fe58" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7757-0d28-649c-a6e4" name="Pintle Weapon" hidden="false" collective="false" import="true" targetId="3613-8dab-b05f-9d8d" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec43-a058-c2e5-28a5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ed25-6052-6c4b-91c7" name="Multi-laser" hidden="false" collective="false" import="true" targetId="e3dd-5349-ba8d-618b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30fa-be69-12ed-c09d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d486-3964-83dc-a780" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="a87b-8829-692e-03c2" name="Asterion Command Vehicle [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken from Citadel Journal #15 renamed from Minotaur to avoid confusion with the FW vehicle of the same name</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0e6-1b58-caa6-e715" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5ce8-d00d-2d01-d034" name="Asterion Command Vehicle [Legends]" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">6+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f245-2cd3-5003-b143" name="Auto-Launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2865-2c33-f3f9-274f" name="Auspex Surveyor" hidden="false">
+          <description>At the start of the Action phase, you can select one friend &lt;REGIMENT&gt; VEHICLE unit within 24” of this unit. Until the end of that phase, add 1 to hit rolls for attacks made with ranged weapons by that unit. A unit cannot be targeted by this ability more than once in a turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c00a-999e-529f-5d14" name="Infiltrators" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3c4c-bc49-6203-c589" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="f39e-15b4-6b83-75a5" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="b35d-efff-2194-a08d" name="Faction: Astra Militarum" hidden="false" targetId="7b10-8288-447c-b8b1" primary="false"/>
+        <categoryLink id="b73d-ab40-80b1-3f39" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="81f3-665d-b903-c3ba" name="Asterion Command Vehicle" hidden="false" targetId="53b8-c6df-785d-1679" primary="false"/>
+        <categoryLink id="47a8-3579-cd44-cbd7" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="be47-50cf-96c3-f0ac" name="Armoured Hull" hidden="false" collective="false" import="true" targetId="6816-24ee-6ed6-5a64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7799-5d81-1679-ee17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1180-9681-cd17-8708" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee85-d3e6-0192-f74c" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cac-3509-c503-e6a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e3-fa54-61e1-1f71" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c37c-3cc4-7713-1fac" name="Pintle Weapon" hidden="false" collective="false" import="true" targetId="3613-8dab-b05f-9d8d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dba-f549-f011-6763" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="8543-fde5-57cf-3029" name="Lord Solar Leontus" hidden="false" collective="false" import="true" targetId="d6a1-4140-fcbc-c162" type="selectionEntry">
@@ -6345,11 +6497,8 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <categoryLink id="3eef-ffeb-34f5-c56c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2b39-dd6c-f1ea-d010" name="Lord Solar Leontus" hidden="false" collective="false" import="true" targetId="d6a1-4140-fcbc-c162" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="41d1-7c5d-6483-812d" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="9376-59f2-9b7f-cce3" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="2b39-dd6c-f1ea-d010" name="Lord Solar Leontus" hidden="false" collective="false" import="true" targetId="d6a1-4140-fcbc-c162" type="selectionEntry"/>
+    <entryLink id="3794-7b55-a5b5-c129" name="Unit Filter" hidden="false" collective="false" import="true" targetId="3384-e166-d890-ddc0" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="f11b-80f6-238e-ba9e" name="Voice of Command" hidden="false">
@@ -6508,6 +6657,9 @@ When targets would be picked for a Fight action made by this unit, it instead ta
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5cd5-421c-f00e-b54c" name="Stygies Vanquisher Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -6904,6 +7056,25 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a0e6-1b58-caa6-e715" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa18-938b-e6fc-a224" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3384-e166-d890-ddc0" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="87b2-94ed-684b-7784" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="61d5-2c5a-682b-d4fa" name="Hide Legacy units" hidden="false" collective="false" import="true" targetId="a0e6-1b58-caa6-e715" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bb76-bd32-15c8-099c" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8cd0-5fda-9623-20a6">
@@ -6973,6 +7144,9 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <infoLinks>
             <infoLink id="a784-b204-922c-3c6f" name="Heavy Bolter" hidden="false" targetId="2709-752f-fc62-0bdf" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1608-7174-1208-e2de" name="2x Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6982,6 +7156,9 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <infoLink id="61ea-2c08-b039-9edc" name="Heavy Flamer" hidden="false" targetId="59d9-521f-7559-6fa6" type="profile"/>
             <infoLink id="32c1-c3d4-4061-75e3" name="Inferno" hidden="false" targetId="f3a7-fc0c-a9e3-d382" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="23c2-ef2c-b732-e148" name="2x Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6990,6 +7167,9 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
           <infoLinks>
             <infoLink id="6f2f-5603-04e3-4fd7" name="Multi-melta" hidden="false" targetId="775f-a7d3-156b-b646" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="52f0-a9cd-6a0c-e311" name="2x Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6999,6 +7179,9 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
             <infoLink id="0c44-7b5c-2599-6e00" name="Plasma Cannon" hidden="false" targetId="e472-1880-76be-da14" type="profile"/>
             <infoLink id="bf15-2d7d-5d87-da53" name="Supercharge" hidden="false" targetId="9988-c2ea-2f30-09c1" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
