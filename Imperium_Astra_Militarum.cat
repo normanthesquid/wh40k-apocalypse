@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed62-9ebb-f4c8-dd03" name="Imperium - Astra Militarum" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b6a1-41e3-5fe3-e661" name="Lord Castellan Creed" hidden="false"/>
     <categoryEntry id="b0a1-41e3-5fe3-e661" name="Colour Sergeant Kell" hidden="false"/>
@@ -89,7 +89,7 @@
     <categoryEntry id="aebc-fe1c-b0e7-26c1" name="Battle Tank" hidden="false"/>
     <categoryEntry id="90e8-4bf4-5119-063b" name="Hellhound" hidden="false"/>
     <categoryEntry id="7b10-8288-447c-b8b1" name="Faction: Astra Militarum" hidden="false"/>
-    <categoryEntry id="f9db-fde0-9efb-2594" name="Cyllarus Armoured Car" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="f9db-fde0-9efb-2594" name="Cyllarus Armoured Car" publicationId="3434-17b5-4a22-f338" hidden="false"/>
     <categoryEntry id="53b8-c6df-785d-1679" name="Asterion Command Vehicle" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
@@ -1750,6 +1750,10 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d733-fdf1-9a55-6f8b" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c90-1440-5c24-1b30">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4867-8e1c-48dc-58d5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8baf-922f-a9d3-db2b" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="a662-1583-4e99-1923" name="Oppressor Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1804,6 +1808,10 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0e14-8e01-244d-8094" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ae04-658c-a829-8e0b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2cf-03c6-05d9-7c39" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6c-d0d7-6c85-fd5a" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="ae04-658c-a829-8e0b" name="Castigator Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6369,7 +6377,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <categoryLink id="d9cd-8344-9330-c18e" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c4f8-92fe-84d1-531e" name="Cyllarus Armoured Car [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c4f8-92fe-84d1-531e" name="Cyllarus Armoured Car [Legends]" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
           <comment>Taken from Citadel Journal #15 renamed from Centaur to avoid confusion with the FW vehicle of the same name</comment>
           <profiles>
             <profile id="4565-61c6-5721-db87" name="Cyllarus Armoured Car [Legends]" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -6418,8 +6426,11 @@ When targets would be picked for a Fight action made by this unit, it instead ta
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="a87b-8829-692e-03c2" name="Asterion Command Vehicle [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a87b-8829-692e-03c2" name="Asterion Command Vehicle [Legends]" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Taken from Citadel Journal #15 renamed from Minotaur to avoid confusion with the FW vehicle of the same name</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
