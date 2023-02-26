@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="61c5-1517-db5f-03f8" name="Imperium - Space Wolves" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="61c5-1517-db5f-03f8" name="Imperium - Space Wolves" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -51,6 +51,8 @@
     <categoryEntry id="f66b-11b4-5daf-9b88" name="Stormwolf" hidden="false"/>
     <categoryEntry id="0d3d-523e-d125-51bc" name="Swiftclaw" hidden="false"/>
     <categoryEntry id="0fbe-d451-d2b1-902c" name="Hounds of Morkai" hidden="false"/>
+    <categoryEntry id="03f3-aad5-6a83-be51" name="Kvalnir Silverclaw" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="0b50-cac3-f18f-dea8" name="Berek Thunderfist" publicationId="8389-c75f-841c-95a7" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="b86f-f535-5a4e-c796" name="Logan Grimnar" hidden="false" collective="false" import="true" type="unit">
@@ -4875,6 +4877,155 @@ Additionally, when this unit makes a Fight action, add 1 to hit rolls and you ca
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9b23-1902-9af7-9b96" name="Berek Thunderfist [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken from Citadel Journal #2</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a8d6-5576-7ba9-f3ae" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="258e-44e1-d0bb-a873" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d98d-9af7-a121-1a6a" name="Berek Thunderfist" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="41d7-4b8e-84e5-dcc1" name="Jarl of Fenris" hidden="false" targetId="bdcc-f69f-afe1-a2a5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="58b6-dfeb-58ca-178c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="0210-e058-93bf-5d7d" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="833b-a369-d8ed-190b" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="4da0-c3e7-e29d-e15e" name="Faction: Space Wolves" hidden="false" targetId="58c1-00b9-7a20-4110" primary="false"/>
+        <categoryLink id="7f28-030b-b148-e490" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1d34-1e13-99fd-a0e1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="5669-4868-dbe0-d062" name="Berek Thunderfist" hidden="false" targetId="0b50-cac3-f18f-dea8" primary="false"/>
+        <categoryLink id="58f4-348f-fb43-d320" name="Wolf Lord" hidden="false" targetId="949a-c2a1-40fa-aa09" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e615-2f5a-0a23-683e" name="Claws of theThundewolf" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e173-611d-b202-77fc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26b3-90c2-dea1-8ee5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c18f-c7c4-0c96-5d55" name="Claws of theThundewolf" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="53cf-26b5-e37a-91c3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7a6-f2cf-793a-907b" name="Kvalnir Silverclaw [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken from Citadel Journal #2</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a8d6-5576-7ba9-f3ae" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce30-3b68-6198-3379" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6ad0-aba4-2658-3e72" name="Kvalnir Silverclaw" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="83f4-e216-790c-8000" name="Jarl of Fenris" hidden="false" targetId="bdcc-f69f-afe1-a2a5" type="profile"/>
+        <infoLink id="5806-e954-d1e7-240d" name="Deep Strike" hidden="false" targetId="8fc3-5045-3aa5-00ce" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="42d9-bfa0-89dc-b1fb" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="9725-e117-b556-c645" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="e00e-659a-9a02-3adb" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="4ec2-4dae-7e89-198d" name="Faction: Space Wolves" hidden="false" targetId="58c1-00b9-7a20-4110" primary="false"/>
+        <categoryLink id="812d-6d7f-5afb-6e31" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="24c0-a078-0258-1d96" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="49c6-e0d4-6817-711a" name="Terminator" hidden="false" targetId="3726-f1d3-1b96-0eb0" primary="false"/>
+        <categoryLink id="8ec2-8ee0-9252-4369" name="Kvalnir Silverclaw" hidden="false" targetId="03f3-aad5-6a83-be51" primary="false"/>
+        <categoryLink id="21e5-412c-d8ed-2414" name="Wolf Lord" hidden="false" targetId="949a-c2a1-40fa-aa09" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a9fb-6312-c59c-a97e" name="The Long Fang" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ef-d3ac-165f-a150" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1b-4fbc-6e33-2053" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3507-b84b-d1bb-9207" name="The Long Fang" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="556a-7609-5c8e-3258" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44cb-40c5-11d6-5e13" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="b912-99df-3f23-8a7c" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="49fe-d8b0-0550-2d1b" name="Hide Legacy units" hidden="false" collective="false" import="true" targetId="a8d6-5576-7ba9-f3ae" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="b768-96a2-3723-ce3d" name="Rhino Primaris" hidden="false" collective="false" import="true" targetId="6fdd-0f7d-c487-6743" type="selectionEntry">
@@ -5690,6 +5841,34 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
       </categoryLinks>
     </entryLink>
     <entryLink id="00c4-26f7-f2af-791a" name="Relic Sicaran Omega Tank Destroyer" hidden="false" collective="false" import="true" targetId="1b61-539d-610c-1928" type="selectionEntry"/>
+    <entryLink id="1cf9-1d2d-e194-318a" name="Techmarine Rhino [Legends]" hidden="false" collective="false" import="true" targetId="6afe-3e6a-fcd8-76bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a8d6-5576-7ba9-f3ae" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="edba-7e32-7693-e85f" name="Battlesmith" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">At the end of the Action phase, this unit can attempt to repair one friendly SPACE WOLVES VEHICLE unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that VEHICLE unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8fda-7668-6536-a7db" name="Techmarine Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly SPACE WOLVES INFANTRY models. It cannot transport PRIMARIS, TERMINATOR, WULFEN or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="327a-6e48-df28-dd7a" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="a086-e816-895f-1b5c" name="Faction: Space Wolves" hidden="false" targetId="58c1-00b9-7a20-4110" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a123-b4e9-1693-784f" name="The Axe Morkai" hidden="false" collective="false" import="true" type="upgrade">
@@ -5779,6 +5958,14 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8d6-5576-7ba9-f3ae" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b424-5bb5-3a59-5ec1" type="max"/>
+      </constraints>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
