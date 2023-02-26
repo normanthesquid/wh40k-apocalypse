@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bc93-92f0-5311-32d4" name="Imperium - Blood Angels" revision="2" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bc93-92f0-5311-32d4" name="Imperium - Blood Angels" revision="2" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -2723,6 +2723,18 @@ LAND RAIDER, RELIC SPARTAN ASSAULT TANK, RHINO and RAZORBACK models can transpor
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
+    </entryLink>
+    <entryLink id="d060-15b9-ae08-d140" name="Land Raider Ares [Legends]" hidden="false" collective="false" import="true" targetId="eac7-1986-6489-3934" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9146-42a8-719f-b70b" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="29dc-dc8e-83bb-83e0" name="Faction: Blood Angels" hidden="false" targetId="f7a9-266d-efb6-d80f" primary="false"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

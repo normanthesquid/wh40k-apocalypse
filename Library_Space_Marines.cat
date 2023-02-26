@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -142,6 +142,7 @@
     <categoryEntry id="1762-9303-f65e-d6de" name="Thunderstrike" hidden="false"/>
     <categoryEntry id="2c2c-ac12-de58-4f4e" name="Hammerstrike" hidden="false"/>
     <categoryEntry id="aa70-d80a-b829-532a" name="Techmarine Rhino" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="7e1a-7f42-1287-82f6" name="Land Raider Ares" hidden="false"/>
   </categoryEntries>
   <rules>
     <rule id="d3fe-d179-4b39-60b7" name="And They Shall Know No Fear" hidden="false">
@@ -6725,7 +6726,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6450-901f-34ad-8acb" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6885-0e98-a38d-3d9b" name="Twin Multi-meltas" hidden="false" collective="false" import="true" targetId="8db9-b9be-885f-5a5f" type="selectionEntry">
+        <entryLink id="6885-0e98-a38d-3d9b" name="Twin Multi-melta" hidden="false" collective="false" import="true" targetId="8db9-b9be-885f-5a5f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9f-f649-7ccb-5234" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c72-e0bf-61de-d05b" type="max"/>
@@ -13414,6 +13415,94 @@ that target this unit.</characteristic>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eac7-1986-6489-3934" name="Land Raider Ares [Legends]" publicationId="f066-1559-6a6d-ec22" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken From https://chamber42.com/blog/archives/1268</comment>
+      <infoLinks>
+        <infoLink id="28b6-d94b-1122-e2a2" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Land Raider Ares"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f35d-71db-6296-3a0a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="c735-689f-ff72-c4ea" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f5cd-78ad-2845-211a" name="Faction: Adeptus Astartes" hidden="false" targetId="6268-f517-c933-bf19" primary="false"/>
+        <categoryLink id="e5da-fb10-f668-5188" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="02cf-130e-4a4a-9db7" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="0a07-8b1c-ee7b-43d4" name="Land Raider" hidden="false" targetId="e8c9-c1e3-8372-9280" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="852f-e6ac-af14-106d" name="Dozer Ram" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a00-4460-5c71-ea69" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3fb-a962-a0b0-a254" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="46d6-5b9f-e9c7-d1f2" name="Dozer Ram" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b69-c332-a8e6-a3ad" name="Sponson Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9def-8b25-1a0b-f7da">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e640-eec1-24ec-f786" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baef-8a3b-eec7-efd7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9def-8b25-1a0b-f7da" name="Twin Heavy Flamer" hidden="false" collective="false" import="true" targetId="ef0f-d8ec-5be7-d039" type="selectionEntry"/>
+            <entryLink id="3ffd-df3d-40c9-952a" name="Flamestorm Cannon" hidden="false" collective="false" import="true" targetId="8578-7721-e821-d44b" type="selectionEntry"/>
+            <entryLink id="9a38-9e0d-6860-947a" name="Hurricane Bolter" hidden="false" collective="false" import="true" targetId="abd4-677c-38d8-044d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed1c-118f-dfc3-1511" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="58e9-527f-8ac4-a08e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9879-9066-2e53-3402" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="624e-761d-86c8-1746" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="58e9-527f-8ac4-a08e" name="Twin Assault Cannon" hidden="false" collective="false" import="true" targetId="6049-a3c6-fbb2-db4d" type="selectionEntry"/>
+            <entryLink id="78ab-63a0-f2b7-6ab3" name="Twin Heavy Plasma Cannon" hidden="false" collective="false" import="true" targetId="8c5c-4add-d480-8268" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="aa72-0db2-4368-2f29" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="46ec-984c-3ea6-8f83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e40-b974-2064-d55c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="653b-ede2-c7d6-db84" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="81fa-ceda-66ff-fd9f" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="7457-58c5-d5f1-11a0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1385-7911-832a-c3e7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4ea3-fc64-61ac-5342" name="Multi-melta" hidden="false" collective="false" import="true" targetId="1a13-f0be-ca42-c44b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6d-92e5-883d-fe8c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

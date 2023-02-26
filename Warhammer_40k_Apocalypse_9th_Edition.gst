@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse"/>
+    <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
     <publication id="8389-c75f-841c-95a7" name="Citadel Journal" shortName="Citadel Journal">
       <comment>Updated rules for legacy uinits from Citadel Journal</comment>
     </publication>
+    <publication id="f066-1559-6a6d-ec22" name="Chamber 42 / Nathan Bishop" shortName="Chamber 42" publicationDate="June 25 2019" publisherUrl="https://chamber42.com"/>
+    <publication id="3cec-4691-df0c-544c" name="Warhammer 40,000: Apocalypse 2007" publicationDate="2007"/>
+    <publication id="d219-022c-3b23-cf52" name="Apocalypse Reload 2008" publicationDate="2008"/>
   </publications>
   <costTypes>
     <costType id="1466-da3f-0d27-dace" name=" PL" defaultCostLimit="-1.0" hidden="false"/>
