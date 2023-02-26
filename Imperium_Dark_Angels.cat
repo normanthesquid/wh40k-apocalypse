@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="11" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7774-c573-6697-5bd1" name="Imperium - Dark Angels" revision="12" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -26,6 +26,19 @@
     <categoryEntry id="3600-450b-a555-569e" name="Lazarus" hidden="false"/>
     <categoryEntry id="d537-b50c-719d-d101" name="Inner Circle" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="a56e-faa1-4102-8b59" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ec5c-cdbb-bb01-e3ae" name="List Configuration" hidden="false" targetId="b1fd-719c-4789-4656" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8e33-d96b-5a28-5656" name="Hide Legacy units" hidden="false" collective="false" import="true" targetId="9608-768c-3955-8adf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="fc3d-dd60-37ea-c9ef" name="Tactical Squad" hidden="false" collective="false" import="true" targetId="1fa2-88c4-2c7e-5d33" type="selectionEntry">
       <categoryLinks>
@@ -977,6 +990,34 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
       <infoLinks>
         <infoLink id="e6e6-6c61-bef7-9c85" name="Rites of Battle" hidden="false" targetId="a9a4-c13f-702f-4bae" type="profile"/>
       </infoLinks>
+    </entryLink>
+    <entryLink id="692c-71ce-077b-9b78" name="Techmarine Rhino [Legends]" hidden="false" collective="false" import="true" targetId="6afe-3e6a-fcd8-76bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9608-768c-3955-8adf" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e445-fc57-b171-eddb" name="Battlesmith" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">At the end of the Action phase, this unit can attempt to repair one friendly DARK ANGELS VEHICLE unit in base contact with it. If it does, roll one D6; on a 4+ remove one damage marker from that VEHICLE unit. Only one attempt to repair each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cce2-2e4c-205a-acc1" name="Techmarine Rhino" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This unit can transport up to 6 friendly DARK ANGELS INFANTRY models. It cannot transport PRIMARIS, TERMINATOR or JUMP PACK units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9779-44bf-158d-54dd" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="47cb-bd2b-5ca7-da18" name="Faction: Dark Angels" hidden="false" targetId="6ac9-811a-fe59-5de1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -2944,6 +2985,14 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9608-768c-3955-8adf" name="Hide Legacy units" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2631-a995-2fe7-11a8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

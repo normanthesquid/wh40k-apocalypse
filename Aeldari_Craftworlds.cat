@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8438-2d0c-eaf9-6f84" name="Aeldari - Craftworlds" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="280a-43bb-426c-aa7c" name="Asuryani Datasheets PDF"/>
   </publications>
@@ -88,6 +88,7 @@
     <categoryEntry id="d078-349c-734a-7db7" name="Corsair Voidscarred" hidden="false"/>
     <categoryEntry id="c033-4ec2-8f9b-f5a8" name="Shroud Runners" hidden="false"/>
     <categoryEntry id="a73a-db0f-8e67-2136" name="Yrrthilien Moursong" publicationId="3434-17b5-4a22-f338" hidden="false"/>
+    <categoryEntry id="d572-cf7a-4d18-7830" name="Scout Walkers" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="8785-9bd8-6adf-940c" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="e4e5-fffd-9435-163e" type="selectionEntry"/>
@@ -161,6 +162,7 @@
     <entryLink id="b4b7-63e6-98fb-c0ca" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="30dd-ac10-f8b3-2c0c" type="selectionEntry"/>
     <entryLink id="0620-7889-ca15-374c" name="Yrrthilien Moursong [Legends]" hidden="false" collective="false" import="true" targetId="7513-db79-53cf-684a" type="selectionEntry"/>
     <entryLink id="e178-9f5d-a2af-09ac" name="Unit Filter" hidden="false" collective="false" import="true" targetId="5762-d38f-34fb-131a" type="selectionEntry"/>
+    <entryLink id="a6d5-8bcf-4d37-77ed" name="Scout Walkers [Legends]" hidden="false" collective="false" import="true" targetId="026b-dd8d-161f-f0df" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e4e5-fffd-9435-163e" name="Eldrad Ulthran" publicationId="280a-43bb-426c-aa7c" page="1" hidden="false" collective="false" import="true" type="model">
@@ -7186,7 +7188,7 @@ weapons by this unit.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc3c-ec64-146e-0f7b" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fc3c-ec64-146e-0f7b" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce6d-3876-7c45-f1dc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf0-4265-18e8-5f0c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cec-408a-f856-3fbb" type="max"/>
@@ -7444,6 +7446,155 @@ weapons by this unit.</characteristic>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="026b-dd8d-161f-f0df" name="Scout Walkers [Legends]" publicationId="8389-c75f-841c-95a7" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Taken from Citadel Journal #8</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20a7-9128-938d-97d3" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="9946-3ddd-15fb-aa3d" name="Infiltrators" publicationId="280a-43bb-426c-aa7c" hidden="false" targetId="f07d-6c22-ac83-604c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f0e7-fa14-8c76-caf2" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="d8fa-1645-1a79-4e38" name="Faction: &lt;Craftworld&gt;" hidden="false" targetId="c595-6cad-4e25-eb78" primary="false"/>
+        <categoryLink id="2f61-3977-f2db-53fb" name="Faction: Asuryani" hidden="false" targetId="b3cf-7747-c0da-770b" primary="false"/>
+        <categoryLink id="dd08-c8fe-edf0-ae13" name="Faction: Aeldari" hidden="false" targetId="ce0a-bb90-8dd4-f52d" primary="false"/>
+        <categoryLink id="b46a-6ca2-2d05-f291" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f350-864a-5118-25a8" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="2c9b-a5a8-fcc3-db05" name="Scout Walkers" hidden="false" targetId="d572-cf7a-4d18-7830" primary="false"/>
+        <categoryLink id="db38-5161-a243-cf46" name="Faction: Warhost" hidden="false" targetId="426a-d6ae-7bf1-76e7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="41d2-b52b-522f-15a3" name="Armoured Feet" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0858-ff29-42e4-883e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc34-a62b-ef06-5b43" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2a96-d4e5-3832-ef53" name="Armoured Feet" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="55e3-47cd-8b13-a185" name="Unit Size" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" defaultSelectionEntryId="d476-8178-598d-65c3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cdc-1b68-6b79-52b0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a221-67b9-9e21-5d64" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d476-8178-598d-65c3" name="1 Model" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee57-2675-e585-812a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="366e-4c53-22e5-0929" name="1 Model" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9a40-84ec-c56f-06d2" name="2 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a6-692a-06ea-03b6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1748-cdc4-0f95-7d1a" name="2 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5b97-133c-b1d2-f552" name="3 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d5-aaad-941d-e029" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a9af-9f1e-4f50-6f22" name="3 Models" publicationId="280a-43bb-426c-aa7c" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dd53-b3c6-067f-b725" name="Weapon Options" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="026b-dd8d-161f-f0df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba72-4ef2-038d-cfa8" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="95a0-efb5-92e9-b488" value="2.0"/>
+                <modifier type="set" field="e8ad-5803-5176-f6fc" value="2.0"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="026b-dd8d-161f-f0df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8a5-1355-2bd5-9ae4" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="e8ad-5803-5176-f6fc" value="3.0"/>
+                <modifier type="set" field="95a0-efb5-92e9-b488" value="3.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a0-efb5-92e9-b488" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ad-5803-5176-f6fc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fa89-a650-cd1a-12d6" name="Bright Lance" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="48e5-6b9d-8c24-42bd" type="selectionEntry"/>
+            <entryLink id="4e68-889a-d6bc-db57" name="Scatter Laser" publicationId="280a-43bb-426c-aa7c" hidden="false" collective="false" import="true" targetId="0ed2-0608-7a18-bbb8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
