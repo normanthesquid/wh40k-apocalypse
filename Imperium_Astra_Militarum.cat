@@ -7333,6 +7333,156 @@ When targets would be picked for a Fight action made by this unit, it instead ta
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cf21-6533-eb91-e76d" name="Arkurian Pattern Stormhammer [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0e6-1b58-caa6-e715" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4bfa-5da6-5763-f7f1" name="Arkurian Pattern Stormblade" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a8cd-2424-1cb5-c464" name="Stormhammer Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5"/>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f"/>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0"/>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758"/>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb"/>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+        <profile id="2bab-ccee-0046-dfb5" name="Arkurian Pattern Stormhammer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5"/>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f"/>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0"/>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758"/>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb"/>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+        <profile id="b125-e678-8d95-9699" name="Twin Battle Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5"/>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f"/>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0"/>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758"/>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb"/>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7832-271f-6e0f-50eb" name="Lascannon" hidden="false" targetId="4f38-3bd4-b048-e321" type="profile"/>
+        <infoLink id="5b87-e52c-1f1f-5fac" name="Multi-laser" hidden="false" targetId="b85a-8637-fca2-3070" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e1e-8911-9b8a-48e9" name="Arkurian Pattern Stormhammer" hidden="false" targetId="2fc7-2cce-7aa9-458e" primary="false"/>
+        <categoryLink id="683d-df11-8c9e-4260" name="Faction: Imperium" hidden="false" targetId="e30a-8f35-5fe6-534d" primary="false"/>
+        <categoryLink id="433c-1cdb-7c6a-7884" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
+        <categoryLink id="9c89-c407-363e-367c" name="Stormhammer" hidden="false" targetId="6946-a69c-9519-74ea" primary="false"/>
+        <categoryLink id="d0b5-e36b-541b-d676" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="4d5b-e9c5-d8b3-3500" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
+        <categoryLink id="7931-8bef-7c70-efad" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="2483-aa81-fb2e-0c39" name="Faction: Astra Militarum" hidden="false" targetId="7b10-8288-447c-b8b1" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7dfb-9612-958c-62ab" name="Stormsword Anti-personnel Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f06e-313a-1ef9-c067" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a246-d362-3e7a-bc50" name="Stormsword Anti-personnel Weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7eb7-427a-0656-7aed" name="Sponsons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701a-db5c-2438-9da1" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a34-03c0-ba9b-8f46" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="43eb-5cc5-d2fe-2be5" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b4e-b4c2-a34d-8ac1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="106d-5f6b-fec5-3859" name="Heavy Flamer" hidden="false" targetId="59d9-521f-7559-6fa6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c2ef-692a-933b-e355" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="208f-6c3e-3515-0953" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="73d6-f963-3b3d-230e" name="Heavy Bolter" hidden="false" targetId="2709-752f-fc62-0bdf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="6290-f382-d2cc-cecc" name="Lascannon" hidden="false" collective="false" import="true" targetId="dd55-a2c1-238b-569f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea1-22e3-21e8-978d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="17a3-300b-2d71-5187" name="Multi-laser" hidden="false" collective="false" import="true" targetId="e3dd-5349-ba8d-618b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e5-4780-c512-418a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="de84-e371-a8ee-2115" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="5049-c0b5-625c-a7af" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e0-3563-0226-3b4d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94ca-9d1b-0d7d-552f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f0e5-2d96-2152-66db" name="Adamantium Tracks" hidden="false" collective="false" import="true" targetId="3db1-379e-645b-afbf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31e6-b0e8-21a3-11a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac97-afe6-6150-b24a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="69f9-aa85-eb39-65ca" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="25.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="8543-fde5-57cf-3029" name="Lord Solar Leontus" hidden="false" collective="false" import="true" targetId="d6a1-4140-fcbc-c162" type="selectionEntry">
@@ -8258,6 +8408,26 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
     <profile id="c176-48ec-0264-cc9a" name="Vehicle Squadron" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When this unit is first set up on the battlefield, its models do not have to be set up in unit coherency. Instead, each model must be set up within 6&quot; of one other model from its unit. From that point on, each model in this unit is treated as a separate unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4f38-3bd4-b048-e321" name="Lascannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b85a-8637-fca2-3070" name="Multi-laser" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
