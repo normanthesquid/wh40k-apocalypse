@@ -6537,6 +6537,7 @@ When targets would be picked for a Fight action made by this unit, it instead ta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dba-f549-f011-6763" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="c642-aacc-6426-68c5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
