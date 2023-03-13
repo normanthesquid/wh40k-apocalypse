@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d091-50a2-ed34-9b01" name="Chaos - World Eaters" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d091-50a2-ed34-9b01" name="Chaos - World Eaters" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="c913-9d94-a2e1-c4a0" name="Helbrute" hidden="false" collective="false" import="true" targetId="3ca7-9758-48ff-235b" type="selectionEntry">
       <categoryLinks>
@@ -469,12 +469,12 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9b13-c3c9-b02f-a5d7" name="Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ae-538e-67de-673b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec18-6d68-965b-7b9b" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="5ede-ae9e-669c-6a66" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2181-6800-164f-fa52" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fe-acc1-758e-1f8f" type="min"/>
+              </constraints>
               <profiles>
                 <profile id="783f-afe9-ecd7-c1d8" name="Bolt Pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
@@ -492,6 +492,10 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f741-9ad9-91b5-b7de" name="Berzerker Chainblade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b0-4f5e-4e11-e864" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff8-346c-e5c4-5991" type="min"/>
+              </constraints>
               <profiles>
                 <profile id="e04d-8b1a-a640-1f44" name="Berzerker Chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
@@ -673,7 +677,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="49a2-862d-0efb-5167" name="5 - 10 models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="49a2-862d-0efb-5167" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="dbd1-ee39-d1cf-4128">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e4-19c8-5165-7cce" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a3-178a-d790-05b6" type="max"/>
