@@ -1383,7 +1383,12 @@
           </costs>
         </entryLink>
         <entryLink id="888b-fe07-9df2-5c1c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="2ab5-e145-f9a7-e75d" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry"/>
+        <entryLink id="2ab5-e145-f9a7-e75d" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d0-d66c-0957-f2bc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7777-ac38-c1a1-5e21" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="97b0-f6f2-ac96-4f08" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af5-696b-9d53-f38b" type="min"/>
