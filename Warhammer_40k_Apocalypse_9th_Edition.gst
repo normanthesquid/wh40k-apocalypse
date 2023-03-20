@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="01ba-02e5-cb5e-29f5" name="Warhammer 40,000 Apocalypse 9th Edition" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -967,7 +967,7 @@
       <description>If a wound roll for an attack made with a weapon with this ability is successful, place two blast markers next to the target unit instead of one.</description>
     </rule>
     <rule id="8ce8-6dd3-c0a8-35ad" name="Witchfire" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <description>You can re-roll wound rolls for attacks made with this weapon that target units whose leadership characteristic is less than that of the firing unit.</description>
+      <description>This weapon can target enemies even if they are within engagement range of friendly models, and can be used even if this unit is in engagement range of enemy models. </description>
     </rule>
     <rule id="f3a7-fc0c-a9e3-d382" name="Inferno" publicationId="8df9-0b3e-abea-3c15" hidden="false">
       <description>Attacks made with this weapon automatically score a hit (no hit roll is made).</description>
@@ -1005,6 +1005,9 @@ If this unit is garrisoning Defensible Terrain, unmodified saving throws of 5+ a
     </rule>
     <rule id="abd1-8c2e-fb0f-e980" name="Destroyed" publicationId="8df9-0b3e-abea-3c15" hidden="false">
       <description>Each time a Super-heavy unit is destroyed, the controlling player rolls one D12 before removing it from the battlefield. On a 10+ that unit explodes or collapses in such a way as to crush those nearby; place one blast marker next to every unit (excluding Super-heavy units) that is within 6&quot; of the destroyed unit before removing it from the battlefield.  If the destroyed Super-heavy unit is a Transport, units must attempt to disembark before these blast markers are applied.</description>
+    </rule>
+    <rule id="23de-2a4b-888d-ae27" name="Witchfire_old" publicationId="8df9-0b3e-abea-3c15" hidden="false">
+      <description>You can re-roll wound rolls for attacks made with this weapon that target units whose leadership characteristic is less than that of the firing unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

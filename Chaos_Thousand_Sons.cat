@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3f9-0064-26dc-658f" name="Chaos - Thousand Sons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3f9-0064-26dc-658f" name="Chaos - Thousand Sons" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="042b-9cd7-f7fa-78e0" name="Warp Vortex - D3 Roll">
       <characteristicTypes>
@@ -264,7 +264,7 @@
       <profiles>
         <profile id="9091-0d2c-7b7a-f5f0" name="Master Psyker" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Once per battle, at the end of the Orders phase, you can look through your Command Asset deck and draw either one Thousand Sons Command Asset of your choice that is a psychic power, or the Deny the Witch or Adamantium Will card. Add the drawn card to your hand, then shuffle the Command Asset deck and place it face down.</characteristic>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Change the Attacks characteristics of this unit&apos;s Warp Blast to 2.</characteristic>
           </characteristics>
         </profile>
         <profile id="b1ac-ae92-a94c-67d2" name="Ahriman" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
@@ -288,7 +288,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="0da6-01ab-374f-2f63" name="Lord of the Thousand Sons" hidden="false" targetId="1a3c-f8af-32d9-38c3" type="profile"/>
-        <infoLink id="3737-f3a3-cf1d-59bc" name="Warp Blast" hidden="false" targetId="d024-24a8-f41c-8693" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2a9f-2c2c-d206-c77e" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -328,6 +327,12 @@
       <entryLinks>
         <entryLink id="1260-0012-29bd-8fe8" name="Disc?" hidden="false" collective="false" import="true" targetId="d3cc-97db-b22c-02df" type="selectionEntryGroup"/>
         <entryLink id="5a5d-78f9-c48a-9f77" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="3d5d-a790-891d-9beb" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f03-5bbb-c2e3-a219" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c962-f23e-7fa0-3970" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
@@ -359,9 +364,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="e97a-7e93-ad98-ae1f" name="Warp Blast" hidden="false" targetId="d024-24a8-f41c-8693" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="e366-5f7f-e1a7-7d04" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="4137-21c0-bfa3-6320" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -411,6 +413,12 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="fdfb-7fe4-ee36-c568" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="4568-3ade-d99d-3f03" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8f-6fbb-6b52-8efd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfb3-97bc-faa9-6b10" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
@@ -440,9 +448,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="420e-fb50-aaed-348b" name="Warp Blast" hidden="false" targetId="d024-24a8-f41c-8693" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="ff2d-00f0-838e-8a9c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="34c9-d738-6762-3a25" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
@@ -458,6 +463,12 @@
       <entryLinks>
         <entryLink id="a591-74d7-f5b4-ef67" name="Force Weapon " hidden="false" collective="false" import="true" targetId="fb4c-7116-4f16-b27e" type="selectionEntry"/>
         <entryLink id="92a8-02ad-9b39-6719" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="bba5-71b9-0d05-cc28" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2988-27cd-b0bb-e2b3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5903-2e03-6581-1e5f" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
@@ -634,6 +645,12 @@
           </constraints>
         </entryLink>
         <entryLink id="30aa-174e-94b4-2ebc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="654c-44ca-572b-bb4a" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8580-d73e-272b-6bed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c0f-8f8a-54b9-2499" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
@@ -668,7 +685,7 @@
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire</characteristic>
               </characteristics>
             </profile>
@@ -695,10 +712,10 @@
             <profile id="8ea0-6e27-cee9-24ac" name="Hellfyre Missile Rack" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
                 <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
             </profile>
@@ -717,8 +734,8 @@
               <characteristics>
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
                 <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
               </characteristics>
@@ -808,16 +825,18 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="c64d-cb59-9a75-7aed" name="Soulreaper Cannon" hidden="false" collective="false" import="true" targetId="3880-a251-e54e-063c" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="c64d-cb59-9a75-7aed" name="Soulreaper Cannon" hidden="false" collective="false" import="true" targetId="3880-a251-e54e-063c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="eab7-510a-de12-dfc7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="50b6-5777-7200-0392" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e6-38a0-6b43-0af0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4615-f62c-7824-3821" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -1080,6 +1099,12 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="3995-7f94-f110-5223" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="cd95-eba2-709f-9178" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcfe-3836-fe1a-78c9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c8-7aeb-fea6-6fd1" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
@@ -1139,8 +1164,8 @@
                 <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
                 <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
                 <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
                 <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer, Witchfire</characteristic>
               </characteristics>
             </profile>
@@ -1205,7 +1230,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="6766-6d99-15b5-8f95" name="Lord of the Thousand Sons" hidden="false" targetId="1a3c-f8af-32d9-38c3" type="profile"/>
-        <infoLink id="8e72-e410-e977-a434" name="Warp Blast" hidden="false" targetId="d024-24a8-f41c-8693" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e4cd-e59e-19d3-b8e6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
@@ -1223,6 +1247,12 @@
         <entryLink id="6a5e-93d9-e113-1efd" name="Disc?" hidden="false" collective="false" import="true" targetId="d3cc-97db-b22c-02df" type="selectionEntryGroup"/>
         <entryLink id="56bd-0107-338f-f7c8" name="Force Weapon " hidden="false" collective="false" import="true" targetId="fb4c-7116-4f16-b27e" type="selectionEntry"/>
         <entryLink id="e17f-a8c2-8e4b-34fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="c4c9-58d5-5beb-7bfc" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc2-8b8c-d1a1-9e20" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cea-7b53-a2b1-dec9" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
@@ -1314,9 +1344,9 @@
                 <profile id="0391-32c0-f0a0-9b02" name="Warpflamers" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
                   <characteristics>
                     <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">8&quot;</characteristic>
-                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+                    <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                    <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                    <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
                     <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
                     <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Inferno</characteristic>
                   </characteristics>
@@ -1353,6 +1383,13 @@
           </costs>
         </entryLink>
         <entryLink id="888b-fe07-9df2-5c1c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="2ab5-e145-f9a7-e75d" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry"/>
+        <entryLink id="97b0-f6f2-ac96-4f08" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af5-696b-9d53-f38b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8593-2a6b-f2fb-e107" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -1394,16 +1431,6 @@
     <profile id="1a3c-f8af-32d9-38c3" name="Lord of the Thousand Sons" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made by friendly THOUSAND SONS units whilst they are within 6&quot; of this unit.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d024-24a8-f41c-8693" name="Warp Blast" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-      <characteristics>
-        <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-        <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-        <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-        <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-        <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-        <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
       </characteristics>
     </profile>
   </sharedProfiles>

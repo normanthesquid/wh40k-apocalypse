@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="3" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98c2-e7ca-4cd2-d189" name="Library - Space Marines" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="true" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -141,7 +141,7 @@
     <categoryEntry id="399c-b44c-cfa9-b8c1" name="Hailstrike" hidden="false"/>
     <categoryEntry id="1762-9303-f65e-d6de" name="Thunderstrike" hidden="false"/>
     <categoryEntry id="2c2c-ac12-de58-4f4e" name="Hammerstrike" hidden="false"/>
-    <categoryEntry id="aa70-d80a-b829-532a" name="Techmarine Rhino" publicationId="8389-c75f-841c-95a7" hidden="false"/>
+    <categoryEntry id="aa70-d80a-b829-532a" name="Techmarine Rhino" publicationId="3434-17b5-4a22-f338" hidden="false"/>
     <categoryEntry id="7e1a-7f42-1287-82f6" name="Land Raider Ares" hidden="false"/>
   </categoryEntries>
   <rules>
@@ -5803,7 +5803,7 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -5828,7 +5828,7 @@
                     <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
                     <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
                     <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
                     <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
                     <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
                   </characteristics>
@@ -13417,7 +13417,7 @@ that target this unit.</characteristic>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eac7-1986-6489-3934" name="Land Raider Ares [Legends]" publicationId="f066-1559-6a6d-ec22" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eac7-1986-6489-3934" name="Land Raider Ares [Legends]" publicationId="3434-17b5-4a22-f338" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Taken From https://chamber42.com/blog/archives/1268</comment>
       <infoLinks>
         <infoLink id="28b6-d94b-1122-e2a2" name="Land Raider" hidden="false" targetId="1de9-50a7-0fd9-6a37" type="profile">

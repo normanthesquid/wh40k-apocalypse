@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd4a-de75-c46c-2e6f" name="Tyranids - Hive Fleets" revision="2" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a37b-2844-afcc-f4eb" name="Tyranid Hive Fleets"/>
     <publication id="5101-ac41-4666-a01a" name="Forge World Tyranids"/>
@@ -770,6 +770,12 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9186-b79a-5e9e-bbb1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="ea6c-d9f8-cb85-638e" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0397-7b11-8af0-5306" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1756-c6f8-0b67-4cd4" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
@@ -1084,6 +1090,12 @@
           </constraints>
         </entryLink>
         <entryLink id="ab6a-af4e-0f70-96f5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="d25c-b059-b313-0245" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c92-4d58-d92b-957b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bbd-c921-edbd-39fe" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
@@ -1158,32 +1170,6 @@
         <infoLink id="2d09-96d2-ff73-2b95" name="Warp Field" hidden="false" targetId="6353-ffc9-ebe8-6700" type="profile"/>
         <infoLink id="db26-4bd1-27c8-265b" name="Synapse" hidden="false" targetId="9d6d-f7c0-56bf-55ba" type="profile"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="1352-d931-8004-9d67" name="Spirit Leech" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c2-d67b-5cd1-9dbe" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f387-60be-36bc-78c8" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6ffc-b7b0-affd-a003" name="Spirit Leech" publicationId="a37b-2844-afcc-f4eb" page="7" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2abd-bcce-dfd0-0194" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="51df-ffdf-67d0-9676" name="Claws &amp; Teeth" hidden="false" collective="false" import="true" targetId="11a2-a2d7-3531-23ad" type="selectionEntry">
           <constraints>
@@ -1192,6 +1178,12 @@
           </constraints>
         </entryLink>
         <entryLink id="5c22-8c3f-d065-fb7f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="7e79-0738-3813-c83c" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b6-f2ce-19cc-82d5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d4-3b53-0431-baa8" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
@@ -2242,30 +2234,6 @@
             <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="08ac-afbd-8645-fb28" name="Warp Blast" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc76-c75b-2371-6025" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cde-415d-29fe-4824" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9498-440b-5bed-af1d" name="Warp Blast" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2ada-4746-7b86-5cd4" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="1d71-7191-b66a-e95e" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba14-bc30-e844-5b74">
@@ -2315,6 +2283,12 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="69b0-2751-a8ac-84cb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="16d5-565e-8521-768c" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c471-79cc-abf9-f580" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="064e-944e-12ad-e7d8" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
@@ -2334,35 +2308,14 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="16a8-ff1a-ea66-46d5" name="Psychic Overload" hidden="false">
+          <description>Change the Attacks characteristic of this unit&apos;s Warp Blast to 4.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="17c8-06b4-ab03-a884" name="Synapse" hidden="false" targetId="9d6d-f7c0-56bf-55ba" type="profile"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="3215-6396-a485-9f21" name="Psychic Overload" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac58-86b3-4f16-7e39" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b7-f3ea-9ca5-645f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="edfa-3384-99e3-2355" name="Psychic Overload" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">4</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Witchfire</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="90d1-9994-79a9-3f9e" name="Witchfire" hidden="false" targetId="8ce8-6dd3-c0a8-35ad" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="5d7b-79f0-e5ee-914f" name="Massive Scything Talons" hidden="false" collective="false" import="true" targetId="8110-e44d-1991-aba8" type="selectionEntry">
           <constraints>
@@ -2371,6 +2324,12 @@
           </constraints>
         </entryLink>
         <entryLink id="ee47-6454-b2ef-9dbb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="26b9-c9c6-34a3-724b" name="Warp Blast" hidden="false" collective="false" import="true" targetId="f555-0f06-ade2-7451" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2539-3f62-ed19-5cae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea64-d571-78db-1acf" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
@@ -5213,6 +5172,12 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2ee3-a8df-a6fc-af3f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="5114-abec-2a19-85e2" name="Lesser Warp Blast" hidden="false" collective="false" import="true" targetId="59ce-d12e-4fbe-e8db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeee-4d46-7f58-f05e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d9-f9b8-a54a-b154" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
@@ -5330,4 +5295,7 @@ Each time an enemy unit makes a Normal Move, Advances, Falls Back or it makes a 
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="2c17-6538-35b6-8af9" name="Library - Weapons" targetId="02de-a64c-225d-8e88" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>
