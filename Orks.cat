@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e528-2359-5486-47f4" name="Orks" revision="11" battleScribeVersion="2.03" authorName="Fundamalleus" authorContact="" authorUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki" library="false" gameSystemId="faa2-6155-22f4-8288" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e528-2359-5486-47f4" name="Orks" revision="1" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="01ba-02e5-cb5e-29f5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0a10-9bdd-9094-8fd9" name="Zhadsnark Da Ripper" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="a7b6-c22d-eef2-aa0c" name="Weirdboy" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -94,176 +94,6 @@
     <categoryEntry id="16c8-a16d-a1de-c9f1" name="Beast Snagga" publicationId="3434-17b5-4a22-f338" hidden="false"/>
     <categoryEntry id="8a48-d9ed-f373-05ac" name="Kill Rig" hidden="false"/>
   </categoryEntries>
-  <selectionEntries>
-    <selectionEntry id="7d3b-fb30-dffb-626d" name="Makari" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd4e-fc91-f868-d6be" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="2a3d-9b3d-d8e3-b9bc" name="Makari" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="654f-7e49-7daf-9e38" name="Accidental Figurehead" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly GOFF GRETCHIN units can use this model&apos;s Leadership instead of their own whilst they are within 12&quot; of this model.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="fdf7-ed14-8d54-c786" name="Ghazghkull&apos;s Waaagh! Banner" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly GOFF ORK units have the Ignore Damage (6+) ability whilst they are within 6&quot; of this unit and this unit is within 3&quot; of a friendly GHAZGHKULL THRAKA unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f2be-e05c-cacb-fd76" name="Keep Up!" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit starts a Move action within 3&quot; of a friendly GHAZGHKULL THRAKA unit, add 2&quot; to this unit’s Move characteristic whilst making that Move action.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="4354-e05c-74fb-f105" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
-        <categoryLink id="34c9-131d-bbac-118f" name="Faction: Goff" hidden="false" targetId="1a8c-71a8-0fdb-4340" primary="false"/>
-        <categoryLink id="da5e-a86a-9710-38f7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-        <categoryLink id="037b-69f6-c004-a9a7" name="Gretchin" hidden="false" targetId="0efd-2ad9-5d32-cce7" primary="false"/>
-        <categoryLink id="ee89-6c6e-b9b8-c405" name="Makari" hidden="false" targetId="a915-812d-32d4-da1f" primary="false"/>
-        <categoryLink id="c2fe-8190-3703-e050" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-        <categoryLink id="f683-7ad6-5eae-7c8a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-        <categoryLink id="cb24-03f8-1b69-e21d" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9f65-47a4-2578-1f60" name="Makari&apos;s Stabba" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b7-2107-064c-2dd6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e637-219e-885f-63aa" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7c23-0333-4e64-ef8a" name="Makari&apos;s Stabba" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="bf29-c013-3f2b-7bf8" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="36c1-103d-08f9-a9e1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7d14-87fb-881e-a0cf" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b20c-e812-5158-e635" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="c4f1-5183-eb8f-37d8" name="Ghazghkull Thraka" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
-            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
-            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
-            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
-            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
-            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0379-c433-e916-f1ff" name="Waaagh! (Goff)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly GOFF units whilst they are within 6&quot; of this unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c9da-4a55-d9d3-5767" name="Great Waaagh!" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to the Attacks characteristic of friendly ORKS LIGHT units whilst they are making Fight actions whilst within 6&quot; of this unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d1e5-62b0-b20d-bd8a" name="Prophet of Gork and Mork" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When placing blast markers next to this unit, if it has a small blast marker next to it, place one small blast marker instead of replacing the existing one with a large blast marker. When placing blast markers next to this unit, if it has two small blast markers next to it, replace them both with one large blast marker.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="c450-837f-f050-1b61" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
-        <categoryLink id="d363-4e6b-b9fa-6809" name="Faction: Goff" hidden="false" targetId="1a8c-71a8-0fdb-4340" primary="false"/>
-        <categoryLink id="3b54-9118-bbfa-47f1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-        <categoryLink id="65ff-2fb0-98c6-9017" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
-        <categoryLink id="1694-e69c-ac2f-e2e2" name="Ghazghkull Thraka" hidden="false" targetId="7321-94fd-ebf2-58d1" primary="false"/>
-        <categoryLink id="a11f-06c6-386a-23bd" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-        <categoryLink id="a6e9-8a99-c021-f9b8" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-        <categoryLink id="a89b-6f63-0113-cdc6" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1341-d8d9-dcd7-f490" name="Gork&apos;s Klaw" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcd-8e78-e856-ddfc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ddf-00fd-2cfd-fad0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5432-7237-d427-2b45" name="Gork&apos;s Klaw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5d32-e5a5-b23f-a274" name="Mork&apos;s Roar" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d144-455d-3c52-8847" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4556-e3dc-b7d0-51b9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1997-dd7d-c2fd-ff47" name="Mork&apos;s Roar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-              <characteristics>
-                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
-                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
-                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
-                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
-                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="b1eb-857a-4c69-e73e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <entryLinks>
     <entryLink id="150c-e999-ed4d-bf0d" name="Boyz" hidden="false" collective="false" import="true" targetId="81d3-773f-91dd-db15" type="selectionEntry">
       <categoryLinks>
@@ -327,7 +157,7 @@
     </entryLink>
     <entryLink id="55fd-7386-bb68-86aa" name="&apos;Chinork&apos; Warkopta" hidden="false" collective="false" import="true" targetId="3126-9dd0-4a34-7154" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fd63-5496-1563-53e3" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="7786-4753-56d7-58de" name="New CategoryLink" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e4e9-e67a-3442-cb66" name="Kill Tank" hidden="false" collective="false" import="true" targetId="ac8f-3758-c6c5-b2cf" type="selectionEntry">
@@ -390,17 +220,12 @@
         <categoryLink id="a527-f6be-ea71-26cf" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="39f6-210f-0090-edd1" name="Warboss" hidden="false" collective="false" import="true" targetId="ac00-fa4c-b2a3-bcd6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f241-02a2-ffac-3fd8" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="9998-0cd0-e9b3-17b6" name="Big Mek" hidden="false" collective="false" import="true" targetId="d95b-2cd7-065b-1e56" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a212-dfd7-53ab-ec33" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="edcc-bbe7-bdf3-e330" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="892e-1ec0-f484-651e" type="selectionEntry">
+    <entryLink id="edcc-bbe7-bdf3-e330" name="Puny Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="892e-1ec0-f484-651e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c867-6e0e-dc5c-75ab" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
       </categoryLinks>
@@ -417,7 +242,7 @@
     </entryLink>
     <entryLink id="f693-7fa4-50eb-f4af" name="Nobz on Warbikes" hidden="false" collective="false" import="true" targetId="c6da-1e68-931f-52d3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1adf-72f5-2e37-2567" name="New CategoryLink" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
+        <categoryLink id="c509-156b-be00-1d11" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bb82-4087-8c40-c995" name="Meganobz" hidden="false" collective="false" import="true" targetId="d683-9100-7071-c949" type="selectionEntry">
@@ -515,11 +340,6 @@
         <categoryLink id="5f82-9341-619c-6801" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad72-5bd2-efb5-69d3" name="Wagon" hidden="false" collective="false" import="true" targetId="a8a9-4ce9-288e-57e8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="335f-06cb-6338-5f74" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="0a50-817b-3ee4-0e39" name="Bonebreaka" hidden="false" collective="false" import="true" targetId="2721-45eb-fab5-5db8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7078-ab3b-2678-9717" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
@@ -530,14 +350,14 @@
         <categoryLink id="062d-85fa-a26d-ed48" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="310b-7633-95c2-3845" name="Big Gun" hidden="false" collective="false" import="true" targetId="a482-8705-0d66-7db1" type="selectionEntry">
+    <entryLink id="310b-7633-95c2-3845" name="Big Guns" hidden="false" collective="false" import="true" targetId="a482-8705-0d66-7db1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="eb83-0d4d-f653-a42b" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea1c-8e35-4ea0-9b7e" name="Gorkanaut" hidden="false" collective="false" import="true" targetId="9458-5b60-7402-757a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c545-208c-2f98-504a" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="e893-af17-d73f-ee61" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="077c-97c7-b089-eda3" name="Flash Gitz" hidden="false" collective="false" import="true" targetId="c245-0f94-b67d-fe8d" type="selectionEntry">
@@ -547,17 +367,12 @@
     </entryLink>
     <entryLink id="4c62-e986-2ded-db1b" name="Morkanaut" hidden="false" collective="false" import="true" targetId="e685-b4ae-7ce6-d374" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c13f-dea2-13b7-fb9d" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="a930-fc7a-acfb-336f" name="New CategoryLink" hidden="false" targetId="4ba9-66c8-d53f-061d" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="50d9-5d45-6329-14f1" name="Trukk" hidden="false" collective="false" import="true" targetId="7d44-319d-29df-e4d9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b6f7-7f02-c92b-ed0d" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f0d9-8a15-cee1-58ae" name="Kart" hidden="false" collective="false" import="true" targetId="a571-7802-1ef9-2ec1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="b8ea-3f86-2ea1-4e9c" name="New CategoryLink" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1727-4c67-6c6d-278e" name="Stompa" hidden="false" collective="false" import="true" targetId="3db7-e726-896b-2cdb" type="selectionEntry">
@@ -615,36 +430,62 @@
         <categoryLink id="6511-0fcc-6ccc-aa0f" name="Heavy Support" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="83c8-c101-0509-db4e" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" targetId="3686-62a0-0bb2-3597" type="selectionEntry"/>
+    <entryLink id="c4b4-8cc7-c436-1a81" name="Makari" hidden="false" collective="false" import="true" targetId="f40e-f75d-e34d-201b" type="selectionEntry"/>
+    <entryLink id="0882-2994-e07e-24b4" name="Mozrog Skragbad" hidden="false" collective="false" import="true" targetId="b6f2-f105-6310-4d53" type="selectionEntry"/>
+    <entryLink id="5146-da25-ca22-a91e" name="Beastboss" hidden="false" collective="false" import="true" targetId="2be2-20a9-13df-3bbb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="646c-7671-701b-6792" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="294c-250d-5d6b-4ca3" name="Beastboss On Squigosaur" hidden="false" collective="false" import="true" targetId="d06b-b496-fe37-4748" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc1a-d68e-0740-9df0" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d31c-7093-7572-7299" name="Big&apos;ed Bossbunka" hidden="false" collective="false" import="true" targetId="f49b-5660-00c2-d088" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e03-aea0-6b48-b613" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="92a4-0d4c-cea6-a1df" name="Big Mek Mega Armour" hidden="false" collective="false" import="true" targetId="c845-52ca-adaa-566e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a64d-ef2d-7abb-8acd" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5c52-13d4-ccd5-e008" name="Painboss" hidden="false" collective="false" import="true" targetId="ddc4-a5f3-5e6a-e593" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fd5f-5420-e38d-ffb2" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c08c-8b76-7cbc-eb05" name="Warboss" hidden="false" collective="false" import="true" targetId="ac00-fa4c-b2a3-bcd6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5639-b842-2b24-bf23" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b96-998a-4653-6ccd" name="Warboss in Mega Armour" hidden="false" collective="false" import="true" targetId="90c5-e795-70d1-1d25" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4154-d25a-f0b7-878c" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b9fb-314d-be12-0a0a" name="Warboss on Warbike" hidden="false" collective="false" import="true" targetId="715e-eb77-0c1c-7124" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="393d-9007-5844-6855" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="72f8-7cce-8951-2505" name="Wurrboy" hidden="false" collective="false" import="true" targetId="e629-3bd4-94e7-e381" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c986-8538-a498-badf" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b30b-d874-110c-5b4d" name="Squighog Boyz" hidden="false" collective="false" import="true" targetId="c9ed-108c-d49e-884c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c599-d5a4-8b89-58cc" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="4177-ac6f-4aa5-c54a" name="Waaagh!" publicationId="8df9-0b3e-abea-3c15" hidden="false">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ba0-7df9-3f27-d4b1" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d22-806b-bfc5-db54" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2bc-37e7-468c-5e76" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5642-ce25-4f9d-5cb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f70-4411-2a13-96bf" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="lessThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <description>Each time you roll an unmodified hit roll of 6+ for an attack made by an ORKS unit in this Detachment, you can immediately make one additional attack at the same target using the same weapon (this additional attack cannot generate more).</description>
     </rule>
   </rules>
@@ -682,7 +523,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2ea8-b91b-36fa-44ab" name="Boyz (20 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -703,7 +544,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bcc5-ce3d-2ce8-5ee1" name="Boyz (30 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -724,7 +565,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -827,7 +668,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7ccf-6f2e-5e8f-23da" name="Gretchin (20 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -855,7 +696,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c357-08b9-69a6-a03b" name="Gretchin (30 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -883,7 +724,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1201,7 +1042,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b407-bb26-5e02-61ba" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6755-df96-c2c1-9b48" name="Shoota" hidden="false" collective="false" import="true" targetId="f8e3-8a1a-1dcf-e5df" type="selectionEntry">
+        <entryLink id="6755-df96-c2c1-9b48" name="Shoota" hidden="false" collective="false" import="true" targetId="e922-c4bc-1562-499a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
             <modifier type="set" field="8cf3-9954-3f95-509a" value="8.0">
@@ -1228,23 +1069,6 @@
             <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
             <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
             <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
-            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f8e3-8a1a-1dcf-e5df" name="Shoota" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="38f7-c952-67dd-4d99" name="Shoota" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
-          <characteristics>
-            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
-            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
-            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
-            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
-            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
             <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
           </characteristics>
         </profile>
@@ -1442,7 +1266,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9407-70ef-63a3-dc40" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="29da-4e9c-c3f0-795f" name="Shoota" hidden="false" collective="false" import="true" targetId="f8e3-8a1a-1dcf-e5df" type="selectionEntry">
+        <entryLink id="29da-4e9c-c3f0-795f" name="Shoota" hidden="false" collective="false" import="true" targetId="e922-c4bc-1562-499a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
           </modifiers>
@@ -1657,7 +1481,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f62-70b6-32d3-e796" name="Kannon" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -1828,7 +1652,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff08-5d82-0899-1b0e" name="Big Zzappa" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -2512,7 +2336,7 @@
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3126-9dd0-4a34-7154" name="&apos;Chinork&apos; Warkopta" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3126-9dd0-4a34-7154" name="Chinork Warkopta" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a827-ede5-6d74-857d" name="&apos;Chinork&apos; Warkopta (Transport)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
           <characteristics>
@@ -2802,7 +2626,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="38.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dfc-98a3-d94c-f804" name="Gargantuan Squiggoth" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -2892,7 +2716,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="35.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd1c-26bb-bc03-61c4" name="Grot Bomm Launcha" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -3359,12 +3183,10 @@
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c9cf-d7a9-c20f-ab4f" name="Waaagh!" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly &lt;CLAN&gt; units whilst they are within 6&quot; of this unit.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="494a-4257-1561-1d90" name="Warboss" hidden="false" targetId="37ad-d780-7a0e-c6a3" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ed8d-d6fc-01ba-86c0" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
         <categoryLink id="8ace-8c9a-3ed8-c3c9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
@@ -5673,7 +5495,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2721-45eb-fab5-5db8" name="Bonebreaka" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -5762,7 +5584,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c13-a4c1-4357-8b34" name="Killa Kans" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -5775,33 +5597,12 @@
         <categoryLink id="f70b-c1d7-f339-3eac" name="Gretchin" hidden="false" targetId="0efd-2ad9-5d32-cce7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="39b6-2557-9ecc-5c53" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="50e6-2b2e-80a4-c234">
+        <selectionEntryGroup id="39b6-2557-9ecc-5c53" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="3506-2338-2a06-ad59">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f41-927f-ec0f-8753" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6914-2d15-d601-09a5" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="50e6-2b2e-80a4-c234" name="Killa Kans (1 Model)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4db-4563-f160-8efe" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="bc93-b928-500f-2323" name="Killa Kans (1 Model)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
-                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
-                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
-                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
-                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
-                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="3506-2338-2a06-ad59" name="Killa Kans (3 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e306-e63b-b92c-0b63" type="max"/>
@@ -5939,7 +5740,7 @@
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -5997,7 +5798,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9458-5b60-7402-757a" name="Gorkanaut" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -6008,7 +5809,7 @@
             <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
             <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
             <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
-            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
             <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
             <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
           </characteristics>
@@ -6061,7 +5862,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="19.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d66-5390-cb8e-62e7" name="Lootas" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -6197,7 +5998,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c424-3524-332b-4e67" name="Flash Gitz (10 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -6218,7 +6019,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6646,7 +6447,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="49.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a571-7802-1ef9-2ec1" name="Kart" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -6704,7 +6505,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="415c-a7d7-0fab-4d24" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
-        <entryLink id="c21f-29f1-49df-ac43" name="Shoota" hidden="false" collective="false" import="true" targetId="f8e3-8a1a-1dcf-e5df" type="selectionEntry">
+        <entryLink id="c21f-29f1-49df-ac43" name="Shoota" hidden="false" collective="false" import="true" targetId="e922-c4bc-1562-499a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="1466-da3f-0d27-dace" value="1.0"/>
           </modifiers>
@@ -7036,7 +6837,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="39c7-dbab-c476-e28d" name="Mekboy Workshop" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
@@ -7905,7 +7706,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac9-60e1-c496-5279" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="06ee-d859-9062-535e" name="Close Combat Weapons (Boyz)" hidden="false" collective="false" import="true" targetId="ae1d-5245-9af1-3a63" type="selectionEntry">
+        <entryLink id="06ee-d859-9062-535e" name="Close Combat Weapons (x2/7+/9+)" hidden="false" collective="false" import="true" targetId="ae1d-5245-9af1-3a63" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b5-0b6e-264a-1779" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5a-daab-40c0-5a10" type="min"/>
@@ -8965,7 +8766,7 @@
         <entryLink id="9537-dbe9-3ce4-cf52" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9dc2-a5e5-2c21-5d88" name="Dread Saw" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
@@ -9769,7 +9570,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1fee-07d7-b68b-8d5a" name="Beast Snagga Boyz (20 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
@@ -9790,7 +9591,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9981,7 +9782,819 @@
         </entryLink>
       </entryLinks>
       <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3686-62a0-0bb2-3597" name="Ghazghkull Thraka" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5862-c502-1a15-6f4e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b548-418c-f2a4-e07f" name="Ghazghkull Thraka" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="517e-df78-deae-f591" name="Waaagh! (Goff)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Re-roll hit rolls of 1 for attacks made with melee weapons by friendly GOFF units whilst they are within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3294-f4ba-9dee-44d7" name="Great Waaagh!" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Add 1 to the Attacks characteristic of friendly ORKS LIGHT units whilst they are making Fight actions whilst within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be9c-ff18-97e6-f579" name="Prophet of Gork and Mork" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">When placing blast markers next to this unit, if it has a small blast marker next to it, place one small blast marker instead of replacing the existing one with a large blast marker. When placing blast markers next to this unit, if it has two small blast markers next to it, replace them both with one large blast marker.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5128-da6d-24b2-d5a6" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="8cbb-03b9-9747-62e2" name="Faction: Goff" hidden="false" targetId="1a8c-71a8-0fdb-4340" primary="false"/>
+        <categoryLink id="46d4-e053-ddf6-c12d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="a4c1-c5a2-c3f1-3bb4" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
+        <categoryLink id="fe58-4a3f-101a-36c1" name="Ghazghkull Thraka" hidden="false" targetId="7321-94fd-ebf2-58d1" primary="false"/>
+        <categoryLink id="6bec-19f2-9ea4-b64f" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="f431-8c65-dc4c-b9cd" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="2fea-df46-b7a1-93e1" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e265-89f5-aeab-2f68" name="Gork&apos;s Klaw" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90bb-5728-5a48-70c2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d83-0a25-044c-d725" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5cd0-65f4-fea8-6419" name="Gork&apos;s Klaw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b59-9f10-a85c-0b15" name="Mork&apos;s Roar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf5-1033-257f-5f5a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa30-8afb-a1fb-760c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="07f4-b1a0-9f46-855b" name="Mork&apos;s Roar" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f580-69df-eca1-6aae" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f40e-f75d-e34d-201b" name="Makari" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3365-8651-bd1d-28de" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="96b0-9c05-0816-f373" name="Makari" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c5d-ca1b-8581-2a7b" name="Accidental Figurehead" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly GOFF GRETCHIN units can use this model&apos;s Leadership instead of their own whilst they are within 12&quot; of this model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e6ff-4199-2257-6a4b" name="Ghazghkull&apos;s Waaagh! Banner" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Friendly GOFF ORK units have the Ignore Damage (6+) ability whilst they are within 6&quot; of this unit and this unit is within 3&quot; of a friendly GHAZGHKULL THRAKA unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7cfc-2c31-228c-0398" name="Keep Up!" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">If this unit starts a Move action within 3&quot; of a friendly GHAZGHKULL THRAKA unit, add 2&quot; to this unit’s Move characteristic whilst making that Move action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4228-8a8a-4c62-8313" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="e7bc-56ca-9d6c-fd99" name="Faction: Goff" hidden="false" targetId="1a8c-71a8-0fdb-4340" primary="false"/>
+        <categoryLink id="ee89-c04a-5bdc-6f8a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="1afe-01bd-b4d7-57dc" name="Gretchin" hidden="false" targetId="0efd-2ad9-5d32-cce7" primary="false"/>
+        <categoryLink id="4522-eb30-57f7-9324" name="Makari" hidden="false" targetId="a915-812d-32d4-da1f" primary="false"/>
+        <categoryLink id="05eb-2685-f0e3-03dc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="d1e2-3c9c-16a9-ea95" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="64d0-c475-5d20-c5f2" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6dc2-1198-037e-ee47" name="Makari&apos;s Stabba" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8415-6508-24cf-df27" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbf-a177-f716-b0c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d6ff-f155-3541-c7b6" name="Makari&apos;s Stabba" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">11+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Destroyer</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d427-a11e-325c-5189" name="Destroyer" hidden="false" targetId="aac2-cf46-7dc3-ac07" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="35c3-b317-bab1-0d36" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6f2-f105-6310-4d53" name="Mozrog Skragbad" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ae84-6396-3683-f5ff" name="Mozrog Skragbad" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="064f-1989-83f3-f265" name="Beastboss" hidden="false" targetId="f97c-8428-027b-51a0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3c7f-8dbe-9b89-8adf" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="8a69-c2b9-b0f1-dcfd" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="89c9-0866-65c9-acff" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="bea6-17bb-5b1c-7581" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="809e-39da-7282-05c5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="040e-871e-60d8-19f9" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="9fe1-92a9-1b7e-807d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dd29-2c09-bef4-8e52" name="Big Chompa&apos;s Jaws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff1-0293-c8c1-7edd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95b-6f0a-efb8-4338" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="62bf-2cdd-3a63-269a" name="Big Chompa&apos;s Jaws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c7c9-6b16-c239-c390" name="Beast Snagga" hidden="false" collective="false" import="true" targetId="48c4-f8fe-c327-ce6d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce5-9aea-4193-7473" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eaf-96e0-51ed-c7a7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f6bd-a688-8744-c04f" name="Thump Gun" hidden="false" collective="false" import="true" targetId="68d1-4b6d-21ec-19be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f2-e1c7-b48c-cf23" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e53-5b85-a9e6-a58c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2be2-20a9-13df-3bbb" name="Beastboss" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6c5a-ba82-1576-35fc" name="Beastboss" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d74-ac74-e50e-b8d3" name="Beastboss" hidden="false" targetId="f97c-8428-027b-51a0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f8ac-498f-db99-5b54" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="885c-913a-fd3b-43e8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="ffcd-6455-c235-4f22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="d194-3077-22da-1d94" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="380c-03d3-00d5-e724" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
+        <categoryLink id="8769-8ae2-e822-13ca" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="a896-3e67-1ff5-b4aa" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ae0a-f8c1-0c2d-00d1" name="Shoota" hidden="false" collective="false" import="true" targetId="e922-c4bc-1562-499a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ab-3aef-12d7-3d37" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="133d-1898-4495-594c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="79d7-1877-1139-d924" name="Beast Snagga Klaw" hidden="false" collective="false" import="true" targetId="6b8b-c412-3022-6212" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d2-8dc0-941f-e416" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07fe-95fd-6ce6-c8b6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2579-dd07-cc90-6668" name="Beastchoppa" hidden="false" collective="false" import="true" targetId="69ab-fa8a-7cdc-af58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85cc-f726-13d1-5f1c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a3-97df-0e2b-d121" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e922-c4bc-1562-499a" name="Shoota" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="263b-bffe-121d-cd8a" name="Shoota" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69ab-fa8a-7cdc-af58" name="Beastchoppa" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="869f-349f-7ba8-e384" name="Beastchoppa" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b8b-c412-3022-6212" name="Beast Snagga Klaw" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ebe5-dc93-3347-8f0c" name="Beast Snagga Klaw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">9+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d06b-b496-fe37-4748" name="Beastboss On Squigosaur" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7b98-2ad3-d9fc-6c0e" name="Beastboss On Squigosaur" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bdf5-7e5b-84f1-8665" name="Beastboss" hidden="false" targetId="f97c-8428-027b-51a0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d09-98b0-294d-9212" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="4e43-1f87-603f-412c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="fdc1-0455-790d-bcb1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="a296-bd69-19f0-9c5f" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
+        <categoryLink id="b188-a85b-bda1-ddc1" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="0f85-a803-5e81-63b8" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="721a-05f7-1dc9-2db6" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0447-db53-f211-994e" name="Squigosaur&apos;s Jaws" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="fdd1-2a08-22d8-52b8" name="Squigosaur&apos;s Jaws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b60e-a77b-96e8-010a" name="Sluggas" hidden="false" collective="false" import="true" targetId="30be-ea7f-a1d0-026c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17be-d33e-12df-4062" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="540a-0990-4fca-45a4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8a19-b4c8-8758-e3f0" name="Beast Snagga Klaw" hidden="false" collective="false" import="true" targetId="6b8b-c412-3022-6212" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9180-a616-bc49-4ac4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba54-4b25-d97d-23a8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cf0a-2a3e-b245-f09d" name="Beastchoppa" hidden="false" collective="false" import="true" targetId="69ab-fa8a-7cdc-af58" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ea-f07f-7e86-f4b7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b8-6129-7230-e3b5" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddc4-a5f3-5e6a-e593" name="Painboss" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3a73-3059-a1e0-a151" name="Sawbonez" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the end of the Action phase, this unit can attempt to heal one friendly &lt;CLAN&gt; LIGHT unit in base contact with it. If it does, roll one D6; on a 4+, remove one damage marker from that LIGHT unit. Only one attempt to heal each unit can be made each turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b125-ed98-e810-fc4f" name="Painboy" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">7&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6e1f-5016-0abb-a02f" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="d986-9c13-25e7-7382" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="8bd9-28fb-9827-3a35" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c49a-7219-f753-328d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="c6fd-1401-ffb2-8a61" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="200f-16c0-9de8-5bde" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="8985-d180-cce5-7a23" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9566-4e26-4978-b3ba" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="3757-bf48-45cd-396a" name="Dok&apos;s Tools" hidden="false" collective="false" import="true" targetId="e021-061f-bf3a-586b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e6-6034-efd8-338c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a204-16c0-241c-6ce0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7b05-74d5-51f7-3f27" name="Beast Snagga Klaw" hidden="false" collective="false" import="true" targetId="6b8b-c412-3022-6212" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae39-c1fe-3596-f612" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b79f-7e37-9250-060d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e629-3bd4-94e7-e381" name="Wurrboy" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3e1a-e0e0-b458-86cb" name="Wurrboy" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">4</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="23db-5825-bf8f-ed3f" name="Waaagh! Energy" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">At the start of the Action phase, if this unit is within 6&quot; of three or more friendly &lt;CLAN&gt; units that each contain at least 10 models, you can turn over the top 3 cards of your Command Asset deck. If you reveal any Command Asset cards that are psychic powers, you can select one of those psychic powers and put in into your hand. Then put the remaining cards back in your Command Asset deck and shuffle the deck.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8f42-d0eb-78c5-4318" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="6977-f9ab-97ac-034d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="8a5b-afb8-2024-b4d0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0bc6-bac5-731e-3e37" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="e379-b438-8f19-d0e8" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="d6bc-2135-d57e-9eb6" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="7624-cfa2-d614-4f75" name="Weirdboy" hidden="false" targetId="a7b6-c22d-eef2-aa0c" primary="false"/>
+        <categoryLink id="a30b-760f-7bd8-4c3f" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+        <categoryLink id="582d-ae4a-707c-e380" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="23a6-f802-4671-c3f5" name="Eyez of Mork" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea3-d0c5-67e5-badf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db37-4fc0-a603-347d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d921-0871-0907-e51d" name="Eyez of Mork" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5b9d-8c4a-1a6a-1b09" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="715e-eb77-0c1c-7124" name="Warboss on Warbike" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1a8c-f8cd-7696-d52e" name="Warboss on Warbike" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50dd-695e-c8fc-c6f7" name="Warboss" hidden="false" targetId="37ad-d780-7a0e-c6a3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="822a-6047-3236-18e5" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="9ff9-d6a3-4e67-18f2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="756a-5402-9a26-fb0c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="73a6-3b86-8801-b051" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
+        <categoryLink id="7d72-9ff2-c14c-24fe" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="0452-c72c-0cf0-ef0d" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
+        <categoryLink id="0fee-5cae-a424-a66b" name="Speed Freeks" hidden="false" targetId="4e25-a69c-f6d6-e2c1" primary="false"/>
+        <categoryLink id="781a-f3fc-c0fa-c495" name="Speedboss" hidden="false" targetId="abad-50b8-630e-097f" primary="false"/>
+        <categoryLink id="4fe1-6c11-83c4-e06c" name="New CategoryLink" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="654d-daf7-ced5-3d65" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="d0fc-a936-1e2b-0978" name="Boss Weapons" hidden="false" collective="false" import="true" targetId="4ccb-2eae-0a99-c726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b73-5eb1-362f-f5de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192f-acea-dbfc-8b60" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9072-8ab2-d9a0-704d" name="Dakkaguns" hidden="false" collective="false" import="true" targetId="b0e5-fc1c-4291-43db" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a6-60dc-0499-4b7f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1771-86d2-6e49-f354" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90c5-e795-70d1-1d25" name="Warboss in Mega Armour" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4063-46d2-cc1d-f08b" name="Warboss in Mega Armour" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7de3-d152-fbd0-a662" name="Warboss" hidden="false" targetId="37ad-d780-7a0e-c6a3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aded-b2e1-21fe-2b4b" name="Faction: Ork" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="3735-ce07-98ce-a517" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6c79-6ed0-3a29-16dc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="6c7d-297e-013b-ab0a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="05f8-415b-9e75-53ae" name="Warboss" hidden="false" targetId="b0f1-57b5-c3df-d786" primary="false"/>
+        <categoryLink id="0a88-6e29-da8d-03ba" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="40e9-3ef7-3a71-3e69" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+        <entryLink id="2923-b5db-a242-eb32" name="Meganob Melee Weapons" hidden="false" collective="false" import="true" targetId="e79d-3136-d96a-a1f3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd4-f7e6-6139-9d41" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d04-a111-011a-41b6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3d42-4b24-69ec-0faf" name="Meganob Shootas" hidden="false" collective="false" import="true" targetId="b474-4cb4-3466-6be3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32c-0203-6b97-b70d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b989-6717-ffbb-6383" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d0c-e5c2-52dc-a210" name="Kannonwagon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="635c-63ce-abaf-fa53" name="Kannonwagon" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">5+</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24ab-53a8-5bce-ccd2" name="Kannonwagon Grot Gunners" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Each time this model makes an attack with a supa-kannon, add 1 to that attack’s hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d55e-813b-ef35-5cd9" name="Kannonwagon (Transport)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="5dca-db35-b3d1-ce65" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6948-e9fe-7eb0-b8be">This model has a transport capacity of 6 FLASH GITZ or &lt;CLAN&gt; INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="07e6-2823-0cc4-c8b0" name="Open-topped" hidden="false" targetId="e66d-fc46-6a89-4318" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ff68-1622-fec5-2c01" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="8a82-e99b-02a4-807e" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="cd56-2af7-db7a-3a8c" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="d574-aead-4a5b-8352" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="099a-7d90-9c60-a3b5" name="New CategoryLink" hidden="false" targetId="9b66-7ce1-9e7e-58ed" primary="true"/>
+        <categoryLink id="b491-eda4-18f4-ce9c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="05af-49ab-45ad-7926" name="Big Shoota" hidden="false" collective="false" import="true" targetId="fe1a-3f0a-ab27-f142" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4735-e81d-c443-af1d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8513-04e0-708b-10ba" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f7e3-f1c2-c302-121a" name="Supa-kannon" hidden="false" collective="false" import="true" targetId="870b-3718-1ed8-2f61" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5865-c557-08fe-5323" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b102-ceb9-55c5-f95d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f49b-5660-00c2-d088" name="Big&apos;ed Bossbunka" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="eff4-c665-61af-f329" name="Big&apos;ed Bossbunka (Transport)" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">This model has a transport capacity of 10 FLASH GITZ or ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eafe-1bb6-49f3-e9ac" name="Big&apos;ed Bossbunka" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">-</characteristic>
+            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">5</characteristic>
+            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b42d-da95-0f96-106b" name="Open-topped" hidden="false" targetId="e66d-fc46-6a89-4318" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5489-d2b0-2c33-173d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="6e1d-be85-a6f4-4b91" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="32ce-eae5-f5ca-b5d0" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="0f44-7a8d-5fe8-bb67" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="cb87-c49f-f970-b786" name="New CategoryLink" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="712d-b7d6-58f9-9c2c" name="Building" hidden="false" targetId="8951-2d88-3b2b-4de4" primary="false"/>
+        <categoryLink id="151e-fc48-a5d0-6049" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="183e-6209-fdea-02d1" name="Gaze of Gork" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5415-994b-a795-3b89" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676a-7659-ac79-6468" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6bdc-c2f1-5dd8-ebe2" name="Gaze of Gork" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9ed-108c-d49e-884c" name="Squighog Boyz" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="a17e-dae7-df7b-5ca6" name="New CategoryLink" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
+        <categoryLink id="b170-1c82-1d9c-2da1" name="Faction: Orks" hidden="false" targetId="6e8c-3054-cdbb-4a5a" primary="false"/>
+        <categoryLink id="0d7c-16d4-c8d0-0e42" name="Faction: &lt;Clan&gt;" hidden="false" targetId="8694-0cc5-9ed1-bff2" primary="false"/>
+        <categoryLink id="bb31-c918-bc65-06f7" name="Cavalry" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="4657-d3eb-ee5b-da6c" name="Beast Snagga" hidden="false" targetId="16c8-a16d-a1de-c9f1" primary="false"/>
+        <categoryLink id="0399-dd21-51d4-6453" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fa3a-15e0-f313-2ee1" name="Saddlegit Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b48-aae9-3001-fa3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8bc-88f2-a3a8-c98d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6380-26b1-215f-2da7" name="Saddlegit Weapons (Shooting)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+            <profile id="9ac0-fd14-666c-411c" name="Saddlegit Weapons (Melee)" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+                <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+                <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+                <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+                <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+                <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3282-bef8-f147-c3fc" name="Unit Size" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" defaultSelectionEntryId="0073-b414-a294-828b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a366-5201-4f40-3d3f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3369-ec03-87c5-09f2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0073-b414-a294-828b" name="Squighog Boyz (6 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8324-26b2-e69c-00a9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="861e-60d3-faf4-1946" name="Squighog Boyz (6 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c674-ba2b-cf86-48ad" name="Squighog Boyz (3 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0615-f259-5cb7-8821" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a1c6-dc0f-4df5-0d9d" name="Squighog Boyz (3 Models)" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10009,6 +10622,16 @@
     <profile id="5aab-1ee5-6f53-88ef" name="Effigy" publicationId="8df9-0b3e-abea-3c15" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="4493-9fa3-8c30-866f">You can re-roll Morale tests taken for friendly ORKS units whilst they are within 6&quot; of this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f97c-8428-027b-51a0" name="Beastboss" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly BEAST SNAGGA unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, add 1 to that attack’s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="37ad-d780-7a0e-c6a3" name="Warboss" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="4493-9fa3-8c30-866f">While a friendly &lt;CLAN&gt; unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, add 1 to that attack’s hit roll.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
